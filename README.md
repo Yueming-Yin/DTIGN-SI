@@ -1,5 +1,5 @@
 # DTIGN-SI
-Supporting Information of paper entitiled "Advancing Bioactivity Prediction through Molecular Docking and Self-Attention: The Drug-Target Interaction Graph Neural Network (DTIGN)"
+Supporting Information of paper entitiled "Advancing Bioactivity Prediction through Molecular Docking and Self-Attention: The Drug-Target Interaction Graph Neural Network (DTIGN)" under review in the IEEE Journal of Biomedical and Health Informatics.
 
 - This work is under consideration for a Singapore patent under Singapore provisional patent application number 10202400124Q. All rights reserved by Kong Wai-Kin Adams (adamskong@ntu.edu.sg), Yin Yueming (yueming.yin@ntu.edu.sg), Mu Yuguang (ygmu@ntu.edu.sg) and Li Hoi Yeung (hyli@ntu.edu.sg).
 
