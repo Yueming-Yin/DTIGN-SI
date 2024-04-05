@@ -1,0 +1,749 @@
+2024-04-04 17:59:20 - INFO - ================== Training subset ==================
+2024-04-04 17:59:35 - INFO - The total number of involved docking poses: 5828
+2024-04-04 17:59:35 - INFO - ================== Validation subset ==================
+2024-04-04 17:59:36 - INFO - The total number of involved docking poses: 495
+2024-04-04 17:59:36 - INFO - ================== Training subset ==================
+2024-04-04 17:59:53 - INFO - The total number of involved docking poses: 6999
+2024-04-04 17:59:53 - INFO - ================== Training subset ==================
+2024-04-04 18:00:09 - INFO - The total number of involved docking poses: 6215
+2024-04-04 18:00:09 - INFO - ================== Training subset ==================
+2024-04-04 18:00:40 - INFO - The total number of involved docking poses: 12880
+2024-04-04 18:00:40 - INFO - ================== Training subset ==================
+2024-04-04 18:00:56 - INFO - The total number of involved docking poses: 6990
+2024-04-04 18:00:56 - INFO - ================== Test subset ==================
+2024-04-04 18:01:11 - INFO - The total number of involved docking poses: 6134
+2024-04-04 18:01:11 - INFO - /home1/yueming/Drug_Discovery/Baselines/GIGN-main/GIGN/train_PDBBind.py
+2024-04-04 18:01:11 - INFO - Assay type: pKi
+2024-04-04 18:01:11 - INFO - fold: 2
+2024-04-04 18:01:11 - INFO - train data: 3957
+2024-04-04 18:01:11 - INFO - train data subsets: 595, 711, 631, 1310, 710
+2024-04-04 18:01:11 - INFO - valid data: 50
+2024-04-04 18:01:11 - INFO - test data: 626
+2024-04-04 18:01:11 - INFO - batch ligands: 10
+2024-04-04 18:01:13 - INFO - train mean: 6.7210
+2024-04-04 18:01:13 - INFO - train std: 2.0391
+2024-04-04 18:01:13 - INFO - valid_metric: pr
+2024-04-04 18:02:21 - INFO - epoch-0, train_loss-3.3949, train_rmse-1.8425, valid_rmse-1.7915, valid_pr-0.6101, valid_tau-0.3960, test_rmse-1.8672, test_pr-0.4349, test_tau-0.3211, lr-8.0000e-05
+2024-04-04 18:03:29 - INFO - epoch-1, train_loss-3.0410, train_rmse-1.7439, valid_rmse-1.4540, valid_pr-0.6696, valid_tau-0.4527, test_rmse-1.7586, test_pr-0.5103, test_tau-0.3732, lr-8.0000e-05
+2024-04-04 18:04:36 - INFO - epoch-2, train_loss-2.8477, train_rmse-1.6875, valid_rmse-1.2414, valid_pr-0.7808, valid_tau-0.5891, test_rmse-1.6594, test_pr-0.5699, test_tau-0.4152, lr-8.0000e-05
+2024-04-04 18:05:46 - INFO - epoch-3, train_loss-2.7400, train_rmse-1.6553, valid_rmse-1.7550, valid_pr-0.6299, valid_tau-0.4636, test_rmse-1.7181, test_pr-0.5625, test_tau-0.4163, lr-8.0000e-05
+2024-04-04 18:06:53 - INFO - epoch-4, train_loss-2.6294, train_rmse-1.6215, valid_rmse-1.5766, valid_pr-0.5996, valid_tau-0.4251, test_rmse-1.6981, test_pr-0.5322, test_tau-0.3886, lr-8.0000e-05
+2024-04-04 18:08:01 - INFO - epoch-5, train_loss-2.5982, train_rmse-1.6119, valid_rmse-1.6615, valid_pr-0.6554, valid_tau-0.4628, test_rmse-1.6768, test_pr-0.5686, test_tau-0.4091, lr-8.0000e-05
+2024-04-04 18:09:17 - INFO - epoch-6, train_loss-2.4698, train_rmse-1.5716, valid_rmse-1.7589, valid_pr-0.5853, valid_tau-0.4446, test_rmse-1.6966, test_pr-0.5582, test_tau-0.3969, lr-8.0000e-05
+2024-04-04 18:10:42 - INFO - epoch-7, train_loss-2.4281, train_rmse-1.5582, valid_rmse-1.4293, valid_pr-0.6693, valid_tau-0.4785, test_rmse-1.6322, test_pr-0.5890, test_tau-0.4199, lr-8.0000e-05
+2024-04-04 18:11:49 - INFO - epoch-8, train_loss-2.3229, train_rmse-1.5241, valid_rmse-1.3907, valid_pr-0.5880, valid_tau-0.3615, test_rmse-1.6402, test_pr-0.5898, test_tau-0.4314, lr-8.0000e-05
+2024-04-04 18:12:56 - INFO - epoch-9, train_loss-2.3692, train_rmse-1.5392, valid_rmse-1.4829, valid_pr-0.7355, valid_tau-0.5210, test_rmse-1.5916, test_pr-0.6210, test_tau-0.4619, lr-7.8000e-05
+2024-04-04 18:14:03 - INFO - epoch-10, train_loss-2.3640, train_rmse-1.5375, valid_rmse-1.4079, valid_pr-0.6694, valid_tau-0.4324, test_rmse-1.6026, test_pr-0.5992, test_tau-0.4239, lr-7.8000e-05
+2024-04-04 18:15:10 - INFO - epoch-11, train_loss-2.2725, train_rmse-1.5075, valid_rmse-1.4600, valid_pr-0.6990, valid_tau-0.5013, test_rmse-1.6193, test_pr-0.5966, test_tau-0.4358, lr-7.8000e-05
+2024-04-04 18:16:16 - INFO - epoch-12, train_loss-2.3155, train_rmse-1.5217, valid_rmse-1.5960, valid_pr-0.6134, valid_tau-0.4344, test_rmse-1.6747, test_pr-0.5560, test_tau-0.4040, lr-7.8000e-05
+2024-04-04 18:17:23 - INFO - epoch-13, train_loss-2.2825, train_rmse-1.5108, valid_rmse-1.5352, valid_pr-0.6351, valid_tau-0.4097, test_rmse-1.6198, test_pr-0.6144, test_tau-0.4409, lr-7.8000e-05
+2024-04-04 18:18:30 - INFO - epoch-14, train_loss-2.2649, train_rmse-1.5050, valid_rmse-1.3680, valid_pr-0.5995, valid_tau-0.3939, test_rmse-1.6517, test_pr-0.5745, test_tau-0.4242, lr-7.8000e-05
+2024-04-04 18:19:36 - INFO - epoch-15, train_loss-2.1682, train_rmse-1.4725, valid_rmse-1.3793, valid_pr-0.6345, valid_tau-0.4405, test_rmse-1.5954, test_pr-0.6055, test_tau-0.4433, lr-7.8000e-05
+2024-04-04 18:20:43 - INFO - epoch-16, train_loss-2.1218, train_rmse-1.4566, valid_rmse-1.3389, valid_pr-0.7215, valid_tau-0.4866, test_rmse-1.5920, test_pr-0.6128, test_tau-0.4513, lr-7.8000e-05
+2024-04-04 18:21:50 - INFO - epoch-17, train_loss-2.1611, train_rmse-1.4701, valid_rmse-1.4346, valid_pr-0.6657, valid_tau-0.4623, test_rmse-1.6119, test_pr-0.5967, test_tau-0.4297, lr-7.8000e-05
+2024-04-04 18:22:57 - INFO - epoch-18, train_loss-2.0799, train_rmse-1.4422, valid_rmse-1.4206, valid_pr-0.6830, valid_tau-0.4567, test_rmse-1.6198, test_pr-0.5897, test_tau-0.4322, lr-7.8000e-05
+2024-04-04 18:24:04 - INFO - epoch-19, train_loss-2.0460, train_rmse-1.4304, valid_rmse-1.5820, valid_pr-0.6122, valid_tau-0.4304, test_rmse-1.6187, test_pr-0.6071, test_tau-0.4447, lr-7.6050e-05
+2024-04-04 18:25:12 - INFO - epoch-20, train_loss-2.0882, train_rmse-1.4451, valid_rmse-1.4582, valid_pr-0.7048, valid_tau-0.4810, test_rmse-1.6800, test_pr-0.5727, test_tau-0.4088, lr-7.6050e-05
+2024-04-04 18:26:20 - INFO - epoch-21, train_loss-1.9871, train_rmse-1.4097, valid_rmse-1.3197, valid_pr-0.7221, valid_tau-0.4932, test_rmse-1.5971, test_pr-0.6035, test_tau-0.4344, lr-7.6050e-05
+2024-04-04 18:27:28 - INFO - epoch-22, train_loss-1.9461, train_rmse-1.3950, valid_rmse-1.3824, valid_pr-0.7066, valid_tau-0.4724, test_rmse-1.6149, test_pr-0.6086, test_tau-0.4477, lr-7.6050e-05
+2024-04-04 18:28:34 - INFO - epoch-23, train_loss-1.9244, train_rmse-1.3872, valid_rmse-1.4053, valid_pr-0.7260, valid_tau-0.5276, test_rmse-1.6325, test_pr-0.5992, test_tau-0.4394, lr-7.6050e-05
+2024-04-04 18:29:41 - INFO - epoch-24, train_loss-1.8827, train_rmse-1.3721, valid_rmse-1.2831, valid_pr-0.7562, valid_tau-0.5276, test_rmse-1.6290, test_pr-0.5956, test_tau-0.4325, lr-7.6050e-05
+2024-04-04 18:30:47 - INFO - epoch-25, train_loss-1.9455, train_rmse-1.3948, valid_rmse-1.4496, valid_pr-0.6486, valid_tau-0.4223, test_rmse-1.5728, test_pr-0.6203, test_tau-0.4517, lr-7.6050e-05
+2024-04-04 18:31:53 - INFO - epoch-26, train_loss-1.9515, train_rmse-1.3970, valid_rmse-1.4788, valid_pr-0.6155, valid_tau-0.4425, test_rmse-1.6276, test_pr-0.5874, test_tau-0.4198, lr-7.6050e-05
+2024-04-04 18:33:01 - INFO - epoch-27, train_loss-1.9081, train_rmse-1.3813, valid_rmse-1.4367, valid_pr-0.6733, valid_tau-0.4474, test_rmse-1.5535, test_pr-0.6310, test_tau-0.4619, lr-7.6050e-05
+2024-04-04 18:34:07 - INFO - epoch-28, train_loss-1.8936, train_rmse-1.3761, valid_rmse-1.4411, valid_pr-0.6317, valid_tau-0.4162, test_rmse-1.6080, test_pr-0.6030, test_tau-0.4327, lr-7.6050e-05
+2024-04-04 18:35:14 - INFO - epoch-29, train_loss-1.9022, train_rmse-1.3792, valid_rmse-1.2921, valid_pr-0.6964, valid_tau-0.4851, test_rmse-1.6187, test_pr-0.5899, test_tau-0.4253, lr-7.4149e-05
+2024-04-04 18:36:22 - INFO - epoch-30, train_loss-1.8032, train_rmse-1.3428, valid_rmse-1.5164, valid_pr-0.5961, valid_tau-0.3878, test_rmse-1.6527, test_pr-0.5920, test_tau-0.4286, lr-7.4149e-05
+2024-04-04 18:37:30 - INFO - epoch-31, train_loss-1.7779, train_rmse-1.3334, valid_rmse-1.4953, valid_pr-0.6323, valid_tau-0.4344, test_rmse-1.5696, test_pr-0.6251, test_tau-0.4513, lr-7.4149e-05
+2024-04-04 18:38:38 - INFO - epoch-32, train_loss-1.7753, train_rmse-1.3324, valid_rmse-1.4329, valid_pr-0.6488, valid_tau-0.4372, test_rmse-1.5963, test_pr-0.6048, test_tau-0.4405, lr-7.4149e-05
+2024-04-04 18:39:46 - INFO - epoch-33, train_loss-1.7555, train_rmse-1.3249, valid_rmse-1.3689, valid_pr-0.6980, valid_tau-0.4757, test_rmse-1.5569, test_pr-0.6365, test_tau-0.4688, lr-7.4149e-05
+2024-04-04 18:40:54 - INFO - epoch-34, train_loss-1.7586, train_rmse-1.3261, valid_rmse-1.3756, valid_pr-0.7038, valid_tau-0.4608, test_rmse-1.6853, test_pr-0.6145, test_tau-0.4463, lr-7.4149e-05
+2024-04-04 18:42:02 - INFO - epoch-35, train_loss-1.6976, train_rmse-1.3029, valid_rmse-1.5127, valid_pr-0.6158, valid_tau-0.4223, test_rmse-1.5976, test_pr-0.6121, test_tau-0.4413, lr-7.4149e-05
+2024-04-04 18:43:09 - INFO - epoch-36, train_loss-1.7012, train_rmse-1.3043, valid_rmse-1.4620, valid_pr-0.6861, valid_tau-0.4790, test_rmse-1.5894, test_pr-0.6177, test_tau-0.4497, lr-7.4149e-05
+2024-04-04 18:44:18 - INFO - epoch-37, train_loss-1.7172, train_rmse-1.3104, valid_rmse-1.4261, valid_pr-0.7148, valid_tau-0.5015, test_rmse-1.6205, test_pr-0.6127, test_tau-0.4389, lr-7.4149e-05
+2024-04-04 18:45:27 - INFO - epoch-38, train_loss-1.7101, train_rmse-1.3077, valid_rmse-1.3084, valid_pr-0.6327, valid_tau-0.4425, test_rmse-1.5742, test_pr-0.6221, test_tau-0.4500, lr-7.4149e-05
+2024-04-04 18:46:37 - INFO - epoch-39, train_loss-1.5913, train_rmse-1.2615, valid_rmse-1.3010, valid_pr-0.6881, valid_tau-0.4603, test_rmse-1.5989, test_pr-0.6132, test_tau-0.4476, lr-7.2295e-05
+2024-04-04 18:47:45 - INFO - epoch-40, train_loss-1.6470, train_rmse-1.2834, valid_rmse-1.4352, valid_pr-0.6978, valid_tau-0.4408, test_rmse-1.6019, test_pr-0.6330, test_tau-0.4684, lr-7.2295e-05
+2024-04-04 18:48:53 - INFO - epoch-41, train_loss-1.6034, train_rmse-1.2662, valid_rmse-1.4061, valid_pr-0.6403, valid_tau-0.4446, test_rmse-1.6055, test_pr-0.6085, test_tau-0.4432, lr-7.2295e-05
+2024-04-04 18:50:01 - INFO - epoch-42, train_loss-1.6220, train_rmse-1.2736, valid_rmse-1.4732, valid_pr-0.6920, valid_tau-0.4911, test_rmse-1.6548, test_pr-0.5968, test_tau-0.4349, lr-7.2295e-05
+2024-04-04 18:51:09 - INFO - epoch-43, train_loss-1.5710, train_rmse-1.2534, valid_rmse-1.4552, valid_pr-0.6308, valid_tau-0.4461, test_rmse-1.6083, test_pr-0.6017, test_tau-0.4371, lr-7.2295e-05
+2024-04-04 18:52:18 - INFO - epoch-44, train_loss-1.5770, train_rmse-1.2558, valid_rmse-1.3302, valid_pr-0.7123, valid_tau-0.4729, test_rmse-1.5605, test_pr-0.6342, test_tau-0.4588, lr-7.2295e-05
+2024-04-04 18:53:27 - INFO - epoch-45, train_loss-1.5937, train_rmse-1.2624, valid_rmse-1.2492, valid_pr-0.7225, valid_tau-0.4947, test_rmse-1.5837, test_pr-0.6211, test_tau-0.4524, lr-7.2295e-05
+2024-04-04 18:54:37 - INFO - epoch-46, train_loss-1.5847, train_rmse-1.2589, valid_rmse-1.4018, valid_pr-0.5947, valid_tau-0.4020, test_rmse-1.6098, test_pr-0.5994, test_tau-0.4385, lr-7.2295e-05
+2024-04-04 18:55:44 - INFO - epoch-47, train_loss-1.5425, train_rmse-1.2420, valid_rmse-1.4074, valid_pr-0.6729, valid_tau-0.4453, test_rmse-1.5749, test_pr-0.6321, test_tau-0.4701, lr-7.2295e-05
+2024-04-04 18:56:52 - INFO - epoch-48, train_loss-1.5383, train_rmse-1.2403, valid_rmse-1.4620, valid_pr-0.6867, valid_tau-0.4676, test_rmse-1.6372, test_pr-0.6107, test_tau-0.4471, lr-7.2295e-05
+2024-04-04 18:58:00 - INFO - epoch-49, train_loss-1.4910, train_rmse-1.2211, valid_rmse-1.3351, valid_pr-0.7043, valid_tau-0.5013, test_rmse-1.5763, test_pr-0.6314, test_tau-0.4656, lr-7.0488e-05
+2024-04-04 18:59:08 - INFO - epoch-50, train_loss-1.4964, train_rmse-1.2233, valid_rmse-1.3866, valid_pr-0.6665, valid_tau-0.4623, test_rmse-1.5563, test_pr-0.6374, test_tau-0.4695, lr-7.0488e-05
+2024-04-04 19:00:17 - INFO - epoch-51, train_loss-1.5259, train_rmse-1.2353, valid_rmse-1.3494, valid_pr-0.6917, valid_tau-0.4648, test_rmse-1.5871, test_pr-0.6221, test_tau-0.4549, lr-7.0488e-05
+2024-04-04 19:01:25 - INFO - epoch-52, train_loss-1.4566, train_rmse-1.2069, valid_rmse-1.4795, valid_pr-0.5928, valid_tau-0.3737, test_rmse-1.6103, test_pr-0.6070, test_tau-0.4449, lr-7.0488e-05
+2024-04-04 19:02:35 - INFO - epoch-53, train_loss-1.4641, train_rmse-1.2100, valid_rmse-1.3896, valid_pr-0.6503, valid_tau-0.4425, test_rmse-1.5908, test_pr-0.6131, test_tau-0.4443, lr-7.0488e-05
+2024-04-04 19:03:43 - INFO - epoch-54, train_loss-1.4331, train_rmse-1.1971, valid_rmse-1.5319, valid_pr-0.6534, valid_tau-0.4360, test_rmse-1.6477, test_pr-0.6023, test_tau-0.4387, lr-7.0488e-05
+2024-04-04 19:04:52 - INFO - epoch-55, train_loss-1.4634, train_rmse-1.2097, valid_rmse-1.5995, valid_pr-0.5049, valid_tau-0.3352, test_rmse-1.5969, test_pr-0.6181, test_tau-0.4561, lr-7.0488e-05
+2024-04-04 19:06:01 - INFO - epoch-56, train_loss-1.4435, train_rmse-1.2014, valid_rmse-1.4593, valid_pr-0.6512, valid_tau-0.4446, test_rmse-1.6064, test_pr-0.6089, test_tau-0.4416, lr-7.0488e-05
+2024-04-04 19:07:11 - INFO - epoch-57, train_loss-1.4314, train_rmse-1.1964, valid_rmse-1.4680, valid_pr-0.5798, valid_tau-0.4081, test_rmse-1.5781, test_pr-0.6298, test_tau-0.4579, lr-7.0488e-05
+2024-04-04 19:08:20 - INFO - epoch-58, train_loss-1.3676, train_rmse-1.1694, valid_rmse-1.6115, valid_pr-0.6074, valid_tau-0.4284, test_rmse-1.6449, test_pr-0.6014, test_tau-0.4321, lr-7.0488e-05
+2024-04-04 19:09:29 - INFO - epoch-59, train_loss-1.3589, train_rmse-1.1657, valid_rmse-1.2800, valid_pr-0.7410, valid_tau-0.5056, test_rmse-1.6335, test_pr-0.6172, test_tau-0.4456, lr-6.8725e-05
+2024-04-04 19:10:37 - INFO - epoch-60, train_loss-1.3758, train_rmse-1.1730, valid_rmse-1.3720, valid_pr-0.6830, valid_tau-0.4489, test_rmse-1.6148, test_pr-0.5974, test_tau-0.4349, lr-6.8725e-05
+2024-04-04 19:11:45 - INFO - epoch-61, train_loss-1.3729, train_rmse-1.1717, valid_rmse-1.3601, valid_pr-0.6848, valid_tau-0.4405, test_rmse-1.6197, test_pr-0.6049, test_tau-0.4329, lr-6.8725e-05
+2024-04-04 19:12:55 - INFO - epoch-62, train_loss-1.3432, train_rmse-1.1589, valid_rmse-1.4449, valid_pr-0.6848, valid_tau-0.4385, test_rmse-1.5853, test_pr-0.6225, test_tau-0.4569, lr-6.8725e-05
+2024-04-04 19:14:05 - INFO - epoch-63, train_loss-1.2658, train_rmse-1.1251, valid_rmse-1.3627, valid_pr-0.7087, valid_tau-0.5114, test_rmse-1.5987, test_pr-0.6143, test_tau-0.4493, lr-6.8725e-05
+2024-04-04 19:15:14 - INFO - epoch-64, train_loss-1.3309, train_rmse-1.1537, valid_rmse-1.4920, valid_pr-0.6453, valid_tau-0.4223, test_rmse-1.6287, test_pr-0.6041, test_tau-0.4436, lr-6.8725e-05
+2024-04-04 19:16:24 - INFO - epoch-65, train_loss-1.3582, train_rmse-1.1654, valid_rmse-1.4273, valid_pr-0.6061, valid_tau-0.3433, test_rmse-1.6181, test_pr-0.6062, test_tau-0.4413, lr-6.8725e-05
+2024-04-04 19:17:35 - INFO - epoch-66, train_loss-1.3123, train_rmse-1.1455, valid_rmse-1.5473, valid_pr-0.5834, valid_tau-0.4069, test_rmse-1.6149, test_pr-0.6076, test_tau-0.4407, lr-6.8725e-05
+2024-04-04 19:18:45 - INFO - epoch-67, train_loss-1.3148, train_rmse-1.1466, valid_rmse-1.6418, valid_pr-0.6021, valid_tau-0.4247, test_rmse-1.6496, test_pr-0.5818, test_tau-0.4263, lr-6.8725e-05
+2024-04-04 19:19:56 - INFO - epoch-68, train_loss-1.2481, train_rmse-1.1172, valid_rmse-1.5821, valid_pr-0.6185, valid_tau-0.4405, test_rmse-1.6529, test_pr-0.5900, test_tau-0.4287, lr-6.8725e-05
+2024-04-04 19:21:07 - INFO - epoch-69, train_loss-1.2913, train_rmse-1.1364, valid_rmse-1.7629, valid_pr-0.5509, valid_tau-0.3854, test_rmse-1.6933, test_pr-0.5882, test_tau-0.4281, lr-6.7007e-05
+2024-04-04 19:22:18 - INFO - epoch-70, train_loss-1.2324, train_rmse-1.1101, valid_rmse-1.4665, valid_pr-0.6137, valid_tau-0.4020, test_rmse-1.5556, test_pr-0.6332, test_tau-0.4637, lr-6.7007e-05
+2024-04-04 19:23:27 - INFO - epoch-71, train_loss-1.2265, train_rmse-1.1075, valid_rmse-1.5328, valid_pr-0.6214, valid_tau-0.4223, test_rmse-1.6146, test_pr-0.6060, test_tau-0.4419, lr-6.7007e-05
+2024-04-04 19:24:36 - INFO - epoch-72, train_loss-1.2456, train_rmse-1.1161, valid_rmse-1.4483, valid_pr-0.6053, valid_tau-0.4162, test_rmse-1.6121, test_pr-0.6289, test_tau-0.4548, lr-6.7007e-05
+2024-04-04 19:25:47 - INFO - epoch-73, train_loss-1.1942, train_rmse-1.0928, valid_rmse-1.4656, valid_pr-0.6313, valid_tau-0.4466, test_rmse-1.5993, test_pr-0.6200, test_tau-0.4500, lr-6.7007e-05
+2024-04-04 19:26:59 - INFO - epoch-74, train_loss-1.1674, train_rmse-1.0805, valid_rmse-1.6364, valid_pr-0.5744, valid_tau-0.3858, test_rmse-1.6178, test_pr-0.6005, test_tau-0.4317, lr-6.7007e-05
+2024-04-04 19:28:10 - INFO - epoch-75, train_loss-1.2229, train_rmse-1.1058, valid_rmse-1.4639, valid_pr-0.6262, valid_tau-0.4550, test_rmse-1.5964, test_pr-0.6169, test_tau-0.4454, lr-6.7007e-05
+2024-04-04 19:29:20 - INFO - epoch-76, train_loss-1.2116, train_rmse-1.1007, valid_rmse-1.5990, valid_pr-0.5802, valid_tau-0.4016, test_rmse-1.5340, test_pr-0.6564, test_tau-0.4786, lr-6.7007e-05
+2024-04-04 19:30:31 - INFO - epoch-77, train_loss-1.2047, train_rmse-1.0976, valid_rmse-1.2563, valid_pr-0.7166, valid_tau-0.4952, test_rmse-1.5847, test_pr-0.6171, test_tau-0.4470, lr-6.7007e-05
+2024-04-04 19:31:41 - INFO - epoch-78, train_loss-1.2182, train_rmse-1.1037, valid_rmse-1.3556, valid_pr-0.6905, valid_tau-0.4955, test_rmse-1.5730, test_pr-0.6341, test_tau-0.4655, lr-6.7007e-05
+2024-04-04 19:32:53 - INFO - epoch-79, train_loss-1.2188, train_rmse-1.1040, valid_rmse-1.5923, valid_pr-0.6275, valid_tau-0.4372, test_rmse-1.6069, test_pr-0.6218, test_tau-0.4455, lr-6.5332e-05
+2024-04-04 19:34:03 - INFO - epoch-80, train_loss-1.1617, train_rmse-1.0778, valid_rmse-1.4258, valid_pr-0.6926, valid_tau-0.4765, test_rmse-1.5805, test_pr-0.6232, test_tau-0.4527, lr-6.5332e-05
+2024-04-04 19:35:13 - INFO - epoch-81, train_loss-1.2489, train_rmse-1.1176, valid_rmse-1.4286, valid_pr-0.6277, valid_tau-0.4401, test_rmse-1.6131, test_pr-0.6142, test_tau-0.4457, lr-6.5332e-05
+2024-04-04 19:36:22 - INFO - epoch-82, train_loss-1.1858, train_rmse-1.0890, valid_rmse-1.3006, valid_pr-0.7058, valid_tau-0.4830, test_rmse-1.5851, test_pr-0.6241, test_tau-0.4589, lr-6.5332e-05
+2024-04-04 19:37:32 - INFO - epoch-83, train_loss-1.1852, train_rmse-1.0887, valid_rmse-1.5096, valid_pr-0.6318, valid_tau-0.4466, test_rmse-1.6161, test_pr-0.6244, test_tau-0.4590, lr-6.5332e-05
+2024-04-04 19:38:42 - INFO - epoch-84, train_loss-1.1743, train_rmse-1.0837, valid_rmse-1.4528, valid_pr-0.6614, valid_tau-0.4818, test_rmse-1.6045, test_pr-0.6065, test_tau-0.4432, lr-6.5332e-05
+2024-04-04 19:39:51 - INFO - epoch-85, train_loss-1.1473, train_rmse-1.0711, valid_rmse-1.4704, valid_pr-0.6357, valid_tau-0.4534, test_rmse-1.5938, test_pr-0.6209, test_tau-0.4558, lr-6.5332e-05
+2024-04-04 19:41:01 - INFO - epoch-86, train_loss-1.1379, train_rmse-1.0667, valid_rmse-1.5184, valid_pr-0.6318, valid_tau-0.4186, test_rmse-1.6230, test_pr-0.6079, test_tau-0.4460, lr-6.5332e-05
+2024-04-04 19:42:12 - INFO - epoch-87, train_loss-1.1949, train_rmse-1.0931, valid_rmse-1.5982, valid_pr-0.6280, valid_tau-0.4433, test_rmse-1.6629, test_pr-0.5970, test_tau-0.4304, lr-6.5332e-05
+2024-04-04 19:43:24 - INFO - epoch-88, train_loss-1.1441, train_rmse-1.0696, valid_rmse-1.5533, valid_pr-0.6323, valid_tau-0.4466, test_rmse-1.6347, test_pr-0.6193, test_tau-0.4436, lr-6.5332e-05
+2024-04-04 19:44:35 - INFO - epoch-89, train_loss-1.0846, train_rmse-1.0414, valid_rmse-1.4244, valid_pr-0.6738, valid_tau-0.5114, test_rmse-1.5761, test_pr-0.6270, test_tau-0.4566, lr-6.3699e-05
+2024-04-04 19:45:47 - INFO - epoch-90, train_loss-1.0745, train_rmse-1.0366, valid_rmse-1.3708, valid_pr-0.7020, valid_tau-0.4952, test_rmse-1.6182, test_pr-0.6101, test_tau-0.4462, lr-6.3699e-05
+2024-04-04 19:46:57 - INFO - epoch-91, train_loss-1.1403, train_rmse-1.0679, valid_rmse-1.4213, valid_pr-0.6482, valid_tau-0.4628, test_rmse-1.6029, test_pr-0.6076, test_tau-0.4365, lr-6.3699e-05
+2024-04-04 19:48:07 - INFO - epoch-92, train_loss-1.1041, train_rmse-1.0508, valid_rmse-1.4691, valid_pr-0.6435, valid_tau-0.4608, test_rmse-1.6125, test_pr-0.6120, test_tau-0.4481, lr-6.3699e-05
+2024-04-04 19:49:19 - INFO - epoch-93, train_loss-1.1111, train_rmse-1.0541, valid_rmse-1.5782, valid_pr-0.6273, valid_tau-0.4453, test_rmse-1.6169, test_pr-0.6072, test_tau-0.4406, lr-6.3699e-05
+2024-04-04 19:50:31 - INFO - epoch-94, train_loss-1.0650, train_rmse-1.0320, valid_rmse-1.3753, valid_pr-0.6251, valid_tau-0.4446, test_rmse-1.6258, test_pr-0.5960, test_tau-0.4262, lr-6.3699e-05
+2024-04-04 19:51:44 - INFO - epoch-95, train_loss-1.0719, train_rmse-1.0353, valid_rmse-1.6301, valid_pr-0.5661, valid_tau-0.4057, test_rmse-1.6768, test_pr-0.5717, test_tau-0.4135, lr-6.3699e-05
+2024-04-04 19:52:57 - INFO - epoch-96, train_loss-1.0832, train_rmse-1.0408, valid_rmse-1.4730, valid_pr-0.6555, valid_tau-0.4770, test_rmse-1.6213, test_pr-0.5952, test_tau-0.4253, lr-6.3699e-05
+2024-04-04 19:54:08 - INFO - epoch-97, train_loss-1.0949, train_rmse-1.0464, valid_rmse-1.4836, valid_pr-0.6238, valid_tau-0.4717, test_rmse-1.6368, test_pr-0.5903, test_tau-0.4221, lr-6.3699e-05
+2024-04-04 19:55:20 - INFO - epoch-98, train_loss-1.0791, train_rmse-1.0388, valid_rmse-1.2867, valid_pr-0.6793, valid_tau-0.4709, test_rmse-1.6334, test_pr-0.6065, test_tau-0.4502, lr-6.3699e-05
+2024-04-04 19:56:33 - INFO - epoch-99, train_loss-0.9913, train_rmse-0.9957, valid_rmse-1.5636, valid_pr-0.6442, valid_tau-0.4352, test_rmse-1.6423, test_pr-0.6043, test_tau-0.4308, lr-6.2106e-05
+2024-04-04 19:57:44 - INFO - epoch-100, train_loss-1.1294, train_rmse-1.0628, valid_rmse-1.5107, valid_pr-0.6232, valid_tau-0.4446, test_rmse-1.5966, test_pr-0.6119, test_tau-0.4434, lr-6.2106e-05
+2024-04-04 19:58:56 - INFO - epoch-101, train_loss-1.0301, train_rmse-1.0149, valid_rmse-1.5216, valid_pr-0.6471, valid_tau-0.4737, test_rmse-1.5851, test_pr-0.6263, test_tau-0.4567, lr-6.2106e-05
+2024-04-04 20:00:08 - INFO - epoch-102, train_loss-1.0243, train_rmse-1.0121, valid_rmse-1.5910, valid_pr-0.5644, valid_tau-0.3878, test_rmse-1.6266, test_pr-0.6147, test_tau-0.4475, lr-6.2106e-05
+2024-04-04 20:01:22 - INFO - epoch-103, train_loss-1.0766, train_rmse-1.0376, valid_rmse-1.5608, valid_pr-0.5591, valid_tau-0.3858, test_rmse-1.5702, test_pr-0.6342, test_tau-0.4639, lr-6.2106e-05
+2024-04-04 20:02:36 - INFO - epoch-104, train_loss-1.0312, train_rmse-1.0155, valid_rmse-1.4033, valid_pr-0.6863, valid_tau-0.5250, test_rmse-1.5726, test_pr-0.6257, test_tau-0.4629, lr-6.2106e-05
+2024-04-04 20:03:50 - INFO - epoch-105, train_loss-1.0680, train_rmse-1.0334, valid_rmse-1.5294, valid_pr-0.6182, valid_tau-0.4429, test_rmse-1.6221, test_pr-0.6076, test_tau-0.4415, lr-6.2106e-05
+2024-04-04 20:05:04 - INFO - epoch-106, train_loss-1.0013, train_rmse-1.0007, valid_rmse-1.3033, valid_pr-0.7160, valid_tau-0.4866, test_rmse-1.6158, test_pr-0.6299, test_tau-0.4583, lr-6.2106e-05
+2024-04-04 20:06:18 - INFO - epoch-107, train_loss-1.0409, train_rmse-1.0203, valid_rmse-1.3325, valid_pr-0.6594, valid_tau-0.4372, test_rmse-1.5691, test_pr-0.6305, test_tau-0.4581, lr-6.2106e-05
+2024-04-04 20:07:33 - INFO - epoch-108, train_loss-0.9647, train_rmse-0.9822, valid_rmse-1.5321, valid_pr-0.7130, valid_tau-0.5478, test_rmse-1.6149, test_pr-0.6162, test_tau-0.4488, lr-6.2106e-05
+2024-04-04 20:08:47 - INFO - epoch-109, train_loss-0.9445, train_rmse-0.9719, valid_rmse-1.7821, valid_pr-0.5314, valid_tau-0.3838, test_rmse-1.6978, test_pr-0.5808, test_tau-0.4374, lr-6.0554e-05
+2024-04-04 20:10:00 - INFO - epoch-110, train_loss-0.9707, train_rmse-0.9852, valid_rmse-1.3692, valid_pr-0.7143, valid_tau-0.5190, test_rmse-1.6413, test_pr-0.5906, test_tau-0.4350, lr-6.0554e-05
+2024-04-04 20:11:13 - INFO - epoch-111, train_loss-0.9728, train_rmse-0.9863, valid_rmse-1.2970, valid_pr-0.7061, valid_tau-0.4871, test_rmse-1.5872, test_pr-0.6204, test_tau-0.4546, lr-6.0554e-05
+2024-04-04 20:12:25 - INFO - epoch-112, train_loss-0.9322, train_rmse-0.9655, valid_rmse-1.5429, valid_pr-0.6778, valid_tau-0.4656, test_rmse-1.6178, test_pr-0.6133, test_tau-0.4499, lr-6.0554e-05
+2024-04-04 20:13:38 - INFO - epoch-113, train_loss-0.9807, train_rmse-0.9903, valid_rmse-1.3154, valid_pr-0.7057, valid_tau-0.5073, test_rmse-1.5651, test_pr-0.6324, test_tau-0.4576, lr-6.0554e-05
+2024-04-04 20:14:52 - INFO - epoch-114, train_loss-0.9458, train_rmse-0.9725, valid_rmse-1.4070, valid_pr-0.6561, valid_tau-0.4709, test_rmse-1.5925, test_pr-0.6199, test_tau-0.4427, lr-6.0554e-05
+2024-04-04 20:16:07 - INFO - epoch-115, train_loss-0.9177, train_rmse-0.9580, valid_rmse-1.5084, valid_pr-0.6163, valid_tau-0.4312, test_rmse-1.5960, test_pr-0.6129, test_tau-0.4476, lr-6.0554e-05
+2024-04-04 20:17:22 - INFO - epoch-116, train_loss-0.9312, train_rmse-0.9650, valid_rmse-1.4286, valid_pr-0.6712, valid_tau-0.4972, test_rmse-1.5957, test_pr-0.6239, test_tau-0.4532, lr-6.0554e-05
+2024-04-04 20:18:36 - INFO - epoch-117, train_loss-0.9569, train_rmse-0.9782, valid_rmse-1.5874, valid_pr-0.5803, valid_tau-0.4061, test_rmse-1.5621, test_pr-0.6308, test_tau-0.4612, lr-6.0554e-05
+2024-04-04 20:19:51 - INFO - epoch-118, train_loss-0.9387, train_rmse-0.9689, valid_rmse-1.4465, valid_pr-0.6486, valid_tau-0.4704, test_rmse-1.5528, test_pr-0.6371, test_tau-0.4637, lr-6.0554e-05
+2024-04-04 20:21:06 - INFO - epoch-119, train_loss-0.9555, train_rmse-0.9775, valid_rmse-1.5402, valid_pr-0.5943, valid_tau-0.4101, test_rmse-1.5876, test_pr-0.6233, test_tau-0.4514, lr-5.9040e-05
+2024-04-04 20:22:20 - INFO - epoch-120, train_loss-0.9522, train_rmse-0.9758, valid_rmse-1.3805, valid_pr-0.6773, valid_tau-0.4891, test_rmse-1.5722, test_pr-0.6261, test_tau-0.4560, lr-5.9040e-05
+2024-04-04 20:23:34 - INFO - epoch-121, train_loss-0.9514, train_rmse-0.9754, valid_rmse-1.3423, valid_pr-0.6927, valid_tau-0.5048, test_rmse-1.6277, test_pr-0.6087, test_tau-0.4464, lr-5.9040e-05
+2024-04-04 20:24:49 - INFO - epoch-122, train_loss-0.9479, train_rmse-0.9736, valid_rmse-1.4271, valid_pr-0.6252, valid_tau-0.4567, test_rmse-1.5935, test_pr-0.6154, test_tau-0.4474, lr-5.9040e-05
+2024-04-04 20:26:05 - INFO - epoch-123, train_loss-0.9174, train_rmse-0.9578, valid_rmse-1.7177, valid_pr-0.6021, valid_tau-0.4182, test_rmse-1.6714, test_pr-0.5998, test_tau-0.4332, lr-5.9040e-05
+2024-04-04 20:27:22 - INFO - epoch-124, train_loss-0.9646, train_rmse-0.9822, valid_rmse-1.5102, valid_pr-0.6125, valid_tau-0.4247, test_rmse-1.5957, test_pr-0.6204, test_tau-0.4553, lr-5.9040e-05
+2024-04-04 20:28:37 - INFO - epoch-125, train_loss-0.8861, train_rmse-0.9413, valid_rmse-1.5030, valid_pr-0.6725, valid_tau-0.4699, test_rmse-1.5923, test_pr-0.6220, test_tau-0.4473, lr-5.9040e-05
+2024-04-04 20:29:52 - INFO - epoch-126, train_loss-0.8344, train_rmse-0.9135, valid_rmse-1.3572, valid_pr-0.6896, valid_tau-0.4757, test_rmse-1.5853, test_pr-0.6313, test_tau-0.4645, lr-5.9040e-05
+2024-04-04 20:31:07 - INFO - epoch-127, train_loss-0.9477, train_rmse-0.9735, valid_rmse-1.4000, valid_pr-0.6483, valid_tau-0.4628, test_rmse-1.5887, test_pr-0.6229, test_tau-0.4525, lr-5.9040e-05
+2024-04-04 20:32:23 - INFO - epoch-128, train_loss-0.9110, train_rmse-0.9545, valid_rmse-1.2700, valid_pr-0.7284, valid_tau-0.5405, test_rmse-1.6039, test_pr-0.6143, test_tau-0.4513, lr-5.9040e-05
+2024-04-04 20:33:37 - INFO - epoch-129, train_loss-0.8944, train_rmse-0.9457, valid_rmse-1.6082, valid_pr-0.6441, valid_tau-0.4709, test_rmse-1.6311, test_pr-0.6100, test_tau-0.4470, lr-5.7564e-05
+2024-04-04 20:34:51 - INFO - epoch-130, train_loss-0.8993, train_rmse-0.9483, valid_rmse-1.4572, valid_pr-0.6615, valid_tau-0.4798, test_rmse-1.6123, test_pr-0.6157, test_tau-0.4500, lr-5.7564e-05
+2024-04-04 20:36:04 - INFO - epoch-131, train_loss-0.8919, train_rmse-0.9444, valid_rmse-1.4225, valid_pr-0.6974, valid_tau-0.4947, test_rmse-1.6621, test_pr-0.6058, test_tau-0.4403, lr-5.7564e-05
+2024-04-04 20:37:17 - INFO - epoch-132, train_loss-0.8435, train_rmse-0.9184, valid_rmse-1.3644, valid_pr-0.6477, valid_tau-0.4676, test_rmse-1.6166, test_pr-0.6100, test_tau-0.4463, lr-5.7564e-05
+2024-04-04 20:38:32 - INFO - epoch-133, train_loss-0.9155, train_rmse-0.9568, valid_rmse-1.3047, valid_pr-0.7071, valid_tau-0.5142, test_rmse-1.6620, test_pr-0.5897, test_tau-0.4270, lr-5.7564e-05
+2024-04-04 20:39:47 - INFO - epoch-134, train_loss-0.8751, train_rmse-0.9355, valid_rmse-1.4716, valid_pr-0.7025, valid_tau-0.5296, test_rmse-1.6291, test_pr-0.6117, test_tau-0.4512, lr-5.7564e-05
+2024-04-04 20:41:01 - INFO - epoch-135, train_loss-0.9066, train_rmse-0.9521, valid_rmse-1.3090, valid_pr-0.6976, valid_tau-0.5175, test_rmse-1.5903, test_pr-0.6224, test_tau-0.4631, lr-5.7564e-05
+2024-04-04 20:42:17 - INFO - epoch-136, train_loss-0.8988, train_rmse-0.9481, valid_rmse-1.4160, valid_pr-0.6931, valid_tau-0.5089, test_rmse-1.5648, test_pr-0.6303, test_tau-0.4628, lr-5.7564e-05
+2024-04-04 20:43:33 - INFO - epoch-137, train_loss-0.8540, train_rmse-0.9241, valid_rmse-1.3430, valid_pr-0.7119, valid_tau-0.5137, test_rmse-1.6163, test_pr-0.6143, test_tau-0.4477, lr-5.7564e-05
+2024-04-04 20:44:48 - INFO - epoch-138, train_loss-0.8876, train_rmse-0.9421, valid_rmse-1.4740, valid_pr-0.6317, valid_tau-0.4449, test_rmse-1.5987, test_pr-0.6136, test_tau-0.4482, lr-5.7564e-05
+2024-04-04 20:46:05 - INFO - epoch-139, train_loss-0.8994, train_rmse-0.9483, valid_rmse-1.2887, valid_pr-0.7010, valid_tau-0.5081, test_rmse-1.5789, test_pr-0.6214, test_tau-0.4570, lr-5.6125e-05
+2024-04-04 20:47:24 - INFO - epoch-140, train_loss-0.8863, train_rmse-0.9414, valid_rmse-1.3965, valid_pr-0.6653, valid_tau-0.4717, test_rmse-1.5881, test_pr-0.6227, test_tau-0.4521, lr-5.6125e-05
+2024-04-04 20:48:43 - INFO - epoch-141, train_loss-0.8493, train_rmse-0.9216, valid_rmse-1.3804, valid_pr-0.6123, valid_tau-0.4385, test_rmse-1.5726, test_pr-0.6270, test_tau-0.4572, lr-5.6125e-05
+2024-04-04 20:50:14 - INFO - epoch-142, train_loss-0.8905, train_rmse-0.9437, valid_rmse-1.4375, valid_pr-0.6306, valid_tau-0.4547, test_rmse-1.5949, test_pr-0.6157, test_tau-0.4483, lr-5.6125e-05
+2024-04-04 20:51:54 - INFO - epoch-143, train_loss-0.8755, train_rmse-0.9357, valid_rmse-1.4052, valid_pr-0.6385, valid_tau-0.4696, test_rmse-1.6021, test_pr-0.6051, test_tau-0.4435, lr-5.6125e-05
+2024-04-04 20:53:35 - INFO - epoch-144, train_loss-0.9064, train_rmse-0.9521, valid_rmse-1.4916, valid_pr-0.6643, valid_tau-0.4603, test_rmse-1.5891, test_pr-0.6251, test_tau-0.4565, lr-5.6125e-05
+2024-04-04 20:55:10 - INFO - epoch-145, train_loss-0.8192, train_rmse-0.9051, valid_rmse-1.6084, valid_pr-0.5747, valid_tau-0.3878, test_rmse-1.6465, test_pr-0.5996, test_tau-0.4283, lr-5.6125e-05
+2024-04-04 20:56:45 - INFO - epoch-146, train_loss-0.8905, train_rmse-0.9436, valid_rmse-1.6604, valid_pr-0.5989, valid_tau-0.4016, test_rmse-1.6570, test_pr-0.6155, test_tau-0.4499, lr-5.6125e-05
+2024-04-04 20:58:19 - INFO - epoch-147, train_loss-0.8670, train_rmse-0.9312, valid_rmse-1.2338, valid_pr-0.7465, valid_tau-0.5357, test_rmse-1.5500, test_pr-0.6369, test_tau-0.4671, lr-5.6125e-05
+2024-04-04 20:59:53 - INFO - epoch-148, train_loss-0.8537, train_rmse-0.9240, valid_rmse-1.3020, valid_pr-0.7245, valid_tau-0.5081, test_rmse-1.5914, test_pr-0.6243, test_tau-0.4542, lr-5.6125e-05
+2024-04-04 21:01:26 - INFO - epoch-149, train_loss-0.8082, train_rmse-0.8990, valid_rmse-1.3597, valid_pr-0.6863, valid_tau-0.4643, test_rmse-1.5900, test_pr-0.6265, test_tau-0.4562, lr-5.4722e-05
+2024-04-04 21:03:01 - INFO - epoch-150, train_loss-0.8176, train_rmse-0.9042, valid_rmse-1.5272, valid_pr-0.6393, valid_tau-0.4651, test_rmse-1.5922, test_pr-0.6178, test_tau-0.4536, lr-5.4722e-05
+2024-04-04 21:04:41 - INFO - epoch-151, train_loss-0.8391, train_rmse-0.9160, valid_rmse-1.6973, valid_pr-0.5547, valid_tau-0.3919, test_rmse-1.6581, test_pr-0.5979, test_tau-0.4356, lr-5.4722e-05
+2024-04-04 21:06:20 - INFO - epoch-152, train_loss-0.8455, train_rmse-0.9195, valid_rmse-1.3774, valid_pr-0.6590, valid_tau-0.4648, test_rmse-1.5793, test_pr-0.6378, test_tau-0.4720, lr-5.4722e-05
+2024-04-04 21:07:59 - INFO - epoch-153, train_loss-0.8295, train_rmse-0.9107, valid_rmse-1.6049, valid_pr-0.6375, valid_tau-0.4838, test_rmse-1.6440, test_pr-0.6153, test_tau-0.4469, lr-5.4722e-05
+2024-04-04 21:09:39 - INFO - epoch-154, train_loss-0.8294, train_rmse-0.9107, valid_rmse-1.3627, valid_pr-0.6845, valid_tau-0.5114, test_rmse-1.6243, test_pr-0.6024, test_tau-0.4366, lr-5.4722e-05
+2024-04-04 21:11:17 - INFO - epoch-155, train_loss-0.7783, train_rmse-0.8822, valid_rmse-1.4813, valid_pr-0.6507, valid_tau-0.4583, test_rmse-1.6101, test_pr-0.6103, test_tau-0.4428, lr-5.4722e-05
+2024-04-04 21:12:54 - INFO - epoch-156, train_loss-0.8353, train_rmse-0.9140, valid_rmse-1.5010, valid_pr-0.6232, valid_tau-0.4203, test_rmse-1.5669, test_pr-0.6266, test_tau-0.4637, lr-5.4722e-05
+2024-04-04 21:14:33 - INFO - epoch-157, train_loss-0.8170, train_rmse-0.9039, valid_rmse-1.4541, valid_pr-0.6207, valid_tau-0.4656, test_rmse-1.5778, test_pr-0.6209, test_tau-0.4593, lr-5.4722e-05
+2024-04-04 21:16:12 - INFO - epoch-158, train_loss-0.8012, train_rmse-0.8951, valid_rmse-1.4430, valid_pr-0.6733, valid_tau-0.4656, test_rmse-1.5938, test_pr-0.6313, test_tau-0.4635, lr-5.4722e-05
+2024-04-04 21:17:49 - INFO - epoch-159, train_loss-0.8065, train_rmse-0.8981, valid_rmse-1.5920, valid_pr-0.6420, valid_tau-0.4474, test_rmse-1.6015, test_pr-0.6209, test_tau-0.4502, lr-5.3354e-05
+2024-04-04 21:19:25 - INFO - epoch-160, train_loss-0.8034, train_rmse-0.8963, valid_rmse-1.3404, valid_pr-0.7018, valid_tau-0.5053, test_rmse-1.5683, test_pr-0.6262, test_tau-0.4606, lr-5.3354e-05
+2024-04-04 21:21:03 - INFO - epoch-161, train_loss-0.8017, train_rmse-0.8954, valid_rmse-1.4300, valid_pr-0.6775, valid_tau-0.5013, test_rmse-1.6061, test_pr-0.6187, test_tau-0.4525, lr-5.3354e-05
+2024-04-04 21:22:42 - INFO - epoch-162, train_loss-0.7875, train_rmse-0.8874, valid_rmse-1.4643, valid_pr-0.6713, valid_tau-0.4623, test_rmse-1.5960, test_pr-0.6171, test_tau-0.4489, lr-5.3354e-05
+2024-04-04 21:24:17 - INFO - epoch-163, train_loss-0.7803, train_rmse-0.8833, valid_rmse-1.4774, valid_pr-0.6308, valid_tau-0.4506, test_rmse-1.5873, test_pr-0.6231, test_tau-0.4538, lr-5.3354e-05
+2024-04-04 21:25:50 - INFO - epoch-164, train_loss-0.8202, train_rmse-0.9056, valid_rmse-1.3229, valid_pr-0.7196, valid_tau-0.5364, test_rmse-1.5936, test_pr-0.6171, test_tau-0.4552, lr-5.3354e-05
+2024-04-04 21:27:25 - INFO - epoch-165, train_loss-0.7731, train_rmse-0.8792, valid_rmse-1.3655, valid_pr-0.7363, valid_tau-0.5276, test_rmse-1.6245, test_pr-0.6292, test_tau-0.4634, lr-5.3354e-05
+2024-04-04 21:28:59 - INFO - epoch-166, train_loss-0.8013, train_rmse-0.8951, valid_rmse-1.3184, valid_pr-0.7224, valid_tau-0.5438, test_rmse-1.6188, test_pr-0.6052, test_tau-0.4501, lr-5.3354e-05
+2024-04-04 21:30:33 - INFO - epoch-167, train_loss-0.7525, train_rmse-0.8675, valid_rmse-1.4954, valid_pr-0.6561, valid_tau-0.4833, test_rmse-1.5791, test_pr-0.6239, test_tau-0.4563, lr-5.3354e-05
+2024-04-04 21:32:08 - INFO - epoch-168, train_loss-0.7725, train_rmse-0.8789, valid_rmse-1.5457, valid_pr-0.6523, valid_tau-0.4765, test_rmse-1.5912, test_pr-0.6248, test_tau-0.4627, lr-5.3354e-05
+2024-04-04 21:33:44 - INFO - epoch-169, train_loss-0.8111, train_rmse-0.9006, valid_rmse-1.4405, valid_pr-0.6730, valid_tau-0.4927, test_rmse-1.5859, test_pr-0.6301, test_tau-0.4625, lr-5.2020e-05
+2024-04-04 21:35:19 - INFO - epoch-170, train_loss-0.8189, train_rmse-0.9049, valid_rmse-1.4718, valid_pr-0.6001, valid_tau-0.4150, test_rmse-1.5897, test_pr-0.6176, test_tau-0.4569, lr-5.2020e-05
+2024-04-04 21:36:53 - INFO - epoch-171, train_loss-0.7513, train_rmse-0.8668, valid_rmse-1.4209, valid_pr-0.6398, valid_tau-0.4036, test_rmse-1.6003, test_pr-0.6196, test_tau-0.4513, lr-5.2020e-05
+2024-04-04 21:38:27 - INFO - epoch-172, train_loss-0.7637, train_rmse-0.8739, valid_rmse-1.3443, valid_pr-0.6891, valid_tau-0.5142, test_rmse-1.5749, test_pr-0.6358, test_tau-0.4724, lr-5.2020e-05
+2024-04-04 21:40:02 - INFO - epoch-173, train_loss-0.7270, train_rmse-0.8527, valid_rmse-1.4504, valid_pr-0.6615, valid_tau-0.4587, test_rmse-1.5831, test_pr-0.6232, test_tau-0.4559, lr-5.2020e-05
+2024-04-04 21:41:36 - INFO - epoch-174, train_loss-0.8045, train_rmse-0.8969, valid_rmse-1.3758, valid_pr-0.7122, valid_tau-0.5068, test_rmse-1.5983, test_pr-0.6148, test_tau-0.4518, lr-5.2020e-05
+2024-04-04 21:43:09 - INFO - epoch-175, train_loss-0.7358, train_rmse-0.8578, valid_rmse-1.4979, valid_pr-0.6188, valid_tau-0.4643, test_rmse-1.6172, test_pr-0.6080, test_tau-0.4460, lr-5.2020e-05
+2024-04-04 21:44:43 - INFO - epoch-176, train_loss-0.7331, train_rmse-0.8562, valid_rmse-1.5909, valid_pr-0.6153, valid_tau-0.4304, test_rmse-1.6221, test_pr-0.6066, test_tau-0.4377, lr-5.2020e-05
+2024-04-04 21:46:17 - INFO - epoch-177, train_loss-0.7865, train_rmse-0.8868, valid_rmse-1.4743, valid_pr-0.6076, valid_tau-0.4385, test_rmse-1.6003, test_pr-0.6138, test_tau-0.4513, lr-5.2020e-05
+2024-04-04 21:47:51 - INFO - epoch-178, train_loss-0.7710, train_rmse-0.8781, valid_rmse-1.5391, valid_pr-0.6735, valid_tau-0.5134, test_rmse-1.6444, test_pr-0.6083, test_tau-0.4465, lr-5.2020e-05
+2024-04-04 21:49:26 - INFO - epoch-179, train_loss-0.7537, train_rmse-0.8682, valid_rmse-1.4036, valid_pr-0.6646, valid_tau-0.4866, test_rmse-1.5608, test_pr-0.6328, test_tau-0.4665, lr-5.0719e-05
+2024-04-04 21:51:01 - INFO - epoch-180, train_loss-0.7598, train_rmse-0.8717, valid_rmse-1.4632, valid_pr-0.6837, valid_tau-0.4899, test_rmse-1.6000, test_pr-0.6238, test_tau-0.4577, lr-5.0719e-05
+2024-04-04 21:52:35 - INFO - epoch-181, train_loss-0.7489, train_rmse-0.8654, valid_rmse-1.5285, valid_pr-0.6154, valid_tau-0.4643, test_rmse-1.5697, test_pr-0.6253, test_tau-0.4570, lr-5.0719e-05
+2024-04-04 21:54:11 - INFO - epoch-182, train_loss-0.7556, train_rmse-0.8693, valid_rmse-1.3445, valid_pr-0.6725, valid_tau-0.5061, test_rmse-1.5772, test_pr-0.6219, test_tau-0.4527, lr-5.0719e-05
+2024-04-04 21:55:45 - INFO - epoch-183, train_loss-0.7553, train_rmse-0.8691, valid_rmse-1.4790, valid_pr-0.6865, valid_tau-0.4987, test_rmse-1.5764, test_pr-0.6295, test_tau-0.4601, lr-5.0719e-05
+2024-04-04 21:57:22 - INFO - epoch-184, train_loss-0.7622, train_rmse-0.8730, valid_rmse-1.3809, valid_pr-0.6869, valid_tau-0.4684, test_rmse-1.5451, test_pr-0.6377, test_tau-0.4709, lr-5.0719e-05
+2024-04-04 21:58:55 - INFO - epoch-185, train_loss-0.7813, train_rmse-0.8839, valid_rmse-1.3049, valid_pr-0.7207, valid_tau-0.5377, test_rmse-1.5817, test_pr-0.6226, test_tau-0.4580, lr-5.0719e-05
+2024-04-04 22:00:30 - INFO - epoch-186, train_loss-0.7852, train_rmse-0.8861, valid_rmse-1.4376, valid_pr-0.6540, valid_tau-0.4886, test_rmse-1.5530, test_pr-0.6314, test_tau-0.4630, lr-5.0719e-05
+2024-04-04 22:02:06 - INFO - epoch-187, train_loss-0.7690, train_rmse-0.8769, valid_rmse-1.3026, valid_pr-0.6635, valid_tau-0.4911, test_rmse-1.5834, test_pr-0.6221, test_tau-0.4572, lr-5.0719e-05
+2024-04-04 22:03:40 - INFO - epoch-188, train_loss-0.7289, train_rmse-0.8537, valid_rmse-1.3933, valid_pr-0.6800, valid_tau-0.4911, test_rmse-1.5649, test_pr-0.6303, test_tau-0.4608, lr-5.0719e-05
+2024-04-04 22:05:15 - INFO - epoch-189, train_loss-0.7409, train_rmse-0.8607, valid_rmse-1.2379, valid_pr-0.7549, valid_tau-0.5600, test_rmse-1.5679, test_pr-0.6313, test_tau-0.4647, lr-4.9451e-05
+2024-04-04 22:06:50 - INFO - epoch-190, train_loss-0.7371, train_rmse-0.8586, valid_rmse-1.2160, valid_pr-0.7498, valid_tau-0.5513, test_rmse-1.5760, test_pr-0.6295, test_tau-0.4618, lr-4.9451e-05
+2024-04-04 22:08:25 - INFO - epoch-191, train_loss-0.7380, train_rmse-0.8591, valid_rmse-1.4057, valid_pr-0.6919, valid_tau-0.4853, test_rmse-1.6066, test_pr-0.6042, test_tau-0.4466, lr-4.9451e-05
+2024-04-04 22:10:01 - INFO - epoch-192, train_loss-0.7974, train_rmse-0.8930, valid_rmse-1.4134, valid_pr-0.6820, valid_tau-0.4793, test_rmse-1.6229, test_pr-0.6103, test_tau-0.4461, lr-4.9451e-05
+2024-04-04 22:11:37 - INFO - epoch-193, train_loss-0.7314, train_rmse-0.8552, valid_rmse-1.2977, valid_pr-0.7328, valid_tau-0.5296, test_rmse-1.5977, test_pr-0.6115, test_tau-0.4499, lr-4.9451e-05
+2024-04-04 22:13:11 - INFO - epoch-194, train_loss-0.7415, train_rmse-0.8611, valid_rmse-1.4106, valid_pr-0.7043, valid_tau-0.5337, test_rmse-1.6154, test_pr-0.6069, test_tau-0.4441, lr-4.9451e-05
+2024-04-04 22:14:45 - INFO - epoch-195, train_loss-0.7155, train_rmse-0.8459, valid_rmse-1.2932, valid_pr-0.7190, valid_tau-0.5283, test_rmse-1.6057, test_pr-0.6144, test_tau-0.4548, lr-4.9451e-05
+2024-04-04 22:16:22 - INFO - epoch-196, train_loss-0.7407, train_rmse-0.8607, valid_rmse-1.3382, valid_pr-0.6955, valid_tau-0.4810, test_rmse-1.6057, test_pr-0.6121, test_tau-0.4493, lr-4.9451e-05
+2024-04-04 22:17:57 - INFO - epoch-197, train_loss-0.7295, train_rmse-0.8541, valid_rmse-1.4344, valid_pr-0.6237, valid_tau-0.4324, test_rmse-1.6121, test_pr-0.5978, test_tau-0.4327, lr-4.9451e-05
+2024-04-04 22:19:32 - INFO - epoch-198, train_loss-0.7223, train_rmse-0.8499, valid_rmse-1.3503, valid_pr-0.6898, valid_tau-0.4967, test_rmse-1.5947, test_pr-0.6134, test_tau-0.4494, lr-4.9451e-05
+2024-04-04 22:21:07 - INFO - epoch-199, train_loss-0.6731, train_rmse-0.8204, valid_rmse-1.4603, valid_pr-0.7061, valid_tau-0.5134, test_rmse-1.6125, test_pr-0.6118, test_tau-0.4459, lr-4.8215e-05
+2024-04-04 22:22:42 - INFO - epoch-200, train_loss-0.6831, train_rmse-0.8265, valid_rmse-1.4012, valid_pr-0.6508, valid_tau-0.4689, test_rmse-1.5943, test_pr-0.6150, test_tau-0.4576, lr-4.8215e-05
+2024-04-04 22:24:20 - INFO - epoch-201, train_loss-0.6936, train_rmse-0.8329, valid_rmse-1.5824, valid_pr-0.6611, valid_tau-0.4486, test_rmse-1.6446, test_pr-0.6154, test_tau-0.4531, lr-4.8215e-05
+2024-04-04 22:25:57 - INFO - epoch-202, train_loss-0.6941, train_rmse-0.8331, valid_rmse-1.4471, valid_pr-0.6482, valid_tau-0.4332, test_rmse-1.6135, test_pr-0.6085, test_tau-0.4522, lr-4.8215e-05
+2024-04-04 22:27:33 - INFO - epoch-203, train_loss-0.7502, train_rmse-0.8661, valid_rmse-1.3251, valid_pr-0.6980, valid_tau-0.4972, test_rmse-1.5816, test_pr-0.6253, test_tau-0.4641, lr-4.8215e-05
+2024-04-04 22:29:08 - INFO - epoch-204, train_loss-0.6802, train_rmse-0.8248, valid_rmse-1.4736, valid_pr-0.6126, valid_tau-0.4243, test_rmse-1.5883, test_pr-0.6195, test_tau-0.4523, lr-4.8215e-05
+2024-04-04 22:30:46 - INFO - epoch-205, train_loss-0.7212, train_rmse-0.8492, valid_rmse-1.3436, valid_pr-0.6890, valid_tau-0.4927, test_rmse-1.6100, test_pr-0.6101, test_tau-0.4467, lr-4.8215e-05
+2024-04-04 22:32:26 - INFO - epoch-206, train_loss-0.7411, train_rmse-0.8609, valid_rmse-1.4414, valid_pr-0.6689, valid_tau-0.4461, test_rmse-1.6113, test_pr-0.6052, test_tau-0.4456, lr-4.8215e-05
+2024-04-04 22:34:02 - INFO - epoch-207, train_loss-0.6990, train_rmse-0.8361, valid_rmse-1.2570, valid_pr-0.7167, valid_tau-0.5271, test_rmse-1.5924, test_pr-0.6220, test_tau-0.4552, lr-4.8215e-05
+2024-04-04 22:35:39 - INFO - epoch-208, train_loss-0.6862, train_rmse-0.8284, valid_rmse-1.5236, valid_pr-0.6351, valid_tau-0.4295, test_rmse-1.6157, test_pr-0.5992, test_tau-0.4356, lr-4.8215e-05
+2024-04-04 22:37:17 - INFO - epoch-209, train_loss-0.7014, train_rmse-0.8375, valid_rmse-1.3276, valid_pr-0.6632, valid_tau-0.4830, test_rmse-1.6171, test_pr-0.6083, test_tau-0.4402, lr-4.7010e-05
+2024-04-04 22:38:56 - INFO - epoch-210, train_loss-0.7124, train_rmse-0.8441, valid_rmse-1.4563, valid_pr-0.6776, valid_tau-0.4906, test_rmse-1.6084, test_pr-0.6053, test_tau-0.4373, lr-4.7010e-05
+2024-04-04 22:40:34 - INFO - epoch-211, train_loss-0.6971, train_rmse-0.8349, valid_rmse-1.2697, valid_pr-0.7230, valid_tau-0.5089, test_rmse-1.6028, test_pr-0.6097, test_tau-0.4462, lr-4.7010e-05
+2024-04-04 22:42:08 - INFO - epoch-212, train_loss-0.6511, train_rmse-0.8069, valid_rmse-1.4884, valid_pr-0.6911, valid_tau-0.4960, test_rmse-1.6023, test_pr-0.6197, test_tau-0.4549, lr-4.7010e-05
+2024-04-04 22:43:44 - INFO - epoch-213, train_loss-0.6826, train_rmse-0.8262, valid_rmse-1.2118, valid_pr-0.7298, valid_tau-0.5304, test_rmse-1.5978, test_pr-0.6179, test_tau-0.4508, lr-4.7010e-05
+2024-04-04 22:45:21 - INFO - epoch-214, train_loss-0.6540, train_rmse-0.8087, valid_rmse-1.3997, valid_pr-0.7069, valid_tau-0.5121, test_rmse-1.5744, test_pr-0.6273, test_tau-0.4585, lr-4.7010e-05
+2024-04-04 22:46:57 - INFO - epoch-215, train_loss-0.6655, train_rmse-0.8158, valid_rmse-1.3324, valid_pr-0.7233, valid_tau-0.5445, test_rmse-1.5937, test_pr-0.6156, test_tau-0.4513, lr-4.7010e-05
+2024-04-04 22:48:34 - INFO - epoch-216, train_loss-0.6900, train_rmse-0.8307, valid_rmse-1.4929, valid_pr-0.6603, valid_tau-0.4527, test_rmse-1.6096, test_pr-0.6095, test_tau-0.4460, lr-4.7010e-05
+2024-04-04 22:50:09 - INFO - epoch-217, train_loss-0.7353, train_rmse-0.8575, valid_rmse-1.3406, valid_pr-0.6804, valid_tau-0.4777, test_rmse-1.6134, test_pr-0.6250, test_tau-0.4588, lr-4.7010e-05
+2024-04-04 22:51:46 - INFO - epoch-218, train_loss-0.6850, train_rmse-0.8277, valid_rmse-1.2964, valid_pr-0.7235, valid_tau-0.5534, test_rmse-1.6172, test_pr-0.6070, test_tau-0.4464, lr-4.7010e-05
+2024-04-04 22:53:23 - INFO - epoch-219, train_loss-0.6757, train_rmse-0.8220, valid_rmse-1.5134, valid_pr-0.6597, valid_tau-0.4664, test_rmse-1.6001, test_pr-0.6187, test_tau-0.4552, lr-4.5834e-05
+2024-04-04 22:54:59 - INFO - epoch-220, train_loss-0.7020, train_rmse-0.8379, valid_rmse-1.3293, valid_pr-0.7426, valid_tau-0.5628, test_rmse-1.6047, test_pr-0.6113, test_tau-0.4483, lr-4.5834e-05
+2024-04-04 22:56:34 - INFO - epoch-221, train_loss-0.6504, train_rmse-0.8065, valid_rmse-1.4632, valid_pr-0.7172, valid_tau-0.5357, test_rmse-1.6110, test_pr-0.6201, test_tau-0.4509, lr-4.5834e-05
+2024-04-04 22:58:10 - INFO - epoch-222, train_loss-0.6886, train_rmse-0.8298, valid_rmse-1.1975, valid_pr-0.7740, valid_tau-0.5641, test_rmse-1.5708, test_pr-0.6261, test_tau-0.4608, lr-4.5834e-05
+2024-04-04 22:59:47 - INFO - epoch-223, train_loss-0.6525, train_rmse-0.8078, valid_rmse-1.3677, valid_pr-0.6784, valid_tau-0.4846, test_rmse-1.5806, test_pr-0.6173, test_tau-0.4536, lr-4.5834e-05
+2024-04-04 23:01:24 - INFO - epoch-224, train_loss-0.6918, train_rmse-0.8318, valid_rmse-1.3103, valid_pr-0.7063, valid_tau-0.5142, test_rmse-1.6126, test_pr-0.6066, test_tau-0.4478, lr-4.5834e-05
+2024-04-04 23:02:58 - INFO - epoch-225, train_loss-0.6889, train_rmse-0.8300, valid_rmse-1.4169, valid_pr-0.6690, valid_tau-0.4704, test_rmse-1.5917, test_pr-0.6118, test_tau-0.4444, lr-4.5834e-05
+2024-04-04 23:04:36 - INFO - epoch-226, train_loss-0.6598, train_rmse-0.8123, valid_rmse-1.3240, valid_pr-0.7460, valid_tau-0.5243, test_rmse-1.6352, test_pr-0.5899, test_tau-0.4310, lr-4.5834e-05
+2024-04-04 23:06:15 - INFO - epoch-227, train_loss-0.7158, train_rmse-0.8460, valid_rmse-1.4914, valid_pr-0.6932, valid_tau-0.4992, test_rmse-1.6052, test_pr-0.6067, test_tau-0.4482, lr-4.5834e-05
+2024-04-04 23:07:51 - INFO - epoch-228, train_loss-0.6901, train_rmse-0.8307, valid_rmse-1.3299, valid_pr-0.7344, valid_tau-0.5385, test_rmse-1.6177, test_pr-0.6017, test_tau-0.4391, lr-4.5834e-05
+2024-04-04 23:09:26 - INFO - epoch-229, train_loss-0.6490, train_rmse-0.8056, valid_rmse-1.3446, valid_pr-0.6908, valid_tau-0.5101, test_rmse-1.6176, test_pr-0.5973, test_tau-0.4425, lr-4.4689e-05
+2024-04-04 23:11:02 - INFO - epoch-230, train_loss-0.7066, train_rmse-0.8406, valid_rmse-1.3312, valid_pr-0.7291, valid_tau-0.5048, test_rmse-1.6164, test_pr-0.6076, test_tau-0.4438, lr-4.4689e-05
+2024-04-04 23:12:38 - INFO - epoch-231, train_loss-0.6840, train_rmse-0.8270, valid_rmse-1.1981, valid_pr-0.7635, valid_tau-0.5418, test_rmse-1.5703, test_pr-0.6287, test_tau-0.4664, lr-4.4689e-05
+2024-04-04 23:14:14 - INFO - epoch-232, train_loss-0.6561, train_rmse-0.8100, valid_rmse-1.2435, valid_pr-0.7225, valid_tau-0.5263, test_rmse-1.6030, test_pr-0.6192, test_tau-0.4617, lr-4.4689e-05
+2024-04-04 23:15:50 - INFO - epoch-233, train_loss-0.6471, train_rmse-0.8044, valid_rmse-1.3854, valid_pr-0.6607, valid_tau-0.4934, test_rmse-1.6001, test_pr-0.6069, test_tau-0.4517, lr-4.4689e-05
+2024-04-04 23:17:29 - INFO - epoch-234, train_loss-0.6472, train_rmse-0.8045, valid_rmse-1.4074, valid_pr-0.6792, valid_tau-0.4891, test_rmse-1.5874, test_pr-0.6171, test_tau-0.4536, lr-4.4689e-05
+2024-04-04 23:19:07 - INFO - epoch-235, train_loss-0.7174, train_rmse-0.8470, valid_rmse-1.4010, valid_pr-0.7075, valid_tau-0.5296, test_rmse-1.5915, test_pr-0.6121, test_tau-0.4507, lr-4.4689e-05
+2024-04-04 23:20:44 - INFO - epoch-236, train_loss-0.6609, train_rmse-0.8130, valid_rmse-1.2892, valid_pr-0.6695, valid_tau-0.4886, test_rmse-1.5970, test_pr-0.6207, test_tau-0.4542, lr-4.4689e-05
+2024-04-04 23:22:21 - INFO - epoch-237, train_loss-0.7183, train_rmse-0.8475, valid_rmse-1.4407, valid_pr-0.6651, valid_tau-0.4689, test_rmse-1.5808, test_pr-0.6188, test_tau-0.4561, lr-4.4689e-05
+2024-04-04 23:23:56 - INFO - epoch-238, train_loss-0.6093, train_rmse-0.7806, valid_rmse-1.5073, valid_pr-0.5911, valid_tau-0.4219, test_rmse-1.5848, test_pr-0.6215, test_tau-0.4576, lr-4.4689e-05
+2024-04-04 23:25:33 - INFO - epoch-239, train_loss-0.6207, train_rmse-0.7878, valid_rmse-1.4734, valid_pr-0.6482, valid_tau-0.4466, test_rmse-1.5877, test_pr-0.6161, test_tau-0.4531, lr-4.3571e-05
+2024-04-04 23:27:09 - INFO - epoch-240, train_loss-0.6335, train_rmse-0.7959, valid_rmse-1.4470, valid_pr-0.6561, valid_tau-0.4818, test_rmse-1.5958, test_pr-0.6066, test_tau-0.4498, lr-4.3571e-05
+2024-04-04 23:28:44 - INFO - epoch-241, train_loss-0.6558, train_rmse-0.8098, valid_rmse-1.4548, valid_pr-0.6640, valid_tau-0.4813, test_rmse-1.5996, test_pr-0.6069, test_tau-0.4464, lr-4.3571e-05
+2024-04-04 23:30:23 - INFO - epoch-242, train_loss-0.6476, train_rmse-0.8047, valid_rmse-1.3988, valid_pr-0.6780, valid_tau-0.4689, test_rmse-1.5705, test_pr-0.6237, test_tau-0.4598, lr-4.3571e-05
+2024-04-04 23:32:01 - INFO - epoch-243, train_loss-0.6096, train_rmse-0.7808, valid_rmse-1.2799, valid_pr-0.7255, valid_tau-0.5319, test_rmse-1.5953, test_pr-0.6118, test_tau-0.4493, lr-4.3571e-05
+2024-04-04 23:33:39 - INFO - epoch-244, train_loss-0.6563, train_rmse-0.8102, valid_rmse-1.3187, valid_pr-0.7231, valid_tau-0.5291, test_rmse-1.5889, test_pr-0.6148, test_tau-0.4502, lr-4.3571e-05
+2024-04-04 23:35:15 - INFO - epoch-245, train_loss-0.6454, train_rmse-0.8034, valid_rmse-1.3813, valid_pr-0.6510, valid_tau-0.4689, test_rmse-1.5943, test_pr-0.6128, test_tau-0.4521, lr-4.3571e-05
+2024-04-04 23:36:54 - INFO - epoch-246, train_loss-0.6308, train_rmse-0.7942, valid_rmse-1.4204, valid_pr-0.6232, valid_tau-0.4433, test_rmse-1.6097, test_pr-0.6051, test_tau-0.4433, lr-4.3571e-05
+2024-04-04 23:38:31 - INFO - epoch-247, train_loss-0.6457, train_rmse-0.8036, valid_rmse-1.5609, valid_pr-0.6309, valid_tau-0.4408, test_rmse-1.6205, test_pr-0.5988, test_tau-0.4440, lr-4.3571e-05
+2024-04-04 23:40:08 - INFO - epoch-248, train_loss-0.6755, train_rmse-0.8219, valid_rmse-1.4367, valid_pr-0.6800, valid_tau-0.4934, test_rmse-1.5938, test_pr-0.6134, test_tau-0.4512, lr-4.3571e-05
+2024-04-04 23:41:45 - INFO - epoch-249, train_loss-0.6320, train_rmse-0.7950, valid_rmse-1.3278, valid_pr-0.6838, valid_tau-0.4960, test_rmse-1.5949, test_pr-0.6084, test_tau-0.4427, lr-4.2482e-05
+2024-04-04 23:43:24 - INFO - epoch-250, train_loss-0.6220, train_rmse-0.7887, valid_rmse-1.3635, valid_pr-0.6722, valid_tau-0.4745, test_rmse-1.6197, test_pr-0.6018, test_tau-0.4422, lr-4.2482e-05
+2024-04-04 23:45:05 - INFO - epoch-251, train_loss-0.6071, train_rmse-0.7791, valid_rmse-1.3741, valid_pr-0.6933, valid_tau-0.4894, test_rmse-1.5970, test_pr-0.6131, test_tau-0.4479, lr-4.2482e-05
+2024-04-04 23:46:43 - INFO - epoch-252, train_loss-0.6199, train_rmse-0.7873, valid_rmse-1.4635, valid_pr-0.6535, valid_tau-0.4749, test_rmse-1.6041, test_pr-0.6054, test_tau-0.4396, lr-4.2482e-05
+2024-04-04 23:48:20 - INFO - epoch-253, train_loss-0.6419, train_rmse-0.8012, valid_rmse-1.4171, valid_pr-0.6512, valid_tau-0.4550, test_rmse-1.5884, test_pr-0.6185, test_tau-0.4464, lr-4.2482e-05
+2024-04-04 23:49:59 - INFO - epoch-254, train_loss-0.5891, train_rmse-0.7675, valid_rmse-1.3844, valid_pr-0.6592, valid_tau-0.4749, test_rmse-1.5789, test_pr-0.6222, test_tau-0.4544, lr-4.2482e-05
+2024-04-04 23:51:36 - INFO - epoch-255, train_loss-0.5806, train_rmse-0.7620, valid_rmse-1.4687, valid_pr-0.6652, valid_tau-0.4825, test_rmse-1.5973, test_pr-0.6089, test_tau-0.4444, lr-4.2482e-05
+2024-04-04 23:53:12 - INFO - epoch-256, train_loss-0.6258, train_rmse-0.7911, valid_rmse-1.4526, valid_pr-0.6730, valid_tau-0.4967, test_rmse-1.5995, test_pr-0.6126, test_tau-0.4509, lr-4.2482e-05
+2024-04-04 23:54:53 - INFO - epoch-257, train_loss-0.6514, train_rmse-0.8071, valid_rmse-1.1998, valid_pr-0.7233, valid_tau-0.5316, test_rmse-1.6079, test_pr-0.6063, test_tau-0.4435, lr-4.2482e-05
+2024-04-04 23:56:32 - INFO - epoch-258, train_loss-0.6632, train_rmse-0.8144, valid_rmse-1.5256, valid_pr-0.6908, valid_tau-0.5276, test_rmse-1.6353, test_pr-0.5958, test_tau-0.4317, lr-4.2482e-05
+2024-04-04 23:58:10 - INFO - epoch-259, train_loss-0.6571, train_rmse-0.8106, valid_rmse-1.4314, valid_pr-0.6512, valid_tau-0.4772, test_rmse-1.6080, test_pr-0.6061, test_tau-0.4437, lr-4.1420e-05
+2024-04-04 23:59:48 - INFO - epoch-260, train_loss-0.6330, train_rmse-0.7956, valid_rmse-1.4808, valid_pr-0.6454, valid_tau-0.4664, test_rmse-1.6047, test_pr-0.6030, test_tau-0.4411, lr-4.1420e-05
+2024-04-05 00:01:27 - INFO - epoch-261, train_loss-0.6280, train_rmse-0.7925, valid_rmse-1.3325, valid_pr-0.6661, valid_tau-0.4879, test_rmse-1.5959, test_pr-0.6098, test_tau-0.4455, lr-4.1420e-05
+2024-04-05 00:03:05 - INFO - epoch-262, train_loss-0.5948, train_rmse-0.7712, valid_rmse-1.5506, valid_pr-0.5852, valid_tau-0.4547, test_rmse-1.6202, test_pr-0.5975, test_tau-0.4283, lr-4.1420e-05
+2024-04-05 00:04:43 - INFO - epoch-263, train_loss-0.6094, train_rmse-0.7806, valid_rmse-1.4115, valid_pr-0.6424, valid_tau-0.4668, test_rmse-1.5923, test_pr-0.6094, test_tau-0.4472, lr-4.1420e-05
+2024-04-05 00:06:22 - INFO - epoch-264, train_loss-0.6174, train_rmse-0.7857, valid_rmse-1.4132, valid_pr-0.6669, valid_tau-0.4919, test_rmse-1.6059, test_pr-0.6092, test_tau-0.4458, lr-4.1420e-05
+2024-04-05 00:08:02 - INFO - epoch-265, train_loss-0.6661, train_rmse-0.8161, valid_rmse-1.4066, valid_pr-0.6593, valid_tau-0.4830, test_rmse-1.5866, test_pr-0.6208, test_tau-0.4501, lr-4.1420e-05
+2024-04-05 00:09:41 - INFO - epoch-266, train_loss-0.6357, train_rmse-0.7973, valid_rmse-1.4917, valid_pr-0.7072, valid_tau-0.5013, test_rmse-1.6362, test_pr-0.6098, test_tau-0.4499, lr-4.1420e-05
+2024-04-05 00:11:19 - INFO - epoch-267, train_loss-0.6281, train_rmse-0.7925, valid_rmse-1.4245, valid_pr-0.6682, valid_tau-0.4724, test_rmse-1.6186, test_pr-0.6046, test_tau-0.4423, lr-4.1420e-05
+2024-04-05 00:12:56 - INFO - epoch-268, train_loss-0.6614, train_rmse-0.8132, valid_rmse-1.5250, valid_pr-0.6694, valid_tau-0.4960, test_rmse-1.6195, test_pr-0.6109, test_tau-0.4494, lr-4.1420e-05
+2024-04-05 00:14:35 - INFO - epoch-269, train_loss-0.6020, train_rmse-0.7759, valid_rmse-1.3923, valid_pr-0.7084, valid_tau-0.4871, test_rmse-1.6134, test_pr-0.6141, test_tau-0.4500, lr-4.0384e-05
+2024-04-05 00:16:12 - INFO - epoch-270, train_loss-0.6060, train_rmse-0.7785, valid_rmse-1.3813, valid_pr-0.6962, valid_tau-0.4729, test_rmse-1.6043, test_pr-0.6051, test_tau-0.4419, lr-4.0384e-05
+2024-04-05 00:17:51 - INFO - epoch-271, train_loss-0.6365, train_rmse-0.7978, valid_rmse-1.3508, valid_pr-0.6873, valid_tau-0.5304, test_rmse-1.5880, test_pr-0.6141, test_tau-0.4522, lr-4.0384e-05
+2024-04-05 00:19:33 - INFO - epoch-272, train_loss-0.6286, train_rmse-0.7928, valid_rmse-1.4423, valid_pr-0.6969, valid_tau-0.4906, test_rmse-1.6100, test_pr-0.6177, test_tau-0.4516, lr-4.0384e-05
+2024-04-05 00:21:13 - INFO - epoch-273, train_loss-0.5952, train_rmse-0.7715, valid_rmse-1.5876, valid_pr-0.6031, valid_tau-0.4502, test_rmse-1.6192, test_pr-0.6153, test_tau-0.4464, lr-4.0384e-05
+2024-04-05 00:22:49 - INFO - epoch-274, train_loss-0.6063, train_rmse-0.7786, valid_rmse-1.3163, valid_pr-0.7101, valid_tau-0.5263, test_rmse-1.6017, test_pr-0.6095, test_tau-0.4462, lr-4.0384e-05
+2024-04-05 00:24:28 - INFO - epoch-275, train_loss-0.5963, train_rmse-0.7722, valid_rmse-1.3506, valid_pr-0.6975, valid_tau-0.5291, test_rmse-1.5776, test_pr-0.6211, test_tau-0.4525, lr-4.0384e-05
+2024-04-05 00:26:06 - INFO - epoch-276, train_loss-0.6167, train_rmse-0.7853, valid_rmse-1.2389, valid_pr-0.7266, valid_tau-0.5073, test_rmse-1.5508, test_pr-0.6358, test_tau-0.4640, lr-4.0384e-05
+2024-04-05 00:27:43 - INFO - epoch-277, train_loss-0.5969, train_rmse-0.7726, valid_rmse-1.3613, valid_pr-0.7037, valid_tau-0.5089, test_rmse-1.5500, test_pr-0.6368, test_tau-0.4683, lr-4.0384e-05
+2024-04-05 00:29:22 - INFO - epoch-278, train_loss-0.6550, train_rmse-0.8093, valid_rmse-1.3607, valid_pr-0.6936, valid_tau-0.4960, test_rmse-1.5875, test_pr-0.6158, test_tau-0.4519, lr-4.0384e-05
+2024-04-05 00:31:03 - INFO - epoch-279, train_loss-0.6460, train_rmse-0.8038, valid_rmse-1.2894, valid_pr-0.7320, valid_tau-0.5478, test_rmse-1.5938, test_pr-0.6149, test_tau-0.4496, lr-3.9375e-05
+2024-04-05 00:32:44 - INFO - epoch-280, train_loss-0.6133, train_rmse-0.7832, valid_rmse-1.3025, valid_pr-0.6918, valid_tau-0.4810, test_rmse-1.5773, test_pr-0.6241, test_tau-0.4539, lr-3.9375e-05
+2024-04-05 00:34:21 - INFO - epoch-281, train_loss-0.5704, train_rmse-0.7552, valid_rmse-1.4122, valid_pr-0.7337, valid_tau-0.5580, test_rmse-1.5959, test_pr-0.6235, test_tau-0.4529, lr-3.9375e-05
+2024-04-05 00:35:58 - INFO - epoch-282, train_loss-0.6128, train_rmse-0.7828, valid_rmse-1.2619, valid_pr-0.7288, valid_tau-0.5412, test_rmse-1.5927, test_pr-0.6123, test_tau-0.4411, lr-3.9375e-05
+2024-04-05 00:37:35 - INFO - epoch-283, train_loss-0.6134, train_rmse-0.7832, valid_rmse-1.2466, valid_pr-0.7543, valid_tau-0.5580, test_rmse-1.5706, test_pr-0.6242, test_tau-0.4582, lr-3.9375e-05
+2024-04-05 00:39:14 - INFO - epoch-284, train_loss-0.6310, train_rmse-0.7944, valid_rmse-1.2069, valid_pr-0.7440, valid_tau-0.5425, test_rmse-1.5906, test_pr-0.6185, test_tau-0.4549, lr-3.9375e-05
+2024-04-05 00:40:54 - INFO - epoch-285, train_loss-0.6299, train_rmse-0.7937, valid_rmse-1.3805, valid_pr-0.7069, valid_tau-0.5223, test_rmse-1.5924, test_pr-0.6147, test_tau-0.4510, lr-3.9375e-05
+2024-04-05 00:42:35 - INFO - epoch-286, train_loss-0.5898, train_rmse-0.7680, valid_rmse-1.3957, valid_pr-0.6917, valid_tau-0.5076, test_rmse-1.6019, test_pr-0.6035, test_tau-0.4426, lr-3.9375e-05
+2024-04-05 00:44:15 - INFO - epoch-287, train_loss-0.6048, train_rmse-0.7777, valid_rmse-1.4628, valid_pr-0.6470, valid_tau-0.4692, test_rmse-1.5937, test_pr-0.6071, test_tau-0.4458, lr-3.9375e-05
+2024-04-05 00:45:53 - INFO - epoch-288, train_loss-0.6105, train_rmse-0.7813, valid_rmse-1.3452, valid_pr-0.7060, valid_tau-0.5195, test_rmse-1.5801, test_pr-0.6204, test_tau-0.4558, lr-3.9375e-05
+2024-04-05 00:47:32 - INFO - epoch-289, train_loss-0.6071, train_rmse-0.7792, valid_rmse-1.3329, valid_pr-0.7286, valid_tau-0.5372, test_rmse-1.5841, test_pr-0.6182, test_tau-0.4481, lr-3.8391e-05
+2024-04-05 00:49:10 - INFO - epoch-290, train_loss-0.6091, train_rmse-0.7805, valid_rmse-1.3838, valid_pr-0.6671, valid_tau-0.4689, test_rmse-1.5966, test_pr-0.6076, test_tau-0.4419, lr-3.8391e-05
+2024-04-05 00:50:48 - INFO - epoch-291, train_loss-0.6315, train_rmse-0.7947, valid_rmse-1.3749, valid_pr-0.6965, valid_tau-0.5298, test_rmse-1.5875, test_pr-0.6135, test_tau-0.4473, lr-3.8391e-05
+2024-04-05 00:52:30 - INFO - epoch-292, train_loss-0.6119, train_rmse-0.7822, valid_rmse-1.3734, valid_pr-0.7012, valid_tau-0.5405, test_rmse-1.5949, test_pr-0.6115, test_tau-0.4415, lr-3.8391e-05
+2024-04-05 00:54:12 - INFO - epoch-293, train_loss-0.6111, train_rmse-0.7817, valid_rmse-1.2129, valid_pr-0.7281, valid_tau-0.5364, test_rmse-1.5732, test_pr-0.6218, test_tau-0.4542, lr-3.8391e-05
+2024-04-05 00:55:53 - INFO - epoch-294, train_loss-0.6477, train_rmse-0.8048, valid_rmse-1.2598, valid_pr-0.7424, valid_tau-0.5440, test_rmse-1.5974, test_pr-0.6091, test_tau-0.4439, lr-3.8391e-05
+2024-04-05 00:57:31 - INFO - epoch-295, train_loss-0.5626, train_rmse-0.7501, valid_rmse-1.3816, valid_pr-0.6792, valid_tau-0.5028, test_rmse-1.6043, test_pr-0.6057, test_tau-0.4410, lr-3.8391e-05
+2024-04-05 00:59:10 - INFO - epoch-296, train_loss-0.6068, train_rmse-0.7790, valid_rmse-1.3599, valid_pr-0.7017, valid_tau-0.4952, test_rmse-1.6054, test_pr-0.6146, test_tau-0.4468, lr-3.8391e-05
+2024-04-05 01:00:48 - INFO - epoch-297, train_loss-0.6200, train_rmse-0.7874, valid_rmse-1.4187, valid_pr-0.6575, valid_tau-0.4656, test_rmse-1.5922, test_pr-0.6165, test_tau-0.4523, lr-3.8391e-05
+2024-04-05 01:02:29 - INFO - epoch-298, train_loss-0.6066, train_rmse-0.7788, valid_rmse-1.4125, valid_pr-0.6214, valid_tau-0.4636, test_rmse-1.5855, test_pr-0.6138, test_tau-0.4457, lr-3.8391e-05
+2024-04-05 01:04:11 - INFO - epoch-299, train_loss-0.6173, train_rmse-0.7857, valid_rmse-1.3897, valid_pr-0.6373, valid_tau-0.4425, test_rmse-1.6021, test_pr-0.6078, test_tau-0.4465, lr-3.7431e-05
+2024-04-05 01:05:52 - INFO - epoch-300, train_loss-0.5730, train_rmse-0.7570, valid_rmse-1.4335, valid_pr-0.6716, valid_tau-0.4765, test_rmse-1.6097, test_pr-0.6049, test_tau-0.4399, lr-3.7431e-05
+2024-04-05 01:07:30 - INFO - epoch-301, train_loss-0.5827, train_rmse-0.7634, valid_rmse-1.3745, valid_pr-0.6460, valid_tau-0.4304, test_rmse-1.6004, test_pr-0.6206, test_tau-0.4555, lr-3.7431e-05
+2024-04-05 01:09:09 - INFO - epoch-302, train_loss-0.5888, train_rmse-0.7673, valid_rmse-1.3975, valid_pr-0.6862, valid_tau-0.4825, test_rmse-1.5811, test_pr-0.6199, test_tau-0.4569, lr-3.7431e-05
+2024-04-05 01:10:47 - INFO - epoch-303, train_loss-0.5804, train_rmse-0.7618, valid_rmse-1.2608, valid_pr-0.7137, valid_tau-0.4866, test_rmse-1.5644, test_pr-0.6269, test_tau-0.4605, lr-3.7431e-05
+2024-04-05 01:12:25 - INFO - epoch-304, train_loss-0.5997, train_rmse-0.7744, valid_rmse-1.5745, valid_pr-0.6801, valid_tau-0.4798, test_rmse-1.6283, test_pr-0.6152, test_tau-0.4488, lr-3.7431e-05
+2024-04-05 01:14:10 - INFO - epoch-305, train_loss-0.6033, train_rmse-0.7767, valid_rmse-1.3459, valid_pr-0.7005, valid_tau-0.4911, test_rmse-1.5904, test_pr-0.6172, test_tau-0.4519, lr-3.7431e-05
+2024-04-05 01:15:55 - INFO - epoch-306, train_loss-0.6142, train_rmse-0.7837, valid_rmse-1.4006, valid_pr-0.7256, valid_tau-0.5048, test_rmse-1.5853, test_pr-0.6177, test_tau-0.4510, lr-3.7431e-05
+2024-04-05 01:17:35 - INFO - epoch-307, train_loss-0.5865, train_rmse-0.7658, valid_rmse-1.1859, valid_pr-0.7430, valid_tau-0.5304, test_rmse-1.5616, test_pr-0.6321, test_tau-0.4602, lr-3.7431e-05
+2024-04-05 01:19:13 - INFO - epoch-308, train_loss-0.5735, train_rmse-0.7573, valid_rmse-1.3232, valid_pr-0.7270, valid_tau-0.5412, test_rmse-1.5809, test_pr-0.6195, test_tau-0.4529, lr-3.7431e-05
+2024-04-05 01:20:52 - INFO - epoch-309, train_loss-0.6341, train_rmse-0.7963, valid_rmse-1.3083, valid_pr-0.7128, valid_tau-0.5083, test_rmse-1.5941, test_pr-0.6101, test_tau-0.4491, lr-3.6495e-05
+2024-04-05 01:22:30 - INFO - epoch-310, train_loss-0.6102, train_rmse-0.7812, valid_rmse-1.1951, valid_pr-0.7237, valid_tau-0.5114, test_rmse-1.6095, test_pr-0.6079, test_tau-0.4467, lr-3.6495e-05
+2024-04-05 01:24:12 - INFO - epoch-311, train_loss-0.5911, train_rmse-0.7688, valid_rmse-1.3564, valid_pr-0.7069, valid_tau-0.5061, test_rmse-1.5976, test_pr-0.6127, test_tau-0.4475, lr-3.6495e-05
+2024-04-05 01:25:57 - INFO - epoch-312, train_loss-0.5600, train_rmse-0.7483, valid_rmse-1.4133, valid_pr-0.6861, valid_tau-0.4785, test_rmse-1.5951, test_pr-0.6106, test_tau-0.4482, lr-3.6495e-05
+2024-04-05 01:27:39 - INFO - epoch-313, train_loss-0.5841, train_rmse-0.7642, valid_rmse-1.4561, valid_pr-0.6837, valid_tau-0.4962, test_rmse-1.5969, test_pr-0.6099, test_tau-0.4479, lr-3.6495e-05
+2024-04-05 01:29:06 - INFO - epoch-314, train_loss-0.5870, train_rmse-0.7662, valid_rmse-1.5329, valid_pr-0.6921, valid_tau-0.5256, test_rmse-1.6329, test_pr-0.6055, test_tau-0.4409, lr-3.6495e-05
+2024-04-05 01:30:31 - INFO - epoch-315, train_loss-0.5969, train_rmse-0.7726, valid_rmse-1.2531, valid_pr-0.7510, valid_tau-0.5534, test_rmse-1.6076, test_pr-0.6117, test_tau-0.4482, lr-3.6495e-05
+2024-04-05 01:32:06 - INFO - epoch-316, train_loss-0.5969, train_rmse-0.7726, valid_rmse-1.4228, valid_pr-0.6726, valid_tau-0.5169, test_rmse-1.5798, test_pr-0.6206, test_tau-0.4524, lr-3.6495e-05
+2024-04-05 01:33:51 - INFO - epoch-317, train_loss-0.5694, train_rmse-0.7546, valid_rmse-1.4425, valid_pr-0.6591, valid_tau-0.4914, test_rmse-1.5861, test_pr-0.6151, test_tau-0.4512, lr-3.6495e-05
+2024-04-05 01:35:34 - INFO - epoch-318, train_loss-0.5806, train_rmse-0.7620, valid_rmse-1.4045, valid_pr-0.6917, valid_tau-0.5215, test_rmse-1.6031, test_pr-0.6118, test_tau-0.4489, lr-3.6495e-05
+2024-04-05 01:37:20 - INFO - epoch-319, train_loss-0.5568, train_rmse-0.7462, valid_rmse-1.3069, valid_pr-0.7128, valid_tau-0.5344, test_rmse-1.5595, test_pr-0.6303, test_tau-0.4585, lr-3.5583e-05
+2024-04-05 01:39:04 - INFO - epoch-320, train_loss-0.5821, train_rmse-0.7629, valid_rmse-1.4433, valid_pr-0.6681, valid_tau-0.4785, test_rmse-1.5815, test_pr-0.6227, test_tau-0.4551, lr-3.5583e-05
+2024-04-05 01:40:49 - INFO - epoch-321, train_loss-0.5574, train_rmse-0.7466, valid_rmse-1.3848, valid_pr-0.6481, valid_tau-0.4871, test_rmse-1.5974, test_pr-0.6057, test_tau-0.4438, lr-3.5583e-05
+2024-04-05 01:42:33 - INFO - epoch-322, train_loss-0.5497, train_rmse-0.7414, valid_rmse-1.3050, valid_pr-0.7195, valid_tau-0.5296, test_rmse-1.5746, test_pr-0.6218, test_tau-0.4554, lr-3.5583e-05
+2024-04-05 01:44:16 - INFO - epoch-323, train_loss-0.5670, train_rmse-0.7530, valid_rmse-1.4703, valid_pr-0.6691, valid_tau-0.4696, test_rmse-1.5836, test_pr-0.6165, test_tau-0.4525, lr-3.5583e-05
+2024-04-05 01:44:36 - INFO - early stop in epoch 323
+2024-04-05 01:44:36 - INFO - best_pr: 0.7740
+2024-04-05 01:44:41 - INFO - valid_rmse-1.3413, valid_pr-0.7119, test_rmse-1.5708, test_pr-0.6261, test_tau-0.4608
+2024-04-05 01:44:41 - INFO - ================== Training subset ==================
+2024-04-05 01:44:55 - INFO - The total number of involved docking poses: 5828
+2024-04-05 01:44:55 - INFO - ================== Training subset ==================
+2024-04-05 01:45:14 - INFO - The total number of involved docking poses: 7485
+2024-04-05 01:45:14 - INFO - ================== Validation subset ==================
+2024-04-05 01:45:15 - INFO - The total number of involved docking poses: 491
+2024-04-05 01:45:15 - INFO - ================== Training subset ==================
+2024-04-05 01:45:30 - INFO - The total number of involved docking poses: 6215
+2024-04-05 01:45:30 - INFO - ================== Training subset ==================
+2024-04-05 01:46:02 - INFO - The total number of involved docking poses: 12880
+2024-04-05 01:46:02 - INFO - ================== Training subset ==================
+2024-04-05 01:46:17 - INFO - The total number of involved docking poses: 6508
+2024-04-05 01:46:17 - INFO - ================== Test subset ==================
+2024-04-05 01:46:32 - INFO - The total number of involved docking poses: 6134
+2024-04-05 01:46:32 - INFO - /home1/yueming/Drug_Discovery/Baselines/GIGN-main/GIGN/train_PDBBind.py
+2024-04-05 01:46:32 - INFO - Assay type: pKi
+2024-04-05 01:46:32 - INFO - fold: 3
+2024-04-05 01:46:32 - INFO - train data: 3957
+2024-04-05 01:46:32 - INFO - train data subsets: 595, 760, 631, 1310, 661
+2024-04-05 01:46:32 - INFO - valid data: 50
+2024-04-05 01:46:32 - INFO - test data: 626
+2024-04-05 01:46:32 - INFO - batch ligands: 10
+2024-04-05 01:46:32 - INFO - train mean: 6.7386
+2024-04-05 01:46:32 - INFO - train std: 2.0339
+2024-04-05 01:46:32 - INFO - valid_metric: pr
+2024-04-05 01:47:59 - INFO - epoch-0, train_loss-3.3415, train_rmse-1.8280, valid_rmse-1.8266, valid_pr-0.6968, valid_tau-0.5824, test_rmse-1.7603, test_pr-0.4821, test_tau-0.3523, lr-8.0000e-05
+2024-04-05 01:49:24 - INFO - epoch-1, train_loss-2.9297, train_rmse-1.7116, valid_rmse-1.7528, valid_pr-0.6713, valid_tau-0.5319, test_rmse-1.7304, test_pr-0.5137, test_tau-0.3668, lr-8.0000e-05
+2024-04-05 01:50:50 - INFO - epoch-2, train_loss-2.8069, train_rmse-1.6754, valid_rmse-1.6854, valid_pr-0.7175, valid_tau-0.5359, test_rmse-1.7297, test_pr-0.5109, test_tau-0.3689, lr-8.0000e-05
+2024-04-05 01:52:15 - INFO - epoch-3, train_loss-2.7706, train_rmse-1.6645, valid_rmse-1.6949, valid_pr-0.7523, valid_tau-0.5905, test_rmse-1.6692, test_pr-0.5587, test_tau-0.3943, lr-8.0000e-05
+2024-04-05 01:53:40 - INFO - epoch-4, train_loss-2.6308, train_rmse-1.6220, valid_rmse-1.5978, valid_pr-0.7304, valid_tau-0.5966, test_rmse-1.6656, test_pr-0.5732, test_tau-0.4105, lr-8.0000e-05
+2024-04-05 01:55:06 - INFO - epoch-5, train_loss-2.5581, train_rmse-1.5994, valid_rmse-1.4242, valid_pr-0.8262, valid_tau-0.6505, test_rmse-1.6330, test_pr-0.5920, test_tau-0.4223, lr-8.0000e-05
+2024-04-05 01:56:31 - INFO - epoch-6, train_loss-2.5307, train_rmse-1.5908, valid_rmse-1.6168, valid_pr-0.7586, valid_tau-0.5501, test_rmse-1.6532, test_pr-0.5813, test_tau-0.4203, lr-8.0000e-05
+2024-04-05 01:57:56 - INFO - epoch-7, train_loss-2.4098, train_rmse-1.5523, valid_rmse-1.6464, valid_pr-0.7351, valid_tau-0.5993, test_rmse-1.7702, test_pr-0.5103, test_tau-0.3662, lr-8.0000e-05
+2024-04-05 01:59:21 - INFO - epoch-8, train_loss-2.4601, train_rmse-1.5685, valid_rmse-1.6286, valid_pr-0.7655, valid_tau-0.6081, test_rmse-1.6350, test_pr-0.5785, test_tau-0.4118, lr-8.0000e-05
+2024-04-05 02:00:48 - INFO - epoch-9, train_loss-2.4077, train_rmse-1.5517, valid_rmse-1.5371, valid_pr-0.7732, valid_tau-0.6215, test_rmse-1.6572, test_pr-0.5663, test_tau-0.4098, lr-7.8000e-05
+2024-04-05 02:02:14 - INFO - epoch-10, train_loss-2.3758, train_rmse-1.5414, valid_rmse-1.5774, valid_pr-0.7701, valid_tau-0.6047, test_rmse-1.6548, test_pr-0.5788, test_tau-0.4244, lr-7.8000e-05
+2024-04-05 02:03:39 - INFO - epoch-11, train_loss-2.2953, train_rmse-1.5150, valid_rmse-1.4882, valid_pr-0.8288, valid_tau-0.6855, test_rmse-1.6205, test_pr-0.5887, test_tau-0.4270, lr-7.8000e-05
+2024-04-05 02:05:05 - INFO - epoch-12, train_loss-2.2757, train_rmse-1.5085, valid_rmse-1.6403, valid_pr-0.7731, valid_tau-0.6067, test_rmse-1.6201, test_pr-0.5873, test_tau-0.4236, lr-7.8000e-05
+2024-04-05 02:06:29 - INFO - epoch-13, train_loss-2.2365, train_rmse-1.4955, valid_rmse-1.5524, valid_pr-0.7573, valid_tau-0.5851, test_rmse-1.6637, test_pr-0.6110, test_tau-0.4394, lr-7.8000e-05
+2024-04-05 02:07:56 - INFO - epoch-14, train_loss-2.1543, train_rmse-1.4677, valid_rmse-1.6300, valid_pr-0.7342, valid_tau-0.5379, test_rmse-1.5836, test_pr-0.6233, test_tau-0.4489, lr-7.8000e-05
+2024-04-05 02:09:22 - INFO - epoch-15, train_loss-2.2143, train_rmse-1.4881, valid_rmse-1.4807, valid_pr-0.7743, valid_tau-0.5986, test_rmse-1.5997, test_pr-0.6188, test_tau-0.4528, lr-7.8000e-05
+2024-04-05 02:10:48 - INFO - epoch-16, train_loss-2.1710, train_rmse-1.4734, valid_rmse-1.6655, valid_pr-0.6667, valid_tau-0.5548, test_rmse-1.5962, test_pr-0.6127, test_tau-0.4295, lr-7.8000e-05
+2024-04-05 02:12:13 - INFO - epoch-17, train_loss-2.1427, train_rmse-1.4638, valid_rmse-1.7196, valid_pr-0.6700, valid_tau-0.4760, test_rmse-1.5755, test_pr-0.6167, test_tau-0.4382, lr-7.8000e-05
+2024-04-05 02:13:37 - INFO - epoch-18, train_loss-2.0719, train_rmse-1.4394, valid_rmse-1.7203, valid_pr-0.7039, valid_tau-0.5326, test_rmse-1.6026, test_pr-0.6156, test_tau-0.4386, lr-7.8000e-05
+2024-04-05 02:15:04 - INFO - epoch-19, train_loss-2.0864, train_rmse-1.4445, valid_rmse-1.6865, valid_pr-0.7237, valid_tau-0.5763, test_rmse-1.6235, test_pr-0.6150, test_tau-0.4577, lr-7.6050e-05
+2024-04-05 02:16:29 - INFO - epoch-20, train_loss-2.0127, train_rmse-1.4187, valid_rmse-1.5748, valid_pr-0.7713, valid_tau-0.6309, test_rmse-1.5749, test_pr-0.6175, test_tau-0.4501, lr-7.6050e-05
+2024-04-05 02:17:56 - INFO - epoch-21, train_loss-1.9908, train_rmse-1.4110, valid_rmse-1.7152, valid_pr-0.6886, valid_tau-0.5104, test_rmse-1.5612, test_pr-0.6244, test_tau-0.4479, lr-7.6050e-05
+2024-04-05 02:19:22 - INFO - epoch-22, train_loss-2.0123, train_rmse-1.4186, valid_rmse-1.6987, valid_pr-0.7123, valid_tau-0.5124, test_rmse-1.5460, test_pr-0.6415, test_tau-0.4576, lr-7.6050e-05
+2024-04-05 02:20:47 - INFO - epoch-23, train_loss-2.0006, train_rmse-1.4144, valid_rmse-1.7159, valid_pr-0.6912, valid_tau-0.5258, test_rmse-1.5559, test_pr-0.6308, test_tau-0.4497, lr-7.6050e-05
+2024-04-05 02:22:12 - INFO - epoch-24, train_loss-1.9678, train_rmse-1.4028, valid_rmse-1.5590, valid_pr-0.7447, valid_tau-0.5730, test_rmse-1.6233, test_pr-0.6247, test_tau-0.4577, lr-7.6050e-05
+2024-04-05 02:23:39 - INFO - epoch-25, train_loss-1.9025, train_rmse-1.3793, valid_rmse-1.5981, valid_pr-0.7476, valid_tau-0.6107, test_rmse-1.5280, test_pr-0.6480, test_tau-0.4714, lr-7.6050e-05
+2024-04-05 02:25:07 - INFO - epoch-26, train_loss-1.9434, train_rmse-1.3940, valid_rmse-1.5557, valid_pr-0.7717, valid_tau-0.6107, test_rmse-1.5510, test_pr-0.6396, test_tau-0.4623, lr-7.6050e-05
+2024-04-05 02:26:33 - INFO - epoch-27, train_loss-1.9060, train_rmse-1.3806, valid_rmse-1.5433, valid_pr-0.7830, valid_tau-0.5932, test_rmse-1.5390, test_pr-0.6442, test_tau-0.4718, lr-7.6050e-05
+2024-04-05 02:27:59 - INFO - epoch-28, train_loss-1.8297, train_rmse-1.3527, valid_rmse-1.8082, valid_pr-0.6512, valid_tau-0.5238, test_rmse-1.5787, test_pr-0.6191, test_tau-0.4454, lr-7.6050e-05
+2024-04-05 02:29:25 - INFO - epoch-29, train_loss-1.8681, train_rmse-1.3668, valid_rmse-1.5099, valid_pr-0.7503, valid_tau-0.5824, test_rmse-1.5913, test_pr-0.6131, test_tau-0.4396, lr-7.4149e-05
+2024-04-05 02:30:51 - INFO - epoch-30, train_loss-1.9002, train_rmse-1.3785, valid_rmse-1.6109, valid_pr-0.7416, valid_tau-0.5743, test_rmse-1.5453, test_pr-0.6343, test_tau-0.4486, lr-7.4149e-05
+2024-04-05 02:32:17 - INFO - epoch-31, train_loss-1.8360, train_rmse-1.3550, valid_rmse-1.6480, valid_pr-0.6886, valid_tau-0.5366, test_rmse-1.5296, test_pr-0.6451, test_tau-0.4694, lr-7.4149e-05
+2024-04-05 02:33:43 - INFO - epoch-32, train_loss-1.8009, train_rmse-1.3420, valid_rmse-1.6258, valid_pr-0.7204, valid_tau-0.5723, test_rmse-1.5158, test_pr-0.6560, test_tau-0.4782, lr-7.4149e-05
+2024-04-05 02:35:09 - INFO - epoch-33, train_loss-1.8143, train_rmse-1.3470, valid_rmse-1.6526, valid_pr-0.6821, valid_tau-0.5172, test_rmse-1.5650, test_pr-0.6322, test_tau-0.4581, lr-7.4149e-05
+2024-04-05 02:36:36 - INFO - epoch-34, train_loss-1.7865, train_rmse-1.3366, valid_rmse-1.7446, valid_pr-0.6837, valid_tau-0.5609, test_rmse-1.5416, test_pr-0.6421, test_tau-0.4701, lr-7.4149e-05
+2024-04-05 02:38:01 - INFO - epoch-35, train_loss-1.7571, train_rmse-1.3255, valid_rmse-1.6088, valid_pr-0.7274, valid_tau-0.5730, test_rmse-1.6045, test_pr-0.6178, test_tau-0.4541, lr-7.4149e-05
+2024-04-05 02:39:29 - INFO - epoch-36, train_loss-1.7168, train_rmse-1.3103, valid_rmse-1.5566, valid_pr-0.7179, valid_tau-0.5602, test_rmse-1.5239, test_pr-0.6477, test_tau-0.4651, lr-7.4149e-05
+2024-04-05 02:40:53 - INFO - epoch-37, train_loss-1.7637, train_rmse-1.3281, valid_rmse-1.5690, valid_pr-0.7276, valid_tau-0.5561, test_rmse-1.5422, test_pr-0.6410, test_tau-0.4622, lr-7.4149e-05
+2024-04-05 02:42:18 - INFO - epoch-38, train_loss-1.7025, train_rmse-1.3048, valid_rmse-1.5951, valid_pr-0.7332, valid_tau-0.5723, test_rmse-1.5662, test_pr-0.6271, test_tau-0.4494, lr-7.4149e-05
+2024-04-05 02:43:47 - INFO - epoch-39, train_loss-1.7027, train_rmse-1.3049, valid_rmse-1.5628, valid_pr-0.7432, valid_tau-0.6047, test_rmse-1.5463, test_pr-0.6365, test_tau-0.4676, lr-7.2295e-05
+2024-04-05 02:45:13 - INFO - epoch-40, train_loss-1.7038, train_rmse-1.3053, valid_rmse-1.5307, valid_pr-0.7842, valid_tau-0.6127, test_rmse-1.5630, test_pr-0.6549, test_tau-0.4706, lr-7.2295e-05
+2024-04-05 02:46:39 - INFO - epoch-41, train_loss-1.6640, train_rmse-1.2900, valid_rmse-1.6126, valid_pr-0.7108, valid_tau-0.5238, test_rmse-1.6009, test_pr-0.6247, test_tau-0.4613, lr-7.2295e-05
+2024-04-05 02:48:04 - INFO - epoch-42, train_loss-1.6400, train_rmse-1.2806, valid_rmse-1.6649, valid_pr-0.7044, valid_tau-0.5273, test_rmse-1.5558, test_pr-0.6440, test_tau-0.4681, lr-7.2295e-05
+2024-04-05 02:49:30 - INFO - epoch-43, train_loss-1.6715, train_rmse-1.2929, valid_rmse-1.6354, valid_pr-0.7234, valid_tau-0.5561, test_rmse-1.5272, test_pr-0.6516, test_tau-0.4677, lr-7.2295e-05
+2024-04-05 02:50:57 - INFO - epoch-44, train_loss-1.6510, train_rmse-1.2849, valid_rmse-1.6824, valid_pr-0.6879, valid_tau-0.5035, test_rmse-1.5817, test_pr-0.6355, test_tau-0.4607, lr-7.2295e-05
+2024-04-05 02:52:24 - INFO - epoch-45, train_loss-1.5947, train_rmse-1.2628, valid_rmse-1.7398, valid_pr-0.6789, valid_tau-0.5225, test_rmse-1.5311, test_pr-0.6476, test_tau-0.4706, lr-7.2295e-05
+2024-04-05 02:53:50 - INFO - epoch-46, train_loss-1.6277, train_rmse-1.2758, valid_rmse-1.6579, valid_pr-0.6999, valid_tau-0.5750, test_rmse-1.5642, test_pr-0.6299, test_tau-0.4599, lr-7.2295e-05
+2024-04-05 02:55:17 - INFO - epoch-47, train_loss-1.6183, train_rmse-1.2721, valid_rmse-1.4930, valid_pr-0.7603, valid_tau-0.5763, test_rmse-1.5185, test_pr-0.6529, test_tau-0.4727, lr-7.2295e-05
+2024-04-05 02:56:43 - INFO - epoch-48, train_loss-1.5959, train_rmse-1.2633, valid_rmse-1.6321, valid_pr-0.6972, valid_tau-0.5561, test_rmse-1.5612, test_pr-0.6417, test_tau-0.4670, lr-7.2295e-05
+2024-04-05 02:58:09 - INFO - epoch-49, train_loss-1.5932, train_rmse-1.2622, valid_rmse-1.7786, valid_pr-0.6531, valid_tau-0.4833, test_rmse-1.5576, test_pr-0.6290, test_tau-0.4595, lr-7.0488e-05
+2024-04-05 02:59:36 - INFO - epoch-50, train_loss-1.5723, train_rmse-1.2539, valid_rmse-1.5323, valid_pr-0.7098, valid_tau-0.5217, test_rmse-1.5208, test_pr-0.6557, test_tau-0.4789, lr-7.0488e-05
+2024-04-05 03:01:01 - INFO - epoch-51, train_loss-1.5205, train_rmse-1.2331, valid_rmse-1.4990, valid_pr-0.7398, valid_tau-0.5662, test_rmse-1.5379, test_pr-0.6454, test_tau-0.4640, lr-7.0488e-05
+2024-04-05 03:02:28 - INFO - epoch-52, train_loss-1.4985, train_rmse-1.2241, valid_rmse-1.5792, valid_pr-0.7270, valid_tau-0.5683, test_rmse-1.5909, test_pr-0.6161, test_tau-0.4435, lr-7.0488e-05
+2024-04-05 03:03:54 - INFO - epoch-53, train_loss-1.5589, train_rmse-1.2486, valid_rmse-1.6082, valid_pr-0.7048, valid_tau-0.5076, test_rmse-1.5270, test_pr-0.6483, test_tau-0.4664, lr-7.0488e-05
+2024-04-05 03:05:22 - INFO - epoch-54, train_loss-1.4989, train_rmse-1.2243, valid_rmse-1.5219, valid_pr-0.7537, valid_tau-0.5662, test_rmse-1.5586, test_pr-0.6369, test_tau-0.4602, lr-7.0488e-05
+2024-04-05 03:06:49 - INFO - epoch-55, train_loss-1.5024, train_rmse-1.2257, valid_rmse-1.6558, valid_pr-0.7066, valid_tau-0.5407, test_rmse-1.5509, test_pr-0.6374, test_tau-0.4635, lr-7.0488e-05
+2024-04-05 03:08:16 - INFO - epoch-56, train_loss-1.5085, train_rmse-1.2282, valid_rmse-1.7284, valid_pr-0.6695, valid_tau-0.5212, test_rmse-1.5697, test_pr-0.6217, test_tau-0.4492, lr-7.0488e-05
+2024-04-05 03:09:43 - INFO - epoch-57, train_loss-1.4409, train_rmse-1.2004, valid_rmse-1.7436, valid_pr-0.6511, valid_tau-0.4995, test_rmse-1.5872, test_pr-0.6307, test_tau-0.4535, lr-7.0488e-05
+2024-04-05 03:11:09 - INFO - epoch-58, train_loss-1.4758, train_rmse-1.2148, valid_rmse-1.4085, valid_pr-0.7811, valid_tau-0.6215, test_rmse-1.5239, test_pr-0.6511, test_tau-0.4774, lr-7.0488e-05
+2024-04-05 03:12:38 - INFO - epoch-59, train_loss-1.4889, train_rmse-1.2202, valid_rmse-1.6590, valid_pr-0.7232, valid_tau-0.5743, test_rmse-1.5638, test_pr-0.6243, test_tau-0.4466, lr-6.8725e-05
+2024-04-05 03:14:04 - INFO - epoch-60, train_loss-1.4643, train_rmse-1.2101, valid_rmse-1.6521, valid_pr-0.7118, valid_tau-0.5703, test_rmse-1.5327, test_pr-0.6496, test_tau-0.4757, lr-6.8725e-05
+2024-04-05 03:15:32 - INFO - epoch-61, train_loss-1.4169, train_rmse-1.1903, valid_rmse-1.6422, valid_pr-0.6985, valid_tau-0.5137, test_rmse-1.5377, test_pr-0.6467, test_tau-0.4735, lr-6.8725e-05
+2024-04-05 03:17:00 - INFO - epoch-62, train_loss-1.3929, train_rmse-1.1802, valid_rmse-1.6687, valid_pr-0.6917, valid_tau-0.5467, test_rmse-1.5089, test_pr-0.6624, test_tau-0.4868, lr-6.8725e-05
+2024-04-05 03:18:27 - INFO - epoch-63, train_loss-1.4324, train_rmse-1.1968, valid_rmse-1.6540, valid_pr-0.6992, valid_tau-0.5399, test_rmse-1.5150, test_pr-0.6583, test_tau-0.4782, lr-6.8725e-05
+2024-04-05 03:19:56 - INFO - epoch-64, train_loss-1.4299, train_rmse-1.1958, valid_rmse-1.4761, valid_pr-0.7870, valid_tau-0.6107, test_rmse-1.5210, test_pr-0.6566, test_tau-0.4700, lr-6.8725e-05
+2024-04-05 03:21:23 - INFO - epoch-65, train_loss-1.4141, train_rmse-1.1892, valid_rmse-1.4898, valid_pr-0.7793, valid_tau-0.6141, test_rmse-1.5944, test_pr-0.6050, test_tau-0.4394, lr-6.8725e-05
+2024-04-05 03:22:51 - INFO - epoch-66, train_loss-1.4072, train_rmse-1.1862, valid_rmse-1.4693, valid_pr-0.7646, valid_tau-0.5844, test_rmse-1.5280, test_pr-0.6643, test_tau-0.4815, lr-6.8725e-05
+2024-04-05 03:24:18 - INFO - epoch-67, train_loss-1.3603, train_rmse-1.1663, valid_rmse-1.5323, valid_pr-0.7419, valid_tau-0.5723, test_rmse-1.5310, test_pr-0.6506, test_tau-0.4803, lr-6.8725e-05
+2024-04-05 03:25:47 - INFO - epoch-68, train_loss-1.3961, train_rmse-1.1816, valid_rmse-1.5963, valid_pr-0.7440, valid_tau-0.5932, test_rmse-1.5933, test_pr-0.6423, test_tau-0.4736, lr-6.8725e-05
+2024-04-05 03:27:15 - INFO - epoch-69, train_loss-1.4015, train_rmse-1.1839, valid_rmse-1.6522, valid_pr-0.7008, valid_tau-0.5265, test_rmse-1.6169, test_pr-0.6336, test_tau-0.4661, lr-6.7007e-05
+2024-04-05 03:28:42 - INFO - epoch-70, train_loss-1.3760, train_rmse-1.1730, valid_rmse-1.4636, valid_pr-0.7746, valid_tau-0.5824, test_rmse-1.5362, test_pr-0.6456, test_tau-0.4679, lr-6.7007e-05
+2024-04-05 03:30:11 - INFO - epoch-71, train_loss-1.3307, train_rmse-1.1536, valid_rmse-1.6027, valid_pr-0.7135, valid_tau-0.5831, test_rmse-1.5416, test_pr-0.6435, test_tau-0.4727, lr-6.7007e-05
+2024-04-05 03:31:38 - INFO - epoch-72, train_loss-1.3570, train_rmse-1.1649, valid_rmse-1.5743, valid_pr-0.7751, valid_tau-0.5589, test_rmse-1.5232, test_pr-0.6497, test_tau-0.4820, lr-6.7007e-05
+2024-04-05 03:33:07 - INFO - epoch-73, train_loss-1.2777, train_rmse-1.1304, valid_rmse-1.5833, valid_pr-0.7452, valid_tau-0.5670, test_rmse-1.4936, test_pr-0.6689, test_tau-0.4943, lr-6.7007e-05
+2024-04-05 03:34:34 - INFO - epoch-74, train_loss-1.3663, train_rmse-1.1689, valid_rmse-1.5782, valid_pr-0.7394, valid_tau-0.5879, test_rmse-1.5576, test_pr-0.6475, test_tau-0.4710, lr-6.7007e-05
+2024-04-05 03:36:01 - INFO - epoch-75, train_loss-1.3072, train_rmse-1.1433, valid_rmse-1.4292, valid_pr-0.7801, valid_tau-0.5905, test_rmse-1.5036, test_pr-0.6640, test_tau-0.4902, lr-6.7007e-05
+2024-04-05 03:37:30 - INFO - epoch-76, train_loss-1.3143, train_rmse-1.1464, valid_rmse-1.6275, valid_pr-0.7005, valid_tau-0.5581, test_rmse-1.5532, test_pr-0.6383, test_tau-0.4663, lr-6.7007e-05
+2024-04-05 03:38:58 - INFO - epoch-77, train_loss-1.3341, train_rmse-1.1550, valid_rmse-1.5087, valid_pr-0.7372, valid_tau-0.5662, test_rmse-1.5494, test_pr-0.6412, test_tau-0.4676, lr-6.7007e-05
+2024-04-05 03:40:27 - INFO - epoch-78, train_loss-1.2243, train_rmse-1.1065, valid_rmse-1.8106, valid_pr-0.6580, valid_tau-0.5278, test_rmse-1.5623, test_pr-0.6401, test_tau-0.4697, lr-6.7007e-05
+2024-04-05 03:41:54 - INFO - epoch-79, train_loss-1.2720, train_rmse-1.1278, valid_rmse-1.4982, valid_pr-0.7760, valid_tau-0.5945, test_rmse-1.5208, test_pr-0.6551, test_tau-0.4758, lr-6.5332e-05
+2024-04-05 03:43:22 - INFO - epoch-80, train_loss-1.3056, train_rmse-1.1426, valid_rmse-1.4875, valid_pr-0.7586, valid_tau-0.5629, test_rmse-1.4914, test_pr-0.6724, test_tau-0.4821, lr-6.5332e-05
+2024-04-05 03:44:50 - INFO - epoch-81, train_loss-1.2438, train_rmse-1.1153, valid_rmse-1.4780, valid_pr-0.7845, valid_tau-0.5945, test_rmse-1.5282, test_pr-0.6521, test_tau-0.4801, lr-6.5332e-05
+2024-04-05 03:46:19 - INFO - epoch-82, train_loss-1.2955, train_rmse-1.1382, valid_rmse-1.6206, valid_pr-0.6675, valid_tau-0.5137, test_rmse-1.5307, test_pr-0.6481, test_tau-0.4628, lr-6.5332e-05
+2024-04-05 03:47:46 - INFO - epoch-83, train_loss-1.3114, train_rmse-1.1452, valid_rmse-1.5498, valid_pr-0.7347, valid_tau-0.5407, test_rmse-1.5487, test_pr-0.6461, test_tau-0.4674, lr-6.5332e-05
+2024-04-05 03:49:12 - INFO - epoch-84, train_loss-1.1919, train_rmse-1.0918, valid_rmse-1.4668, valid_pr-0.7627, valid_tau-0.5670, test_rmse-1.5150, test_pr-0.6596, test_tau-0.4785, lr-6.5332e-05
+2024-04-05 03:50:42 - INFO - epoch-85, train_loss-1.2868, train_rmse-1.1344, valid_rmse-1.5633, valid_pr-0.7378, valid_tau-0.5609, test_rmse-1.5306, test_pr-0.6490, test_tau-0.4680, lr-6.5332e-05
+2024-04-05 03:52:11 - INFO - epoch-86, train_loss-1.2447, train_rmse-1.1156, valid_rmse-1.3982, valid_pr-0.8067, valid_tau-0.6350, test_rmse-1.6198, test_pr-0.6157, test_tau-0.4344, lr-6.5332e-05
+2024-04-05 03:53:40 - INFO - epoch-87, train_loss-1.2284, train_rmse-1.1083, valid_rmse-1.4597, valid_pr-0.7959, valid_tau-0.6094, test_rmse-1.5266, test_pr-0.6516, test_tau-0.4668, lr-6.5332e-05
+2024-04-05 03:55:07 - INFO - epoch-88, train_loss-1.2281, train_rmse-1.1082, valid_rmse-1.7072, valid_pr-0.6882, valid_tau-0.4934, test_rmse-1.5723, test_pr-0.6243, test_tau-0.4404, lr-6.5332e-05
+2024-04-05 03:56:34 - INFO - epoch-89, train_loss-1.1837, train_rmse-1.0880, valid_rmse-1.5378, valid_pr-0.7015, valid_tau-0.5205, test_rmse-1.5504, test_pr-0.6440, test_tau-0.4634, lr-6.3699e-05
+2024-04-05 03:58:03 - INFO - epoch-90, train_loss-1.2099, train_rmse-1.0999, valid_rmse-1.6923, valid_pr-0.6791, valid_tau-0.4874, test_rmse-1.5784, test_pr-0.6307, test_tau-0.4547, lr-6.3699e-05
+2024-04-05 03:59:33 - INFO - epoch-91, train_loss-1.2281, train_rmse-1.1082, valid_rmse-1.4260, valid_pr-0.7855, valid_tau-0.6114, test_rmse-1.5772, test_pr-0.6299, test_tau-0.4557, lr-6.3699e-05
+2024-04-05 04:01:00 - INFO - epoch-92, train_loss-1.2055, train_rmse-1.0980, valid_rmse-1.5584, valid_pr-0.6721, valid_tau-0.4853, test_rmse-1.5990, test_pr-0.6117, test_tau-0.4424, lr-6.3699e-05
+2024-04-05 04:02:29 - INFO - epoch-93, train_loss-1.1981, train_rmse-1.0946, valid_rmse-1.6929, valid_pr-0.6492, valid_tau-0.5056, test_rmse-1.5554, test_pr-0.6344, test_tau-0.4554, lr-6.3699e-05
+2024-04-05 04:03:57 - INFO - epoch-94, train_loss-1.1607, train_rmse-1.0774, valid_rmse-1.4594, valid_pr-0.7804, valid_tau-0.6107, test_rmse-1.5139, test_pr-0.6621, test_tau-0.4783, lr-6.3699e-05
+2024-04-05 04:05:26 - INFO - epoch-95, train_loss-1.1013, train_rmse-1.0494, valid_rmse-1.5542, valid_pr-0.7692, valid_tau-0.5912, test_rmse-1.5736, test_pr-0.6249, test_tau-0.4516, lr-6.3699e-05
+2024-04-05 04:06:56 - INFO - epoch-96, train_loss-1.1185, train_rmse-1.0576, valid_rmse-1.8071, valid_pr-0.6861, valid_tau-0.5217, test_rmse-1.6799, test_pr-0.6060, test_tau-0.4297, lr-6.3699e-05
+2024-04-05 04:08:24 - INFO - epoch-97, train_loss-1.1585, train_rmse-1.0764, valid_rmse-1.4606, valid_pr-0.7609, valid_tau-0.5541, test_rmse-1.5524, test_pr-0.6360, test_tau-0.4528, lr-6.3699e-05
+2024-04-05 04:09:52 - INFO - epoch-98, train_loss-1.1396, train_rmse-1.0675, valid_rmse-1.3498, valid_pr-0.7914, valid_tau-0.5784, test_rmse-1.5432, test_pr-0.6440, test_tau-0.4591, lr-6.3699e-05
+2024-04-05 04:11:21 - INFO - epoch-99, train_loss-1.1251, train_rmse-1.0607, valid_rmse-1.6474, valid_pr-0.6983, valid_tau-0.5427, test_rmse-1.5645, test_pr-0.6358, test_tau-0.4477, lr-6.2106e-05
+2024-04-05 04:12:53 - INFO - epoch-100, train_loss-1.1369, train_rmse-1.0663, valid_rmse-1.6296, valid_pr-0.7338, valid_tau-0.5670, test_rmse-1.5472, test_pr-0.6397, test_tau-0.4563, lr-6.2106e-05
+2024-04-05 04:14:21 - INFO - epoch-101, train_loss-1.1484, train_rmse-1.0716, valid_rmse-1.3713, valid_pr-0.8068, valid_tau-0.6256, test_rmse-1.5557, test_pr-0.6502, test_tau-0.4673, lr-6.2106e-05
+2024-04-05 04:15:49 - INFO - epoch-102, train_loss-1.1564, train_rmse-1.0753, valid_rmse-1.4743, valid_pr-0.7700, valid_tau-0.6087, test_rmse-1.5805, test_pr-0.6321, test_tau-0.4554, lr-6.2106e-05
+2024-04-05 04:17:18 - INFO - epoch-103, train_loss-1.0977, train_rmse-1.0477, valid_rmse-1.5822, valid_pr-0.6895, valid_tau-0.5043, test_rmse-1.5835, test_pr-0.6176, test_tau-0.4509, lr-6.2106e-05
+2024-04-05 04:18:48 - INFO - epoch-104, train_loss-1.0987, train_rmse-1.0482, valid_rmse-1.5132, valid_pr-0.7507, valid_tau-0.5750, test_rmse-1.5534, test_pr-0.6348, test_tau-0.4553, lr-6.2106e-05
+2024-04-05 04:20:20 - INFO - epoch-105, train_loss-1.1256, train_rmse-1.0609, valid_rmse-1.3642, valid_pr-0.8168, valid_tau-0.6411, test_rmse-1.5177, test_pr-0.6619, test_tau-0.4808, lr-6.2106e-05
+2024-04-05 04:21:47 - INFO - epoch-106, train_loss-1.0680, train_rmse-1.0335, valid_rmse-1.6320, valid_pr-0.7312, valid_tau-0.5541, test_rmse-1.5695, test_pr-0.6579, test_tau-0.4808, lr-6.2106e-05
+2024-04-05 04:23:17 - INFO - epoch-107, train_loss-1.0876, train_rmse-1.0429, valid_rmse-1.3200, valid_pr-0.8240, valid_tau-0.6572, test_rmse-1.5411, test_pr-0.6475, test_tau-0.4735, lr-6.2106e-05
+2024-04-05 04:24:45 - INFO - epoch-108, train_loss-1.0971, train_rmse-1.0474, valid_rmse-1.6777, valid_pr-0.6994, valid_tau-0.5258, test_rmse-1.5886, test_pr-0.6447, test_tau-0.4689, lr-6.2106e-05
+2024-04-05 04:26:17 - INFO - epoch-109, train_loss-1.1023, train_rmse-1.0499, valid_rmse-1.5027, valid_pr-0.7435, valid_tau-0.5642, test_rmse-1.5403, test_pr-0.6527, test_tau-0.4723, lr-6.0554e-05
+2024-04-05 04:27:45 - INFO - epoch-110, train_loss-1.0675, train_rmse-1.0332, valid_rmse-1.5816, valid_pr-0.7496, valid_tau-0.5622, test_rmse-1.5222, test_pr-0.6598, test_tau-0.4833, lr-6.0554e-05
+2024-04-05 04:29:15 - INFO - epoch-111, train_loss-1.0762, train_rmse-1.0374, valid_rmse-1.4630, valid_pr-0.7959, valid_tau-0.6168, test_rmse-1.5478, test_pr-0.6514, test_tau-0.4743, lr-6.0554e-05
+2024-04-05 04:30:45 - INFO - epoch-112, train_loss-1.0389, train_rmse-1.0192, valid_rmse-1.5208, valid_pr-0.7424, valid_tau-0.5811, test_rmse-1.5660, test_pr-0.6383, test_tau-0.4597, lr-6.0554e-05
+2024-04-05 04:32:16 - INFO - epoch-113, train_loss-1.0272, train_rmse-1.0135, valid_rmse-1.5011, valid_pr-0.7769, valid_tau-0.5925, test_rmse-1.5582, test_pr-0.6336, test_tau-0.4564, lr-6.0554e-05
+2024-04-05 04:33:48 - INFO - epoch-114, train_loss-1.0323, train_rmse-1.0160, valid_rmse-1.5344, valid_pr-0.7550, valid_tau-0.5980, test_rmse-1.5812, test_pr-0.6319, test_tau-0.4559, lr-6.0554e-05
+2024-04-05 04:35:16 - INFO - epoch-115, train_loss-1.0403, train_rmse-1.0199, valid_rmse-1.5865, valid_pr-0.6875, valid_tau-0.4772, test_rmse-1.5831, test_pr-0.6235, test_tau-0.4480, lr-6.0554e-05
+2024-04-05 04:36:45 - INFO - epoch-116, train_loss-1.0561, train_rmse-1.0277, valid_rmse-1.5191, valid_pr-0.7595, valid_tau-0.5831, test_rmse-1.6366, test_pr-0.6233, test_tau-0.4459, lr-6.0554e-05
+2024-04-05 04:38:15 - INFO - epoch-117, train_loss-1.0695, train_rmse-1.0342, valid_rmse-1.4616, valid_pr-0.7743, valid_tau-0.5831, test_rmse-1.5704, test_pr-0.6444, test_tau-0.4661, lr-6.0554e-05
+2024-04-05 04:39:46 - INFO - epoch-118, train_loss-1.0473, train_rmse-1.0234, valid_rmse-1.4321, valid_pr-0.7869, valid_tau-0.5912, test_rmse-1.5622, test_pr-0.6473, test_tau-0.4727, lr-6.0554e-05
+2024-04-05 04:41:14 - INFO - epoch-119, train_loss-1.0254, train_rmse-1.0126, valid_rmse-1.5930, valid_pr-0.7426, valid_tau-0.5784, test_rmse-1.5396, test_pr-0.6554, test_tau-0.4783, lr-5.9040e-05
+2024-04-05 04:42:43 - INFO - epoch-120, train_loss-1.0108, train_rmse-1.0054, valid_rmse-1.5608, valid_pr-0.7331, valid_tau-0.5568, test_rmse-1.5432, test_pr-0.6458, test_tau-0.4704, lr-5.9040e-05
+2024-04-05 04:44:12 - INFO - epoch-121, train_loss-1.0071, train_rmse-1.0035, valid_rmse-1.6119, valid_pr-0.7174, valid_tau-0.5662, test_rmse-1.5461, test_pr-0.6391, test_tau-0.4706, lr-5.9040e-05
+2024-04-05 04:45:45 - INFO - epoch-122, train_loss-1.0063, train_rmse-1.0031, valid_rmse-1.4894, valid_pr-0.7418, valid_tau-0.5581, test_rmse-1.5420, test_pr-0.6442, test_tau-0.4661, lr-5.9040e-05
+2024-04-05 04:47:16 - INFO - epoch-123, train_loss-1.0251, train_rmse-1.0125, valid_rmse-1.6692, valid_pr-0.7138, valid_tau-0.5217, test_rmse-1.6641, test_pr-0.6234, test_tau-0.4440, lr-5.9040e-05
+2024-04-05 04:48:45 - INFO - epoch-124, train_loss-1.0487, train_rmse-1.0241, valid_rmse-1.4484, valid_pr-0.7772, valid_tau-0.6148, test_rmse-1.5506, test_pr-0.6419, test_tau-0.4682, lr-5.9040e-05
+2024-04-05 04:50:14 - INFO - epoch-125, train_loss-0.9896, train_rmse-0.9948, valid_rmse-1.5387, valid_pr-0.7211, valid_tau-0.5784, test_rmse-1.5995, test_pr-0.6213, test_tau-0.4468, lr-5.9040e-05
+2024-04-05 04:51:45 - INFO - epoch-126, train_loss-0.9581, train_rmse-0.9788, valid_rmse-1.3299, valid_pr-0.8371, valid_tau-0.6781, test_rmse-1.6027, test_pr-0.6124, test_tau-0.4472, lr-5.9040e-05
+2024-04-05 04:53:18 - INFO - epoch-127, train_loss-1.0197, train_rmse-1.0098, valid_rmse-1.4684, valid_pr-0.7675, valid_tau-0.5986, test_rmse-1.5568, test_pr-0.6394, test_tau-0.4698, lr-5.9040e-05
+2024-04-05 04:54:46 - INFO - epoch-128, train_loss-0.9978, train_rmse-0.9989, valid_rmse-1.4656, valid_pr-0.7451, valid_tau-0.5622, test_rmse-1.5915, test_pr-0.6292, test_tau-0.4634, lr-5.9040e-05
+2024-04-05 04:56:16 - INFO - epoch-129, train_loss-0.9725, train_rmse-0.9862, valid_rmse-1.4963, valid_pr-0.7731, valid_tau-0.5865, test_rmse-1.5995, test_pr-0.6154, test_tau-0.4485, lr-5.7564e-05
+2024-04-05 04:57:45 - INFO - epoch-130, train_loss-0.9802, train_rmse-0.9900, valid_rmse-1.5330, valid_pr-0.7821, valid_tau-0.6094, test_rmse-1.5773, test_pr-0.6269, test_tau-0.4560, lr-5.7564e-05
+2024-04-05 04:59:17 - INFO - epoch-131, train_loss-0.9723, train_rmse-0.9861, valid_rmse-1.3841, valid_pr-0.8069, valid_tau-0.6390, test_rmse-1.5980, test_pr-0.6119, test_tau-0.4432, lr-5.7564e-05
+2024-04-05 05:00:45 - INFO - epoch-132, train_loss-0.9384, train_rmse-0.9687, valid_rmse-1.4999, valid_pr-0.7682, valid_tau-0.6006, test_rmse-1.5934, test_pr-0.6265, test_tau-0.4583, lr-5.7564e-05
+2024-04-05 05:02:13 - INFO - epoch-133, train_loss-0.9623, train_rmse-0.9810, valid_rmse-1.3648, valid_pr-0.7977, valid_tau-0.6208, test_rmse-1.5961, test_pr-0.6248, test_tau-0.4549, lr-5.7564e-05
+2024-04-05 05:03:43 - INFO - epoch-134, train_loss-0.9039, train_rmse-0.9508, valid_rmse-1.5379, valid_pr-0.7591, valid_tau-0.5831, test_rmse-1.6154, test_pr-0.6082, test_tau-0.4413, lr-5.7564e-05
+2024-04-05 05:05:16 - INFO - epoch-135, train_loss-0.9518, train_rmse-0.9756, valid_rmse-1.4038, valid_pr-0.7743, valid_tau-0.6195, test_rmse-1.6107, test_pr-0.6103, test_tau-0.4389, lr-5.7564e-05
+2024-04-05 05:06:46 - INFO - epoch-136, train_loss-0.9411, train_rmse-0.9701, valid_rmse-1.5297, valid_pr-0.7534, valid_tau-0.5771, test_rmse-1.5982, test_pr-0.6126, test_tau-0.4430, lr-5.7564e-05
+2024-04-05 05:08:15 - INFO - epoch-137, train_loss-0.9346, train_rmse-0.9667, valid_rmse-1.3526, valid_pr-0.8007, valid_tau-0.6249, test_rmse-1.5884, test_pr-0.6245, test_tau-0.4533, lr-5.7564e-05
+2024-04-05 05:09:44 - INFO - epoch-138, train_loss-0.9736, train_rmse-0.9867, valid_rmse-1.4868, valid_pr-0.7555, valid_tau-0.5710, test_rmse-1.6209, test_pr-0.6140, test_tau-0.4411, lr-5.7564e-05
+2024-04-05 05:11:18 - INFO - epoch-139, train_loss-0.9367, train_rmse-0.9678, valid_rmse-1.5336, valid_pr-0.7390, valid_tau-0.5831, test_rmse-1.5981, test_pr-0.6093, test_tau-0.4442, lr-5.6125e-05
+2024-04-05 05:12:50 - INFO - epoch-140, train_loss-0.9548, train_rmse-0.9771, valid_rmse-1.4853, valid_pr-0.7785, valid_tau-0.6067, test_rmse-1.5872, test_pr-0.6255, test_tau-0.4540, lr-5.6125e-05
+2024-04-05 05:14:19 - INFO - epoch-141, train_loss-0.9309, train_rmse-0.9648, valid_rmse-1.4856, valid_pr-0.7685, valid_tau-0.5945, test_rmse-1.5621, test_pr-0.6353, test_tau-0.4631, lr-5.6125e-05
+2024-04-05 05:15:48 - INFO - epoch-142, train_loss-0.9345, train_rmse-0.9667, valid_rmse-1.2934, valid_pr-0.8461, valid_tau-0.6397, test_rmse-1.5933, test_pr-0.6245, test_tau-0.4493, lr-5.6125e-05
+2024-04-05 05:17:18 - INFO - epoch-143, train_loss-0.9351, train_rmse-0.9670, valid_rmse-1.5471, valid_pr-0.7454, valid_tau-0.5602, test_rmse-1.6084, test_pr-0.6136, test_tau-0.4394, lr-5.6125e-05
+2024-04-05 05:18:51 - INFO - epoch-144, train_loss-0.9259, train_rmse-0.9622, valid_rmse-1.3230, valid_pr-0.8261, valid_tau-0.6680, test_rmse-1.5579, test_pr-0.6430, test_tau-0.4706, lr-5.6125e-05
+2024-04-05 05:20:20 - INFO - epoch-145, train_loss-0.9276, train_rmse-0.9631, valid_rmse-1.2450, valid_pr-0.8476, valid_tau-0.6660, test_rmse-1.5779, test_pr-0.6358, test_tau-0.4588, lr-5.6125e-05
+2024-04-05 05:21:49 - INFO - epoch-146, train_loss-0.8862, train_rmse-0.9414, valid_rmse-1.3739, valid_pr-0.8230, valid_tau-0.6512, test_rmse-1.6140, test_pr-0.6163, test_tau-0.4457, lr-5.6125e-05
+2024-04-05 05:23:19 - INFO - epoch-147, train_loss-0.8981, train_rmse-0.9477, valid_rmse-1.5761, valid_pr-0.7790, valid_tau-0.6047, test_rmse-1.6591, test_pr-0.6234, test_tau-0.4477, lr-5.6125e-05
+2024-04-05 05:24:54 - INFO - epoch-148, train_loss-0.9338, train_rmse-0.9664, valid_rmse-1.4539, valid_pr-0.8019, valid_tau-0.6107, test_rmse-1.6275, test_pr-0.6043, test_tau-0.4317, lr-5.6125e-05
+2024-04-05 05:26:27 - INFO - epoch-149, train_loss-0.9340, train_rmse-0.9664, valid_rmse-1.3957, valid_pr-0.8141, valid_tau-0.6357, test_rmse-1.5899, test_pr-0.6251, test_tau-0.4498, lr-5.4722e-05
+2024-04-05 05:27:55 - INFO - epoch-150, train_loss-0.9077, train_rmse-0.9527, valid_rmse-1.3517, valid_pr-0.7782, valid_tau-0.6074, test_rmse-1.5690, test_pr-0.6353, test_tau-0.4554, lr-5.4722e-05
+2024-04-05 05:29:26 - INFO - epoch-151, train_loss-0.8827, train_rmse-0.9395, valid_rmse-1.4087, valid_pr-0.7911, valid_tau-0.5905, test_rmse-1.5887, test_pr-0.6296, test_tau-0.4458, lr-5.4722e-05
+2024-04-05 05:31:00 - INFO - epoch-152, train_loss-0.9338, train_rmse-0.9663, valid_rmse-1.4650, valid_pr-0.7783, valid_tau-0.6215, test_rmse-1.5838, test_pr-0.6259, test_tau-0.4524, lr-5.4722e-05
+2024-04-05 05:32:32 - INFO - epoch-153, train_loss-0.9356, train_rmse-0.9673, valid_rmse-1.6002, valid_pr-0.7505, valid_tau-0.5339, test_rmse-1.5776, test_pr-0.6219, test_tau-0.4523, lr-5.4722e-05
+2024-04-05 05:34:03 - INFO - epoch-154, train_loss-0.8551, train_rmse-0.9247, valid_rmse-1.4580, valid_pr-0.7752, valid_tau-0.5811, test_rmse-1.5801, test_pr-0.6317, test_tau-0.4580, lr-5.4722e-05
+2024-04-05 05:35:31 - INFO - epoch-155, train_loss-0.8955, train_rmse-0.9463, valid_rmse-1.4420, valid_pr-0.7847, valid_tau-0.6047, test_rmse-1.5904, test_pr-0.6242, test_tau-0.4506, lr-5.4722e-05
+2024-04-05 05:37:04 - INFO - epoch-156, train_loss-0.8545, train_rmse-0.9244, valid_rmse-1.4935, valid_pr-0.7715, valid_tau-0.5743, test_rmse-1.6294, test_pr-0.6017, test_tau-0.4328, lr-5.4722e-05
+2024-04-05 05:38:38 - INFO - epoch-157, train_loss-0.9030, train_rmse-0.9503, valid_rmse-1.6033, valid_pr-0.7326, valid_tau-0.5387, test_rmse-1.5965, test_pr-0.6234, test_tau-0.4497, lr-5.4722e-05
+2024-04-05 05:40:08 - INFO - epoch-158, train_loss-0.9111, train_rmse-0.9545, valid_rmse-1.4318, valid_pr-0.7851, valid_tau-0.6229, test_rmse-1.5569, test_pr-0.6369, test_tau-0.4624, lr-5.4722e-05
+2024-04-05 05:41:37 - INFO - epoch-159, train_loss-0.8465, train_rmse-0.9201, valid_rmse-1.6925, valid_pr-0.6927, valid_tau-0.5548, test_rmse-1.6150, test_pr-0.6010, test_tau-0.4349, lr-5.3354e-05
+2024-04-05 05:43:08 - INFO - epoch-160, train_loss-0.8478, train_rmse-0.9207, valid_rmse-1.4757, valid_pr-0.7765, valid_tau-0.5945, test_rmse-1.6000, test_pr-0.6129, test_tau-0.4456, lr-5.3354e-05
+2024-04-05 05:44:42 - INFO - epoch-161, train_loss-0.9130, train_rmse-0.9555, valid_rmse-1.4347, valid_pr-0.7825, valid_tau-0.6127, test_rmse-1.6081, test_pr-0.6045, test_tau-0.4377, lr-5.3354e-05
+2024-04-05 05:46:13 - INFO - epoch-162, train_loss-0.8791, train_rmse-0.9376, valid_rmse-1.3269, valid_pr-0.8083, valid_tau-0.6498, test_rmse-1.5812, test_pr-0.6212, test_tau-0.4522, lr-5.3354e-05
+2024-04-05 05:47:43 - INFO - epoch-163, train_loss-0.8359, train_rmse-0.9143, valid_rmse-1.4796, valid_pr-0.7528, valid_tau-0.5804, test_rmse-1.5847, test_pr-0.6212, test_tau-0.4430, lr-5.3354e-05
+2024-04-05 05:49:14 - INFO - epoch-164, train_loss-0.8887, train_rmse-0.9427, valid_rmse-1.4486, valid_pr-0.7873, valid_tau-0.6431, test_rmse-1.6093, test_pr-0.6192, test_tau-0.4485, lr-5.3354e-05
+2024-04-05 05:50:49 - INFO - epoch-165, train_loss-0.8925, train_rmse-0.9447, valid_rmse-1.4099, valid_pr-0.7986, valid_tau-0.6168, test_rmse-1.6141, test_pr-0.6099, test_tau-0.4376, lr-5.3354e-05
+2024-04-05 05:52:21 - INFO - epoch-166, train_loss-0.8819, train_rmse-0.9391, valid_rmse-1.5193, valid_pr-0.7686, valid_tau-0.6256, test_rmse-1.6357, test_pr-0.6090, test_tau-0.4363, lr-5.3354e-05
+2024-04-05 05:53:52 - INFO - epoch-167, train_loss-0.8865, train_rmse-0.9415, valid_rmse-1.3750, valid_pr-0.8111, valid_tau-0.5973, test_rmse-1.5847, test_pr-0.6364, test_tau-0.4631, lr-5.3354e-05
+2024-04-05 05:55:22 - INFO - epoch-168, train_loss-0.8337, train_rmse-0.9131, valid_rmse-1.4378, valid_pr-0.7918, valid_tau-0.5925, test_rmse-1.5577, test_pr-0.6352, test_tau-0.4627, lr-5.3354e-05
+2024-04-05 05:56:58 - INFO - epoch-169, train_loss-0.8353, train_rmse-0.9139, valid_rmse-1.5278, valid_pr-0.7555, valid_tau-0.5568, test_rmse-1.5932, test_pr-0.6178, test_tau-0.4370, lr-5.2020e-05
+2024-04-05 05:58:33 - INFO - epoch-170, train_loss-0.8057, train_rmse-0.8976, valid_rmse-1.4079, valid_pr-0.7909, valid_tau-0.5885, test_rmse-1.6163, test_pr-0.6077, test_tau-0.4309, lr-5.2020e-05
+2024-04-05 06:00:04 - INFO - epoch-171, train_loss-0.8720, train_rmse-0.9338, valid_rmse-1.4111, valid_pr-0.7744, valid_tau-0.5791, test_rmse-1.5822, test_pr-0.6216, test_tau-0.4428, lr-5.2020e-05
+2024-04-05 06:01:35 - INFO - epoch-172, train_loss-0.8369, train_rmse-0.9148, valid_rmse-1.3230, valid_pr-0.8258, valid_tau-0.6276, test_rmse-1.5810, test_pr-0.6264, test_tau-0.4519, lr-5.2020e-05
+2024-04-05 06:03:08 - INFO - epoch-173, train_loss-0.8621, train_rmse-0.9285, valid_rmse-1.3981, valid_pr-0.7700, valid_tau-0.6054, test_rmse-1.5890, test_pr-0.6275, test_tau-0.4499, lr-5.2020e-05
+2024-04-05 06:04:45 - INFO - epoch-174, train_loss-0.8240, train_rmse-0.9078, valid_rmse-1.4176, valid_pr-0.7868, valid_tau-0.6067, test_rmse-1.5652, test_pr-0.6404, test_tau-0.4601, lr-5.2020e-05
+2024-04-05 06:06:15 - INFO - epoch-175, train_loss-0.8201, train_rmse-0.9056, valid_rmse-1.4011, valid_pr-0.7853, valid_tau-0.6047, test_rmse-1.5948, test_pr-0.6265, test_tau-0.4532, lr-5.2020e-05
+2024-04-05 06:07:46 - INFO - epoch-176, train_loss-0.8363, train_rmse-0.9145, valid_rmse-1.3989, valid_pr-0.8053, valid_tau-0.6330, test_rmse-1.5861, test_pr-0.6243, test_tau-0.4498, lr-5.2020e-05
+2024-04-05 06:09:18 - INFO - epoch-177, train_loss-0.7932, train_rmse-0.8906, valid_rmse-1.3074, valid_pr-0.8059, valid_tau-0.6478, test_rmse-1.5953, test_pr-0.6226, test_tau-0.4429, lr-5.2020e-05
+2024-04-05 06:10:55 - INFO - epoch-178, train_loss-0.8497, train_rmse-0.9218, valid_rmse-1.4144, valid_pr-0.7734, valid_tau-0.5966, test_rmse-1.5856, test_pr-0.6211, test_tau-0.4455, lr-5.2020e-05
+2024-04-05 06:12:28 - INFO - epoch-179, train_loss-0.7927, train_rmse-0.8903, valid_rmse-1.3086, valid_pr-0.8120, valid_tau-0.6276, test_rmse-1.5759, test_pr-0.6314, test_tau-0.4522, lr-5.0719e-05
+2024-04-05 06:13:58 - INFO - epoch-180, train_loss-0.8239, train_rmse-0.9077, valid_rmse-1.3999, valid_pr-0.7611, valid_tau-0.5885, test_rmse-1.5894, test_pr-0.6267, test_tau-0.4537, lr-5.0719e-05
+2024-04-05 06:15:30 - INFO - epoch-181, train_loss-0.8093, train_rmse-0.8996, valid_rmse-1.4165, valid_pr-0.7733, valid_tau-0.5851, test_rmse-1.5878, test_pr-0.6234, test_tau-0.4487, lr-5.0719e-05
+2024-04-05 06:17:06 - INFO - epoch-182, train_loss-0.8329, train_rmse-0.9126, valid_rmse-1.4158, valid_pr-0.7912, valid_tau-0.6026, test_rmse-1.5758, test_pr-0.6303, test_tau-0.4593, lr-5.0719e-05
+2024-04-05 06:18:39 - INFO - epoch-183, train_loss-0.7531, train_rmse-0.8678, valid_rmse-1.3997, valid_pr-0.8128, valid_tau-0.6074, test_rmse-1.5751, test_pr-0.6337, test_tau-0.4583, lr-5.0719e-05
+2024-04-05 06:20:10 - INFO - epoch-184, train_loss-0.8151, train_rmse-0.9028, valid_rmse-1.4194, valid_pr-0.7753, valid_tau-0.6276, test_rmse-1.5649, test_pr-0.6310, test_tau-0.4577, lr-5.0719e-05
+2024-04-05 06:21:41 - INFO - epoch-185, train_loss-0.8158, train_rmse-0.9032, valid_rmse-1.4633, valid_pr-0.7571, valid_tau-0.5703, test_rmse-1.5895, test_pr-0.6217, test_tau-0.4455, lr-5.0719e-05
+2024-04-05 06:23:16 - INFO - epoch-186, train_loss-0.8331, train_rmse-0.9128, valid_rmse-1.4402, valid_pr-0.7859, valid_tau-0.6087, test_rmse-1.5897, test_pr-0.6288, test_tau-0.4575, lr-5.0719e-05
+2024-04-05 06:24:52 - INFO - epoch-187, train_loss-0.8113, train_rmse-0.9007, valid_rmse-1.3937, valid_pr-0.8014, valid_tau-0.6337, test_rmse-1.5949, test_pr-0.6292, test_tau-0.4518, lr-5.0719e-05
+2024-04-05 06:26:22 - INFO - epoch-188, train_loss-0.7640, train_rmse-0.8741, valid_rmse-1.3151, valid_pr-0.8243, valid_tau-0.6714, test_rmse-1.5870, test_pr-0.6311, test_tau-0.4615, lr-5.0719e-05
+2024-04-05 06:27:53 - INFO - epoch-189, train_loss-0.8172, train_rmse-0.9040, valid_rmse-1.4756, valid_pr-0.7650, valid_tau-0.6013, test_rmse-1.5824, test_pr-0.6284, test_tau-0.4545, lr-4.9451e-05
+2024-04-05 06:29:27 - INFO - epoch-190, train_loss-0.7524, train_rmse-0.8674, valid_rmse-1.3888, valid_pr-0.8165, valid_tau-0.6518, test_rmse-1.5827, test_pr-0.6297, test_tau-0.4582, lr-4.9451e-05
+2024-04-05 06:31:04 - INFO - epoch-191, train_loss-0.8018, train_rmse-0.8955, valid_rmse-1.2912, valid_pr-0.8285, valid_tau-0.6633, test_rmse-1.6035, test_pr-0.6228, test_tau-0.4472, lr-4.9451e-05
+2024-04-05 06:32:34 - INFO - epoch-192, train_loss-0.7548, train_rmse-0.8688, valid_rmse-1.3062, valid_pr-0.8313, valid_tau-0.6734, test_rmse-1.5686, test_pr-0.6338, test_tau-0.4563, lr-4.9451e-05
+2024-04-05 06:34:06 - INFO - epoch-193, train_loss-0.8265, train_rmse-0.9091, valid_rmse-1.2980, valid_pr-0.8000, valid_tau-0.6390, test_rmse-1.6080, test_pr-0.6170, test_tau-0.4452, lr-4.9451e-05
+2024-04-05 06:35:41 - INFO - epoch-194, train_loss-0.7509, train_rmse-0.8665, valid_rmse-1.3914, valid_pr-0.7879, valid_tau-0.6168, test_rmse-1.5566, test_pr-0.6335, test_tau-0.4583, lr-4.9451e-05
+2024-04-05 06:37:17 - INFO - epoch-195, train_loss-0.7727, train_rmse-0.8791, valid_rmse-1.3586, valid_pr-0.8042, valid_tau-0.6276, test_rmse-1.5806, test_pr-0.6264, test_tau-0.4529, lr-4.9451e-05
+2024-04-05 06:38:47 - INFO - epoch-196, train_loss-0.7775, train_rmse-0.8817, valid_rmse-1.2995, valid_pr-0.8465, valid_tau-0.6795, test_rmse-1.5642, test_pr-0.6346, test_tau-0.4617, lr-4.9451e-05
+2024-04-05 06:40:18 - INFO - epoch-197, train_loss-0.7442, train_rmse-0.8627, valid_rmse-1.5563, valid_pr-0.7512, valid_tau-0.5784, test_rmse-1.6039, test_pr-0.6362, test_tau-0.4618, lr-4.9451e-05
+2024-04-05 06:41:52 - INFO - epoch-198, train_loss-0.7893, train_rmse-0.8884, valid_rmse-1.5642, valid_pr-0.7388, valid_tau-0.5602, test_rmse-1.5616, test_pr-0.6372, test_tau-0.4605, lr-4.9451e-05
+2024-04-05 06:43:30 - INFO - epoch-199, train_loss-0.7645, train_rmse-0.8743, valid_rmse-1.4695, valid_pr-0.7970, valid_tau-0.6155, test_rmse-1.5612, test_pr-0.6441, test_tau-0.4651, lr-4.8215e-05
+2024-04-05 06:45:02 - INFO - epoch-200, train_loss-0.7240, train_rmse-0.8509, valid_rmse-1.3955, valid_pr-0.8140, valid_tau-0.6269, test_rmse-1.5677, test_pr-0.6324, test_tau-0.4545, lr-4.8215e-05
+2024-04-05 06:46:34 - INFO - epoch-201, train_loss-0.7733, train_rmse-0.8794, valid_rmse-1.5163, valid_pr-0.7625, valid_tau-0.5892, test_rmse-1.6290, test_pr-0.6284, test_tau-0.4535, lr-4.8215e-05
+2024-04-05 06:48:07 - INFO - epoch-202, train_loss-0.7760, train_rmse-0.8809, valid_rmse-1.5212, valid_pr-0.7590, valid_tau-0.6026, test_rmse-1.5630, test_pr-0.6392, test_tau-0.4616, lr-4.8215e-05
+2024-04-05 06:49:44 - INFO - epoch-203, train_loss-0.7983, train_rmse-0.8935, valid_rmse-1.5900, valid_pr-0.7408, valid_tau-0.5865, test_rmse-1.5863, test_pr-0.6202, test_tau-0.4408, lr-4.8215e-05
+2024-04-05 06:51:15 - INFO - epoch-204, train_loss-0.7850, train_rmse-0.8860, valid_rmse-1.6327, valid_pr-0.7260, valid_tau-0.5541, test_rmse-1.5961, test_pr-0.6131, test_tau-0.4414, lr-4.8215e-05
+2024-04-05 06:52:47 - INFO - epoch-205, train_loss-0.7743, train_rmse-0.8799, valid_rmse-1.4470, valid_pr-0.7994, valid_tau-0.6229, test_rmse-1.6005, test_pr-0.6193, test_tau-0.4438, lr-4.8215e-05
+2024-04-05 06:54:19 - INFO - epoch-206, train_loss-0.7737, train_rmse-0.8796, valid_rmse-1.5049, valid_pr-0.7419, valid_tau-0.5912, test_rmse-1.5684, test_pr-0.6275, test_tau-0.4556, lr-4.8215e-05
+2024-04-05 06:55:56 - INFO - epoch-207, train_loss-0.7978, train_rmse-0.8932, valid_rmse-1.4139, valid_pr-0.7849, valid_tau-0.6148, test_rmse-1.5602, test_pr-0.6384, test_tau-0.4645, lr-4.8215e-05
+2024-04-05 06:57:31 - INFO - epoch-208, train_loss-0.7370, train_rmse-0.8585, valid_rmse-1.3439, valid_pr-0.8174, valid_tau-0.6330, test_rmse-1.5512, test_pr-0.6407, test_tau-0.4713, lr-4.8215e-05
+2024-04-05 06:59:04 - INFO - epoch-209, train_loss-0.7522, train_rmse-0.8673, valid_rmse-1.3964, valid_pr-0.7876, valid_tau-0.5703, test_rmse-1.5802, test_pr-0.6216, test_tau-0.4447, lr-4.7010e-05
+2024-04-05 07:00:37 - INFO - epoch-210, train_loss-0.7261, train_rmse-0.8521, valid_rmse-1.4397, valid_pr-0.7583, valid_tau-0.5986, test_rmse-1.5684, test_pr-0.6328, test_tau-0.4606, lr-4.7010e-05
+2024-04-05 07:02:16 - INFO - epoch-211, train_loss-0.7426, train_rmse-0.8617, valid_rmse-1.5838, valid_pr-0.7617, valid_tau-0.5581, test_rmse-1.6019, test_pr-0.6099, test_tau-0.4433, lr-4.7010e-05
+2024-04-05 07:03:50 - INFO - epoch-212, train_loss-0.7122, train_rmse-0.8439, valid_rmse-1.4757, valid_pr-0.7834, valid_tau-0.6054, test_rmse-1.5603, test_pr-0.6400, test_tau-0.4647, lr-4.7010e-05
+2024-04-05 07:05:23 - INFO - epoch-213, train_loss-0.7941, train_rmse-0.8911, valid_rmse-1.3745, valid_pr-0.7914, valid_tau-0.6195, test_rmse-1.5712, test_pr-0.6313, test_tau-0.4609, lr-4.7010e-05
+2024-04-05 07:06:55 - INFO - epoch-214, train_loss-0.7624, train_rmse-0.8732, valid_rmse-1.4218, valid_pr-0.7775, valid_tau-0.6006, test_rmse-1.5721, test_pr-0.6288, test_tau-0.4609, lr-4.7010e-05
+2024-04-05 07:08:32 - INFO - epoch-215, train_loss-0.7423, train_rmse-0.8616, valid_rmse-1.4111, valid_pr-0.7733, valid_tau-0.5791, test_rmse-1.5802, test_pr-0.6341, test_tau-0.4674, lr-4.7010e-05
+2024-04-05 07:10:09 - INFO - epoch-216, train_loss-0.7728, train_rmse-0.8791, valid_rmse-1.5423, valid_pr-0.7522, valid_tau-0.5642, test_rmse-1.5615, test_pr-0.6360, test_tau-0.4613, lr-4.7010e-05
+2024-04-05 07:11:41 - INFO - epoch-217, train_loss-0.7992, train_rmse-0.8940, valid_rmse-1.4981, valid_pr-0.7932, valid_tau-0.6357, test_rmse-1.6022, test_pr-0.6303, test_tau-0.4560, lr-4.7010e-05
+2024-04-05 07:13:14 - INFO - epoch-218, train_loss-0.8105, train_rmse-0.9003, valid_rmse-1.3079, valid_pr-0.8246, valid_tau-0.6471, test_rmse-1.5487, test_pr-0.6402, test_tau-0.4715, lr-4.7010e-05
+2024-04-05 07:14:50 - INFO - epoch-219, train_loss-0.7267, train_rmse-0.8525, valid_rmse-1.3766, valid_pr-0.7933, valid_tau-0.6249, test_rmse-1.5778, test_pr-0.6236, test_tau-0.4513, lr-4.5834e-05
+2024-04-05 07:16:29 - INFO - epoch-220, train_loss-0.6848, train_rmse-0.8275, valid_rmse-1.4774, valid_pr-0.7832, valid_tau-0.6431, test_rmse-1.6027, test_pr-0.6139, test_tau-0.4486, lr-4.5834e-05
+2024-04-05 07:18:03 - INFO - epoch-221, train_loss-0.7378, train_rmse-0.8590, valid_rmse-1.3283, valid_pr-0.8180, valid_tau-0.6350, test_rmse-1.5681, test_pr-0.6295, test_tau-0.4520, lr-4.5834e-05
+2024-04-05 07:19:35 - INFO - epoch-222, train_loss-0.7077, train_rmse-0.8413, valid_rmse-1.3336, valid_pr-0.8212, valid_tau-0.6330, test_rmse-1.5911, test_pr-0.6246, test_tau-0.4579, lr-4.5834e-05
+2024-04-05 07:21:10 - INFO - epoch-223, train_loss-0.7575, train_rmse-0.8703, valid_rmse-1.4965, valid_pr-0.7562, valid_tau-0.5804, test_rmse-1.6300, test_pr-0.6179, test_tau-0.4473, lr-4.5834e-05
+2024-04-05 07:22:48 - INFO - epoch-224, train_loss-0.7274, train_rmse-0.8529, valid_rmse-1.4546, valid_pr-0.7353, valid_tau-0.5622, test_rmse-1.6013, test_pr-0.6191, test_tau-0.4557, lr-4.5834e-05
+2024-04-05 07:24:20 - INFO - epoch-225, train_loss-0.7336, train_rmse-0.8565, valid_rmse-1.5297, valid_pr-0.7658, valid_tau-0.5683, test_rmse-1.5872, test_pr-0.6227, test_tau-0.4508, lr-4.5834e-05
+2024-04-05 07:25:53 - INFO - epoch-226, train_loss-0.7273, train_rmse-0.8528, valid_rmse-1.4658, valid_pr-0.7752, valid_tau-0.5973, test_rmse-1.5791, test_pr-0.6281, test_tau-0.4570, lr-4.5834e-05
+2024-04-05 07:27:28 - INFO - epoch-227, train_loss-0.7293, train_rmse-0.8540, valid_rmse-1.4058, valid_pr-0.8115, valid_tau-0.6249, test_rmse-1.5980, test_pr-0.6109, test_tau-0.4431, lr-4.5834e-05
+2024-04-05 07:29:06 - INFO - epoch-228, train_loss-0.7217, train_rmse-0.8495, valid_rmse-1.5081, valid_pr-0.7592, valid_tau-0.5953, test_rmse-1.5665, test_pr-0.6421, test_tau-0.4729, lr-4.5834e-05
+2024-04-05 07:30:41 - INFO - epoch-229, train_loss-0.7334, train_rmse-0.8564, valid_rmse-1.4013, valid_pr-0.7966, valid_tau-0.6411, test_rmse-1.5664, test_pr-0.6305, test_tau-0.4614, lr-4.4689e-05
+2024-04-05 07:32:13 - INFO - epoch-230, train_loss-0.7284, train_rmse-0.8535, valid_rmse-1.4338, valid_pr-0.7899, valid_tau-0.6168, test_rmse-1.5796, test_pr-0.6220, test_tau-0.4482, lr-4.4689e-05
+2024-04-05 07:33:48 - INFO - epoch-231, train_loss-0.6773, train_rmse-0.8230, valid_rmse-1.3360, valid_pr-0.7957, valid_tau-0.6249, test_rmse-1.5794, test_pr-0.6238, test_tau-0.4533, lr-4.4689e-05
+2024-04-05 07:35:26 - INFO - epoch-232, train_loss-0.7145, train_rmse-0.8453, valid_rmse-1.4432, valid_pr-0.7774, valid_tau-0.6127, test_rmse-1.5943, test_pr-0.6261, test_tau-0.4537, lr-4.4689e-05
+2024-04-05 07:37:00 - INFO - epoch-233, train_loss-0.7415, train_rmse-0.8611, valid_rmse-1.3822, valid_pr-0.7920, valid_tau-0.6168, test_rmse-1.5907, test_pr-0.6215, test_tau-0.4581, lr-4.4689e-05
+2024-04-05 07:38:33 - INFO - epoch-234, train_loss-0.7494, train_rmse-0.8657, valid_rmse-1.3568, valid_pr-0.8282, valid_tau-0.6673, test_rmse-1.5780, test_pr-0.6296, test_tau-0.4624, lr-4.4689e-05
+2024-04-05 07:40:07 - INFO - epoch-235, train_loss-0.7254, train_rmse-0.8517, valid_rmse-1.4859, valid_pr-0.7746, valid_tau-0.5743, test_rmse-1.5774, test_pr-0.6229, test_tau-0.4577, lr-4.4689e-05
+2024-04-05 07:41:46 - INFO - epoch-236, train_loss-0.6958, train_rmse-0.8342, valid_rmse-1.4040, valid_pr-0.7935, valid_tau-0.6175, test_rmse-1.6107, test_pr-0.6075, test_tau-0.4384, lr-4.4689e-05
+2024-04-05 07:43:22 - INFO - epoch-237, train_loss-0.7092, train_rmse-0.8421, valid_rmse-1.4668, valid_pr-0.7579, valid_tau-0.6033, test_rmse-1.6126, test_pr-0.6204, test_tau-0.4552, lr-4.4689e-05
+2024-04-05 07:44:56 - INFO - epoch-238, train_loss-0.7170, train_rmse-0.8468, valid_rmse-1.3824, valid_pr-0.8209, valid_tau-0.6518, test_rmse-1.5938, test_pr-0.6252, test_tau-0.4564, lr-4.4689e-05
+2024-04-05 07:46:32 - INFO - epoch-239, train_loss-0.6825, train_rmse-0.8262, valid_rmse-1.3783, valid_pr-0.7876, valid_tau-0.6593, test_rmse-1.5914, test_pr-0.6235, test_tau-0.4569, lr-4.3571e-05
+2024-04-05 07:48:12 - INFO - epoch-240, train_loss-0.7168, train_rmse-0.8466, valid_rmse-1.5274, valid_pr-0.7616, valid_tau-0.5703, test_rmse-1.5945, test_pr-0.6140, test_tau-0.4453, lr-4.3571e-05
+2024-04-05 07:49:47 - INFO - epoch-241, train_loss-0.7100, train_rmse-0.8426, valid_rmse-1.5026, valid_pr-0.7655, valid_tau-0.5966, test_rmse-1.5985, test_pr-0.6174, test_tau-0.4503, lr-4.3571e-05
+2024-04-05 07:51:19 - INFO - epoch-242, train_loss-0.6987, train_rmse-0.8359, valid_rmse-1.4496, valid_pr-0.7839, valid_tau-0.6390, test_rmse-1.6083, test_pr-0.6242, test_tau-0.4533, lr-4.3571e-05
+2024-04-05 07:52:54 - INFO - epoch-243, train_loss-0.7234, train_rmse-0.8505, valid_rmse-1.5069, valid_pr-0.7695, valid_tau-0.5905, test_rmse-1.5911, test_pr-0.6261, test_tau-0.4589, lr-4.3571e-05
+2024-04-05 07:54:33 - INFO - epoch-244, train_loss-0.7249, train_rmse-0.8514, valid_rmse-1.4897, valid_pr-0.7665, valid_tau-0.5953, test_rmse-1.5915, test_pr-0.6146, test_tau-0.4453, lr-4.3571e-05
+2024-04-05 07:56:12 - INFO - epoch-245, train_loss-0.7206, train_rmse-0.8489, valid_rmse-1.5104, valid_pr-0.7683, valid_tau-0.5905, test_rmse-1.5676, test_pr-0.6375, test_tau-0.4644, lr-4.3571e-05
+2024-04-05 07:57:44 - INFO - epoch-246, train_loss-0.7825, train_rmse-0.8846, valid_rmse-1.3764, valid_pr-0.8192, valid_tau-0.6289, test_rmse-1.5713, test_pr-0.6251, test_tau-0.4587, lr-4.3571e-05
+2024-04-05 07:58:00 - INFO - early stop in epoch 246
+2024-04-05 07:58:00 - INFO - best_pr: 0.8476
+2024-04-05 07:58:05 - INFO - valid_rmse-1.2900, valid_pr-0.8354, test_rmse-1.5779, test_pr-0.6358, test_tau-0.4588
+2024-04-05 07:58:05 - INFO - ================== Training subset ==================
+2024-04-05 07:58:19 - INFO - The total number of involved docking poses: 5828
+2024-04-05 07:58:19 - INFO - ================== Training subset ==================
+2024-04-05 07:58:37 - INFO - The total number of involved docking poses: 7485
+2024-04-05 07:58:37 - INFO - ================== Training subset ==================
+2024-04-05 07:58:54 - INFO - The total number of involved docking poses: 6999
+2024-04-05 07:58:54 - INFO - ================== Validation subset ==================
+2024-04-05 07:58:55 - INFO - The total number of involved docking poses: 488
+2024-04-05 07:58:55 - INFO - ================== Training subset ==================
+2024-04-05 07:59:26 - INFO - The total number of involved docking poses: 12880
+2024-04-05 07:59:26 - INFO - ================== Training subset ==================
+2024-04-05 07:59:40 - INFO - The total number of involved docking poses: 5727
+2024-04-05 07:59:40 - INFO - ================== Test subset ==================
+2024-04-05 07:59:55 - INFO - The total number of involved docking poses: 6134
+2024-04-05 07:59:55 - INFO - /home1/yueming/Drug_Discovery/Baselines/GIGN-main/GIGN/train_PDBBind.py
+2024-04-05 07:59:55 - INFO - Assay type: pKi
+2024-04-05 07:59:55 - INFO - fold: 4
+2024-04-05 07:59:55 - INFO - train data: 3957
+2024-04-05 07:59:55 - INFO - train data subsets: 595, 760, 711, 1310, 581
+2024-04-05 07:59:55 - INFO - valid data: 50
+2024-04-05 07:59:55 - INFO - test data: 626
+2024-04-05 07:59:55 - INFO - batch ligands: 10
+2024-04-05 07:59:55 - INFO - train mean: 6.7323
+2024-04-05 07:59:55 - INFO - train std: 2.0386
+2024-04-05 07:59:55 - INFO - valid_metric: pr
+2024-04-05 08:01:03 - INFO - epoch-0, train_loss-3.4640, train_rmse-1.8612, valid_rmse-1.4681, valid_pr-0.6457, valid_tau-0.4684, test_rmse-1.7544, test_pr-0.4919, test_tau-0.3472, lr-8.0000e-05
+2024-04-05 08:02:15 - INFO - epoch-1, train_loss-3.1154, train_rmse-1.7650, valid_rmse-1.3488, valid_pr-0.6576, valid_tau-0.5121, test_rmse-1.7164, test_pr-0.5310, test_tau-0.3975, lr-8.0000e-05
+2024-04-05 08:03:40 - INFO - epoch-2, train_loss-2.8418, train_rmse-1.6857, valid_rmse-1.5822, valid_pr-0.6047, valid_tau-0.4008, test_rmse-1.6651, test_pr-0.5580, test_tau-0.4073, lr-8.0000e-05
+2024-04-05 08:05:07 - INFO - epoch-3, train_loss-2.7319, train_rmse-1.6529, valid_rmse-1.3968, valid_pr-0.6628, valid_tau-0.5121, test_rmse-1.7283, test_pr-0.5497, test_tau-0.3893, lr-8.0000e-05
+2024-04-05 08:06:33 - INFO - epoch-4, train_loss-2.6634, train_rmse-1.6320, valid_rmse-1.3699, valid_pr-0.7142, valid_tau-0.5440, test_rmse-1.6817, test_pr-0.5623, test_tau-0.4043, lr-8.0000e-05
+2024-04-05 08:08:00 - INFO - epoch-5, train_loss-2.6482, train_rmse-1.6273, valid_rmse-1.3094, valid_pr-0.7629, valid_tau-0.5837, test_rmse-1.6631, test_pr-0.5633, test_tau-0.4026, lr-8.0000e-05
+2024-04-05 08:09:26 - INFO - epoch-6, train_loss-2.5228, train_rmse-1.5883, valid_rmse-1.3760, valid_pr-0.7269, valid_tau-0.5364, test_rmse-1.6807, test_pr-0.5470, test_tau-0.4000, lr-8.0000e-05
+2024-04-05 08:10:52 - INFO - epoch-7, train_loss-2.4788, train_rmse-1.5744, valid_rmse-1.3226, valid_pr-0.7517, valid_tau-0.5789, test_rmse-1.6053, test_pr-0.6001, test_tau-0.4336, lr-8.0000e-05
+2024-04-05 08:12:17 - INFO - epoch-8, train_loss-2.4081, train_rmse-1.5518, valid_rmse-1.2152, valid_pr-0.8155, valid_tau-0.6350, test_rmse-1.6136, test_pr-0.5903, test_tau-0.4289, lr-8.0000e-05
+2024-04-05 08:13:43 - INFO - epoch-9, train_loss-2.4320, train_rmse-1.5595, valid_rmse-1.2644, valid_pr-0.7841, valid_tau-0.6235, test_rmse-1.6137, test_pr-0.5994, test_tau-0.4312, lr-7.8000e-05
+2024-04-05 08:15:10 - INFO - epoch-10, train_loss-2.3918, train_rmse-1.5466, valid_rmse-1.3301, valid_pr-0.7509, valid_tau-0.5756, test_rmse-1.6120, test_pr-0.5981, test_tau-0.4235, lr-7.8000e-05
+2024-04-05 08:16:38 - INFO - epoch-11, train_loss-2.2898, train_rmse-1.5132, valid_rmse-1.3762, valid_pr-0.7170, valid_tau-0.5250, test_rmse-1.6285, test_pr-0.6137, test_tau-0.4396, lr-7.8000e-05
+2024-04-05 08:18:05 - INFO - epoch-12, train_loss-2.2810, train_rmse-1.5103, valid_rmse-1.4021, valid_pr-0.7178, valid_tau-0.5076, test_rmse-1.6929, test_pr-0.5775, test_tau-0.4117, lr-7.8000e-05
+2024-04-05 08:19:32 - INFO - epoch-13, train_loss-2.2934, train_rmse-1.5144, valid_rmse-1.5642, valid_pr-0.6393, valid_tau-0.4914, test_rmse-1.6137, test_pr-0.6070, test_tau-0.4473, lr-7.8000e-05
+2024-04-05 08:20:58 - INFO - epoch-14, train_loss-2.2545, train_rmse-1.5015, valid_rmse-1.4319, valid_pr-0.6723, valid_tau-0.5101, test_rmse-1.5778, test_pr-0.6210, test_tau-0.4449, lr-7.8000e-05
+2024-04-05 08:22:25 - INFO - epoch-15, train_loss-2.1922, train_rmse-1.4806, valid_rmse-1.1972, valid_pr-0.7799, valid_tau-0.5931, test_rmse-1.5691, test_pr-0.6232, test_tau-0.4434, lr-7.8000e-05
+2024-04-05 08:23:53 - INFO - epoch-16, train_loss-2.1463, train_rmse-1.4650, valid_rmse-1.2219, valid_pr-0.7727, valid_tau-0.5898, test_rmse-1.5496, test_pr-0.6324, test_tau-0.4533, lr-7.8000e-05
+2024-04-05 08:25:20 - INFO - epoch-17, train_loss-2.2024, train_rmse-1.4841, valid_rmse-1.4336, valid_pr-0.6833, valid_tau-0.5589, test_rmse-1.5757, test_pr-0.6197, test_tau-0.4457, lr-7.8000e-05
+2024-04-05 08:26:47 - INFO - epoch-18, train_loss-2.1268, train_rmse-1.4584, valid_rmse-1.3764, valid_pr-0.7469, valid_tau-0.5810, test_rmse-1.5989, test_pr-0.6398, test_tau-0.4668, lr-7.8000e-05
+2024-04-05 08:28:14 - INFO - epoch-19, train_loss-2.0914, train_rmse-1.4462, valid_rmse-1.2943, valid_pr-0.7546, valid_tau-0.6094, test_rmse-1.5544, test_pr-0.6407, test_tau-0.4759, lr-7.6050e-05
+2024-04-05 08:29:40 - INFO - epoch-20, train_loss-2.1129, train_rmse-1.4536, valid_rmse-1.3563, valid_pr-0.6986, valid_tau-0.5508, test_rmse-1.5311, test_pr-0.6436, test_tau-0.4685, lr-7.6050e-05
+2024-04-05 08:31:06 - INFO - epoch-21, train_loss-2.0382, train_rmse-1.4277, valid_rmse-1.5104, valid_pr-0.6993, valid_tau-0.5587, test_rmse-1.5865, test_pr-0.6323, test_tau-0.4580, lr-7.6050e-05
+2024-04-05 08:32:32 - INFO - epoch-22, train_loss-2.0031, train_rmse-1.4153, valid_rmse-1.4237, valid_pr-0.6980, valid_tau-0.5283, test_rmse-1.5633, test_pr-0.6248, test_tau-0.4539, lr-7.6050e-05
+2024-04-05 08:33:59 - INFO - epoch-23, train_loss-2.0089, train_rmse-1.4174, valid_rmse-1.3309, valid_pr-0.7504, valid_tau-0.5911, test_rmse-1.5211, test_pr-0.6522, test_tau-0.4776, lr-7.6050e-05
+2024-04-05 08:35:25 - INFO - epoch-24, train_loss-1.9680, train_rmse-1.4028, valid_rmse-1.4927, valid_pr-0.6929, valid_tau-0.5473, test_rmse-1.5568, test_pr-0.6303, test_tau-0.4539, lr-7.6050e-05
+2024-04-05 08:36:50 - INFO - epoch-25, train_loss-1.9780, train_rmse-1.4064, valid_rmse-1.2959, valid_pr-0.7352, valid_tau-0.5749, test_rmse-1.5090, test_pr-0.6586, test_tau-0.4884, lr-7.6050e-05
+2024-04-05 08:38:17 - INFO - epoch-26, train_loss-1.9652, train_rmse-1.4018, valid_rmse-1.3041, valid_pr-0.7175, valid_tau-0.5587, test_rmse-1.5372, test_pr-0.6413, test_tau-0.4690, lr-7.6050e-05
+2024-04-05 08:39:45 - INFO - epoch-27, train_loss-1.9434, train_rmse-1.3941, valid_rmse-1.2644, valid_pr-0.7476, valid_tau-0.5729, test_rmse-1.5546, test_pr-0.6356, test_tau-0.4657, lr-7.6050e-05
+2024-04-05 08:41:11 - INFO - epoch-28, train_loss-1.9496, train_rmse-1.3963, valid_rmse-1.2862, valid_pr-0.7199, valid_tau-0.5709, test_rmse-1.5252, test_pr-0.6539, test_tau-0.4806, lr-7.6050e-05
+2024-04-05 08:42:37 - INFO - epoch-29, train_loss-1.9276, train_rmse-1.3884, valid_rmse-1.3663, valid_pr-0.7378, valid_tau-0.5885, test_rmse-1.5411, test_pr-0.6514, test_tau-0.4772, lr-7.4149e-05
+2024-04-05 08:44:04 - INFO - epoch-30, train_loss-1.9016, train_rmse-1.3790, valid_rmse-1.3190, valid_pr-0.7548, valid_tau-0.6053, test_rmse-1.5438, test_pr-0.6436, test_tau-0.4668, lr-7.4149e-05
+2024-04-05 08:45:31 - INFO - epoch-31, train_loss-1.9026, train_rmse-1.3793, valid_rmse-1.3658, valid_pr-0.7364, valid_tau-0.5547, test_rmse-1.5213, test_pr-0.6564, test_tau-0.4759, lr-7.4149e-05
+2024-04-05 08:47:00 - INFO - epoch-32, train_loss-1.7991, train_rmse-1.3413, valid_rmse-1.3396, valid_pr-0.7375, valid_tau-0.5445, test_rmse-1.5845, test_pr-0.6151, test_tau-0.4360, lr-7.4149e-05
+2024-04-05 08:48:27 - INFO - epoch-33, train_loss-1.7867, train_rmse-1.3367, valid_rmse-1.3546, valid_pr-0.6885, valid_tau-0.5331, test_rmse-1.5852, test_pr-0.6243, test_tau-0.4494, lr-7.4149e-05
+2024-04-05 08:49:54 - INFO - epoch-34, train_loss-1.8272, train_rmse-1.3517, valid_rmse-1.4078, valid_pr-0.7169, valid_tau-0.5326, test_rmse-1.5654, test_pr-0.6256, test_tau-0.4605, lr-7.4149e-05
+2024-04-05 08:51:20 - INFO - epoch-35, train_loss-1.7405, train_rmse-1.3193, valid_rmse-1.2721, valid_pr-0.7825, valid_tau-0.5769, test_rmse-1.5585, test_pr-0.6358, test_tau-0.4565, lr-7.4149e-05
+2024-04-05 08:52:46 - INFO - epoch-36, train_loss-1.7606, train_rmse-1.3269, valid_rmse-1.3966, valid_pr-0.7406, valid_tau-0.5466, test_rmse-1.5607, test_pr-0.6334, test_tau-0.4612, lr-7.4149e-05
+2024-04-05 08:54:14 - INFO - epoch-37, train_loss-1.7357, train_rmse-1.3175, valid_rmse-1.3905, valid_pr-0.6976, valid_tau-0.5364, test_rmse-1.5624, test_pr-0.6377, test_tau-0.4663, lr-7.4149e-05
+2024-04-05 08:55:41 - INFO - epoch-38, train_loss-1.6766, train_rmse-1.2948, valid_rmse-1.3936, valid_pr-0.7024, valid_tau-0.5628, test_rmse-1.5514, test_pr-0.6331, test_tau-0.4562, lr-7.4149e-05
+2024-04-05 08:57:08 - INFO - epoch-39, train_loss-1.7153, train_rmse-1.3097, valid_rmse-1.4198, valid_pr-0.7082, valid_tau-0.5506, test_rmse-1.5470, test_pr-0.6405, test_tau-0.4604, lr-7.2295e-05
+2024-04-05 08:58:35 - INFO - epoch-40, train_loss-1.7444, train_rmse-1.3207, valid_rmse-1.3216, valid_pr-0.7429, valid_tau-0.5506, test_rmse-1.5151, test_pr-0.6591, test_tau-0.4856, lr-7.2295e-05
+2024-04-05 09:00:01 - INFO - epoch-41, train_loss-1.6525, train_rmse-1.2855, valid_rmse-1.2480, valid_pr-0.7802, valid_tau-0.6080, test_rmse-1.5617, test_pr-0.6434, test_tau-0.4687, lr-7.2295e-05
+2024-04-05 09:01:29 - INFO - epoch-42, train_loss-1.6635, train_rmse-1.2898, valid_rmse-1.1755, valid_pr-0.7798, valid_tau-0.5951, test_rmse-1.5169, test_pr-0.6526, test_tau-0.4766, lr-7.2295e-05
+2024-04-05 09:02:56 - INFO - epoch-43, train_loss-1.6548, train_rmse-1.2864, valid_rmse-1.3405, valid_pr-0.7141, valid_tau-0.5648, test_rmse-1.5027, test_pr-0.6656, test_tau-0.4907, lr-7.2295e-05
+2024-04-05 09:04:24 - INFO - epoch-44, train_loss-1.6538, train_rmse-1.2860, valid_rmse-1.4135, valid_pr-0.7103, valid_tau-0.5628, test_rmse-1.5289, test_pr-0.6476, test_tau-0.4701, lr-7.2295e-05
+2024-04-05 09:05:50 - INFO - epoch-45, train_loss-1.6320, train_rmse-1.2775, valid_rmse-1.2258, valid_pr-0.7953, valid_tau-0.6249, test_rmse-1.5661, test_pr-0.6339, test_tau-0.4544, lr-7.2295e-05
+2024-04-05 09:07:15 - INFO - epoch-46, train_loss-1.6061, train_rmse-1.2673, valid_rmse-1.2813, valid_pr-0.7595, valid_tau-0.5668, test_rmse-1.5375, test_pr-0.6522, test_tau-0.4738, lr-7.2295e-05
+2024-04-05 09:08:43 - INFO - epoch-47, train_loss-1.6417, train_rmse-1.2813, valid_rmse-1.3580, valid_pr-0.7481, valid_tau-0.5709, test_rmse-1.5032, test_pr-0.6654, test_tau-0.4905, lr-7.2295e-05
+2024-04-05 09:10:11 - INFO - epoch-48, train_loss-1.5504, train_rmse-1.2452, valid_rmse-1.2291, valid_pr-0.7941, valid_tau-0.6094, test_rmse-1.5048, test_pr-0.6619, test_tau-0.4800, lr-7.2295e-05
+2024-04-05 09:11:39 - INFO - epoch-49, train_loss-1.5070, train_rmse-1.2276, valid_rmse-1.2816, valid_pr-0.7622, valid_tau-0.5817, test_rmse-1.5550, test_pr-0.6364, test_tau-0.4675, lr-7.0488e-05
+2024-04-05 09:13:06 - INFO - epoch-50, train_loss-1.5346, train_rmse-1.2388, valid_rmse-1.2944, valid_pr-0.7538, valid_tau-0.6033, test_rmse-1.5680, test_pr-0.6388, test_tau-0.4591, lr-7.0488e-05
+2024-04-05 09:14:34 - INFO - epoch-51, train_loss-1.5474, train_rmse-1.2439, valid_rmse-1.4202, valid_pr-0.7047, valid_tau-0.5466, test_rmse-1.5246, test_pr-0.6638, test_tau-0.4768, lr-7.0488e-05
+2024-04-05 09:16:01 - INFO - epoch-52, train_loss-1.5297, train_rmse-1.2368, valid_rmse-1.3159, valid_pr-0.7361, valid_tau-0.5304, test_rmse-1.5293, test_pr-0.6460, test_tau-0.4679, lr-7.0488e-05
+2024-04-05 09:17:29 - INFO - epoch-53, train_loss-1.4912, train_rmse-1.2211, valid_rmse-1.2284, valid_pr-0.7755, valid_tau-0.6032, test_rmse-1.5383, test_pr-0.6453, test_tau-0.4681, lr-7.0488e-05
+2024-04-05 09:18:58 - INFO - epoch-54, train_loss-1.4847, train_rmse-1.2185, valid_rmse-1.3679, valid_pr-0.7405, valid_tau-0.5352, test_rmse-1.5726, test_pr-0.6358, test_tau-0.4594, lr-7.0488e-05
+2024-04-05 09:20:25 - INFO - epoch-55, train_loss-1.5009, train_rmse-1.2251, valid_rmse-1.3429, valid_pr-0.7609, valid_tau-0.5938, test_rmse-1.5756, test_pr-0.6185, test_tau-0.4354, lr-7.0488e-05
+2024-04-05 09:21:54 - INFO - epoch-56, train_loss-1.4842, train_rmse-1.2183, valid_rmse-1.3356, valid_pr-0.7477, valid_tau-0.5830, test_rmse-1.5459, test_pr-0.6391, test_tau-0.4607, lr-7.0488e-05
+2024-04-05 09:23:23 - INFO - epoch-57, train_loss-1.4514, train_rmse-1.2048, valid_rmse-1.2812, valid_pr-0.7591, valid_tau-0.5723, test_rmse-1.5698, test_pr-0.6316, test_tau-0.4693, lr-7.0488e-05
+2024-04-05 09:24:50 - INFO - epoch-58, train_loss-1.4806, train_rmse-1.2168, valid_rmse-1.2646, valid_pr-0.7640, valid_tau-0.6330, test_rmse-1.5828, test_pr-0.6164, test_tau-0.4402, lr-7.0488e-05
+2024-04-05 09:26:19 - INFO - epoch-59, train_loss-1.4786, train_rmse-1.2160, valid_rmse-1.2874, valid_pr-0.7553, valid_tau-0.5743, test_rmse-1.5070, test_pr-0.6607, test_tau-0.4811, lr-6.8725e-05
+2024-04-05 09:27:44 - INFO - epoch-60, train_loss-1.4475, train_rmse-1.2031, valid_rmse-1.5476, valid_pr-0.6859, valid_tau-0.5008, test_rmse-1.5875, test_pr-0.6250, test_tau-0.4615, lr-6.8725e-05
+2024-04-05 09:29:13 - INFO - epoch-61, train_loss-1.4543, train_rmse-1.2059, valid_rmse-1.3692, valid_pr-0.7509, valid_tau-0.5379, test_rmse-1.5278, test_pr-0.6502, test_tau-0.4747, lr-6.8725e-05
+2024-04-05 09:30:41 - INFO - epoch-62, train_loss-1.4696, train_rmse-1.2123, valid_rmse-1.2054, valid_pr-0.7995, valid_tau-0.6134, test_rmse-1.5387, test_pr-0.6542, test_tau-0.4789, lr-6.8725e-05
+2024-04-05 09:32:10 - INFO - epoch-63, train_loss-1.3988, train_rmse-1.1827, valid_rmse-1.2663, valid_pr-0.7664, valid_tau-0.5931, test_rmse-1.5506, test_pr-0.6360, test_tau-0.4635, lr-6.8725e-05
+2024-04-05 09:33:38 - INFO - epoch-64, train_loss-1.3619, train_rmse-1.1670, valid_rmse-1.2150, valid_pr-0.7841, valid_tau-0.6006, test_rmse-1.5334, test_pr-0.6462, test_tau-0.4691, lr-6.8725e-05
+2024-04-05 09:35:05 - INFO - epoch-65, train_loss-1.3769, train_rmse-1.1734, valid_rmse-1.3198, valid_pr-0.7586, valid_tau-0.5791, test_rmse-1.5264, test_pr-0.6560, test_tau-0.4810, lr-6.8725e-05
+2024-04-05 09:36:32 - INFO - epoch-66, train_loss-1.3713, train_rmse-1.1710, valid_rmse-1.3809, valid_pr-0.7318, valid_tau-0.5648, test_rmse-1.5314, test_pr-0.6574, test_tau-0.4843, lr-6.8725e-05
+2024-04-05 09:38:00 - INFO - epoch-67, train_loss-1.4036, train_rmse-1.1848, valid_rmse-1.2900, valid_pr-0.7539, valid_tau-0.5824, test_rmse-1.5416, test_pr-0.6424, test_tau-0.4607, lr-6.8725e-05
+2024-04-05 09:39:30 - INFO - epoch-68, train_loss-1.3801, train_rmse-1.1748, valid_rmse-1.3155, valid_pr-0.7647, valid_tau-0.5951, test_rmse-1.5320, test_pr-0.6435, test_tau-0.4653, lr-6.8725e-05
+2024-04-05 09:40:59 - INFO - epoch-69, train_loss-1.3525, train_rmse-1.1630, valid_rmse-1.2096, valid_pr-0.7956, valid_tau-0.6336, test_rmse-1.5652, test_pr-0.6471, test_tau-0.4721, lr-6.7007e-05
+2024-04-05 09:42:26 - INFO - epoch-70, train_loss-1.3201, train_rmse-1.1489, valid_rmse-1.2901, valid_pr-0.7638, valid_tau-0.5810, test_rmse-1.5515, test_pr-0.6350, test_tau-0.4633, lr-6.7007e-05
+2024-04-05 09:43:53 - INFO - epoch-71, train_loss-1.3563, train_rmse-1.1646, valid_rmse-1.3315, valid_pr-0.7051, valid_tau-0.5223, test_rmse-1.5367, test_pr-0.6449, test_tau-0.4718, lr-6.7007e-05
+2024-04-05 09:45:22 - INFO - epoch-72, train_loss-1.3132, train_rmse-1.1460, valid_rmse-1.1989, valid_pr-0.8151, valid_tau-0.6640, test_rmse-1.5242, test_pr-0.6506, test_tau-0.4684, lr-6.7007e-05
+2024-04-05 09:46:51 - INFO - epoch-73, train_loss-1.2931, train_rmse-1.1372, valid_rmse-1.3780, valid_pr-0.7024, valid_tau-0.5245, test_rmse-1.5421, test_pr-0.6382, test_tau-0.4660, lr-6.7007e-05
+2024-04-05 09:48:21 - INFO - epoch-74, train_loss-1.2525, train_rmse-1.1192, valid_rmse-1.3134, valid_pr-0.7575, valid_tau-0.5709, test_rmse-1.5472, test_pr-0.6521, test_tau-0.4758, lr-6.7007e-05
+2024-04-05 09:49:50 - INFO - epoch-75, train_loss-1.3020, train_rmse-1.1410, valid_rmse-1.1029, valid_pr-0.8055, valid_tau-0.6134, test_rmse-1.5554, test_pr-0.6348, test_tau-0.4661, lr-6.7007e-05
+2024-04-05 09:51:18 - INFO - epoch-76, train_loss-1.2775, train_rmse-1.1303, valid_rmse-1.2532, valid_pr-0.8044, valid_tau-0.6296, test_rmse-1.5179, test_pr-0.6555, test_tau-0.4767, lr-6.7007e-05
+2024-04-05 09:52:47 - INFO - epoch-77, train_loss-1.2496, train_rmse-1.1178, valid_rmse-1.1571, valid_pr-0.8077, valid_tau-0.6323, test_rmse-1.5507, test_pr-0.6371, test_tau-0.4662, lr-6.7007e-05
+2024-04-05 09:54:18 - INFO - epoch-78, train_loss-1.2429, train_rmse-1.1149, valid_rmse-1.2520, valid_pr-0.7795, valid_tau-0.6154, test_rmse-1.5303, test_pr-0.6461, test_tau-0.4673, lr-6.7007e-05
+2024-04-05 09:55:49 - INFO - epoch-79, train_loss-1.2378, train_rmse-1.1126, valid_rmse-1.2963, valid_pr-0.7660, valid_tau-0.5696, test_rmse-1.5662, test_pr-0.6422, test_tau-0.4667, lr-6.5332e-05
+2024-04-05 09:57:22 - INFO - epoch-80, train_loss-1.2566, train_rmse-1.1210, valid_rmse-1.2607, valid_pr-0.7388, valid_tau-0.5648, test_rmse-1.5402, test_pr-0.6406, test_tau-0.4576, lr-6.5332e-05
+2024-04-05 09:58:51 - INFO - epoch-81, train_loss-1.2345, train_rmse-1.1111, valid_rmse-1.2247, valid_pr-0.7765, valid_tau-0.5670, test_rmse-1.5407, test_pr-0.6404, test_tau-0.4631, lr-6.5332e-05
+2024-04-05 10:00:21 - INFO - epoch-82, train_loss-1.2403, train_rmse-1.1137, valid_rmse-1.2631, valid_pr-0.7536, valid_tau-0.5602, test_rmse-1.5307, test_pr-0.6507, test_tau-0.4667, lr-6.5332e-05
+2024-04-05 10:01:53 - INFO - epoch-83, train_loss-1.1785, train_rmse-1.0856, valid_rmse-1.2885, valid_pr-0.7622, valid_tau-0.5642, test_rmse-1.5953, test_pr-0.6114, test_tau-0.4467, lr-6.5332e-05
+2024-04-05 10:03:21 - INFO - epoch-84, train_loss-1.1958, train_rmse-1.0935, valid_rmse-1.2597, valid_pr-0.7609, valid_tau-0.5607, test_rmse-1.5914, test_pr-0.6240, test_tau-0.4425, lr-6.5332e-05
+2024-04-05 10:04:48 - INFO - epoch-85, train_loss-1.1823, train_rmse-1.0873, valid_rmse-1.2710, valid_pr-0.7893, valid_tau-0.5931, test_rmse-1.5145, test_pr-0.6594, test_tau-0.4814, lr-6.5332e-05
+2024-04-05 10:06:17 - INFO - epoch-86, train_loss-1.2056, train_rmse-1.0980, valid_rmse-1.1846, valid_pr-0.7739, valid_tau-0.6073, test_rmse-1.5457, test_pr-0.6390, test_tau-0.4633, lr-6.5332e-05
+2024-04-05 10:07:46 - INFO - epoch-87, train_loss-1.1747, train_rmse-1.0839, valid_rmse-1.1789, valid_pr-0.7941, valid_tau-0.5635, test_rmse-1.5217, test_pr-0.6556, test_tau-0.4781, lr-6.5332e-05
+2024-04-05 10:09:17 - INFO - epoch-88, train_loss-1.2659, train_rmse-1.1251, valid_rmse-1.3125, valid_pr-0.7399, valid_tau-0.5324, test_rmse-1.5240, test_pr-0.6555, test_tau-0.4777, lr-6.5332e-05
+2024-04-05 10:10:46 - INFO - epoch-89, train_loss-1.1975, train_rmse-1.0943, valid_rmse-1.2565, valid_pr-0.7598, valid_tau-0.5622, test_rmse-1.5320, test_pr-0.6477, test_tau-0.4712, lr-6.3699e-05
+2024-04-05 10:12:15 - INFO - epoch-90, train_loss-1.2020, train_rmse-1.0963, valid_rmse-1.2632, valid_pr-0.7284, valid_tau-0.5609, test_rmse-1.5324, test_pr-0.6532, test_tau-0.4741, lr-6.3699e-05
+2024-04-05 10:13:46 - INFO - epoch-91, train_loss-1.1941, train_rmse-1.0928, valid_rmse-1.3635, valid_pr-0.7652, valid_tau-0.5668, test_rmse-1.5647, test_pr-0.6361, test_tau-0.4610, lr-6.3699e-05
+2024-04-05 10:15:18 - INFO - epoch-92, train_loss-1.1495, train_rmse-1.0722, valid_rmse-1.1543, valid_pr-0.8105, valid_tau-0.6377, test_rmse-1.5820, test_pr-0.6296, test_tau-0.4540, lr-6.3699e-05
+2024-04-05 10:16:55 - INFO - epoch-93, train_loss-1.1653, train_rmse-1.0795, valid_rmse-1.3373, valid_pr-0.7397, valid_tau-0.5662, test_rmse-1.5568, test_pr-0.6365, test_tau-0.4644, lr-6.3699e-05
+2024-04-05 10:18:24 - INFO - epoch-94, train_loss-1.1556, train_rmse-1.0750, valid_rmse-1.3344, valid_pr-0.7391, valid_tau-0.5466, test_rmse-1.5392, test_pr-0.6496, test_tau-0.4773, lr-6.3699e-05
+2024-04-05 10:19:53 - INFO - epoch-95, train_loss-1.2210, train_rmse-1.1050, valid_rmse-1.1379, valid_pr-0.7660, valid_tau-0.5534, test_rmse-1.5392, test_pr-0.6477, test_tau-0.4778, lr-6.3699e-05
+2024-04-05 10:21:24 - INFO - epoch-96, train_loss-1.1290, train_rmse-1.0625, valid_rmse-1.1297, valid_pr-0.7890, valid_tau-0.5756, test_rmse-1.5366, test_pr-0.6414, test_tau-0.4676, lr-6.3699e-05
